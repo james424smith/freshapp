@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js publish
+
+PATH: 
+  /home/goes/bin:/home/goes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/goes/Android/Sdk/tools:/home/goes/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.7.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "react-native-navigation-actions",
+    "version": "1.0.0",
+    "description": "This library offer nice abstractions and flexibility around react-navigation",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react",
+      "native",
+      "navigation",
+      "actions"
+    ],
+    "author": "Pedro de Goes <pedro.goes@gmail.com>",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-navigation-actions: You cannot publish over the previously published versions: 1.0.0.
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:65019:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:132430:22)
+      at Request.emit (events.js:127:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:133413:10)
+      at Request.emit (events.js:127:13)
+      at Gunzip.<anonymous> (/usr/share/yarn/lib/cli.js:133333:12)
+      at Object.onceWrapper (events.js:219:13)
+      at Gunzip.emit (events.js:132:15)
+      at endReadableNT (_stream_readable.js:1101:12)
+      at process._tickCallback (internal/process/next_tick.js:114:19)

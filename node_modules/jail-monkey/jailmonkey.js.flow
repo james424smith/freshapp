@@ -1,0 +1,11 @@
+// @flow
+
+declare module.exports: {
+  isJailBroken: () => boolean,
+  isDebuggedMode: () => Promise<boolean>,
+  canMockLocation: () => boolean,
+  trustFall: () => boolean,
+  isOnExternalStorage: () => boolean,
+  AdbEnabled: () => boolean,
+  isDevelopmentSettingsMode: () => Promise<boolean>,
+};

@@ -1,0 +1,24 @@
+// DO NOT COMMIT OR EDIT THIS FILE
+{{#each @root}}
+{{#if (isString this)}}
+#define {{@key}} @"{{{escape this}}}"
+{{/if}}
+{{#if (isBoolean this)}}
+{{#if this}}
+#define {{@key}} @(YES)
+{{else}}
+#define {{@key}} @(NO)
+{{/if}}
+{{/if}}
+{{#if (isNumber this)}}
+#define {{@key}} @({{{this}}})
+{{/if}}
+{{/each}}
+
+static NSDictionary *getValues() {
+    return @{
+        {{#each @root}}
+        @"{{@key}}": {{@key}},
+        {{/each}}
+    };
+}

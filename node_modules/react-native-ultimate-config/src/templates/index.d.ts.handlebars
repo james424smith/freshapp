@@ -1,0 +1,18 @@
+// DO NOT COMMIT OR EDIT THIS FILE
+export interface ConfigVariables {
+{{#each @root}}
+{{#if (isString this)}}
+  {{@key}}: string;
+{{/if}}
+{{#if (isBoolean this)}}
+  {{@key}}: boolean;
+{{/if}}
+{{#if (isNumber this)}}
+  {{@key}}: number;
+{{/if}}
+{{/each}}
+}
+
+declare const UltimateConfig: ConfigVariables;
+
+export default UltimateConfig;

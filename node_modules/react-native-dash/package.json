@@ -1,0 +1,47 @@
+{
+  "name": "react-native-dash",
+  "version": "0.0.11",
+  "description": "A <Dash /> component for react-native to draw dashed or dotted lines",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets=es2015,react --plugins=transform-object-rest-spread Dash.js --out-file dist/index.js",
+    "prepare": "npm run build",
+    "prepush": "npm run build",
+    "precommit": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obipawan/react-native-dash.git"
+  },
+  "keywords": [
+    "line",
+    "lines",
+    "react-native",
+    "react",
+    "dashes",
+    "dashed",
+    "dash",
+    "dotted",
+    "dashed-lines",
+    "dotted-lines"
+  ],
+  "author": "Pawan Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obipawan/react-native-dash/issues"
+  },
+  "homepage": "https://github.com/obipawan/react-native-dash#readme",
+  "dependencies": {
+    "react-native-measureme": "0.0.2",
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "husky": "^3.0.4"
+  },
+  "types": "index.d.ts"
+}

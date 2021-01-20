@@ -1,0 +1,7 @@
+{{#each @root}}
+{{#if (isString this)}}
+{{@key}}: "{{{escape this}}}"
+{{else}}
+{{@key}}: {{{this}}}
+{{/if}}
+{{/each}}
