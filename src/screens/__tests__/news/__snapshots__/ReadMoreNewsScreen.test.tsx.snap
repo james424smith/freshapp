@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadMoreNewsScreen snapshot test should render ReadMoreNewsScreen when loader is false when newItemType is NEWSLETTERSn 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <PDFView
+    fadeInDuration={10}
+    onError={[Function]}
+    onLoad={[Function]}
+    onPageChanged={[Function]}
+    onScrolled={[Function]}
+    resource="1234"
+    resourceType="url"
+    style={
+      Object {
+        "flex": 1,
+        "width": 750,
+      }
+    }
+    textEncoding="utf-8"
+    urlProps={Object {}}
+  />
+</View>
+`;
+
+exports[`ReadMoreNewsScreen snapshot test should render ReadMoreNewsScreen when loader is false when newItemType is PressRelease 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flexGrow": 1,
+      "paddingBottom": 22.5,
+      "paddingLeft": 22.5,
+      "paddingRight": 22.5,
+      "paddingTop": 37.5,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNCWebView
+      cacheEnabled={true}
+      injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
+      injectedJavaScriptForMainFrameOnly={true}
+      javaScriptEnabled={true}
+      messagingEnabled={false}
+      onContentProcessDidTerminate={[Function]}
+      onHttpError={[Function]}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingProgress={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={[Function]}
+      source={
+        Object {
+          "html": "<html><head>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<style>
+        body {
+            font-family: 'Roboto';
+        }
+
+        p {
+            font-size: 30;
+            font-family: 'Roboto';
+        }
+
+        li {
+            font-size: 25;
+            font-family: 'Roboto';
+        }
+    </style>
+<head><body><img <href src=\\"undefined/google.com\\" />1234<body></html>",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "overflow": "hidden",
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          undefined,
+        ]
+      }
+      useSharedProcessPool={true}
+    />
+  </View>
+</View>
+`;

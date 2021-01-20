@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeafarerDocumentsTopBar snapshot test should render correct ui when allotmentTypeText 1`] = `
+<RCTScrollView
+  horizontal={true}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgb(242, 242, 242)",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "flex-start",
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-around",
+            "marginTop": 22.5,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "opacity": 0.5,
+              "padding": 30,
+            }
+          }
+          testID="category-button-0"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 22.5,
+                    "fontWeight": "bold",
+                    "opacity": 0.5,
+                  },
+                ],
+              ]
+            }
+          >
+            Travel/ID/Medical/Other
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "opacity": 1,
+              "padding": 30,
+            }
+          }
+          testID="category-button-1"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Array [
+                  Object {
+                    "borderBottomColor": "#0093BB",
+                    "borderBottomWidth": 2,
+                    "color": undefined,
+                    "fontSize": 26.5,
+                  },
+                ],
+              ]
+            }
+          >
+            STCW National
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "opacity": 0.5,
+              "padding": 30,
+            }
+          }
+          testID="category-button-2"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 22.5,
+                    "fontWeight": "bold",
+                    "opacity": 0.5,
+                  },
+                ],
+              ]
+            }
+          >
+            Flag State
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "opacity": 0.5,
+              "padding": 30,
+            }
+          }
+          testID="category-button-3"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 22.5,
+                    "fontWeight": "bold",
+                    "opacity": 0.5,
+                  },
+                ],
+              ]
+            }
+          >
+            Non STCW
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "opacity": 0.5,
+              "padding": 30,
+            }
+          }
+          testID="category-button-4"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Array [
+                  Object {
+                    "color": undefined,
+                    "fontSize": 22.5,
+                    "fontWeight": "bold",
+                    "opacity": 0.5,
+                  },
+                ],
+              ]
+            }
+          >
+            Company Specific Training
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#78849E",
+            "borderBottomWidth": 0.5,
+            "marginTop": 15,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

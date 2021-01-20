@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactScreenTopMenu snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made and selectedType is Crew Manager 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Object {
+      "borderBottomWidth": 0.7,
+      "borderColor": "#78849E",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 1,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "borderBottomColor": "#0093BB",
+                  "borderBottomWidth": 2,
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                },
+              ],
+            ]
+          }
+        >
+          Crew Manager
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 0.5,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "color": "#78849E",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "opacity": 0.5,
+                },
+              ],
+            ]
+          }
+        >
+          Manning Agent
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 0.5,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "color": "#78849E",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "opacity": 0.5,
+                },
+              ],
+            ]
+          }
+        >
+          Port Agent
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`ContactScreenTopMenu snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made and selectedType is Manning Agent 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Object {
+      "borderBottomWidth": 0.7,
+      "borderColor": "#78849E",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 0.5,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "color": "#78849E",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "opacity": 0.5,
+                },
+              ],
+            ]
+          }
+        >
+          Crew Manager
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 1,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "borderBottomColor": "#0093BB",
+                  "borderBottomWidth": 2,
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                },
+              ],
+            ]
+          }
+        >
+          Manning Agent
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 0.5,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "color": "#78849E",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "opacity": 0.5,
+                },
+              ],
+            ]
+          }
+        >
+          Port Agent
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`ContactScreenTopMenu snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made and selectedType is Port Agent 1`] = `
+<RCTScrollView
+  horizontal={true}
+  showsHorizontalScrollIndicator={false}
+  style={
+    Object {
+      "borderBottomWidth": 0.7,
+      "borderColor": "#78849E",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 0.5,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "color": "#78849E",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "opacity": 0.5,
+                },
+              ],
+            ]
+          }
+        >
+          Crew Manager
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 0.5,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "color": "#78849E",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "opacity": 0.5,
+                },
+              ],
+            ]
+          }
+        >
+          Manning Agent
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "opacity": 1,
+            "padding": 45,
+            "textAlign": "center",
+          }
+        }
+        testID="category-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                  "fontWeight": "600",
+                  "justifyContent": "space-around",
+                },
+                Object {
+                  "borderBottomColor": "#0093BB",
+                  "borderBottomWidth": 2,
+                  "color": "#0093BB",
+                  "fontSize": 26.5,
+                },
+              ],
+            ]
+          }
+        >
+          Port Agent
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,678 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ Screen UI test Should render the screen as UI 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "answer": "a. Android users can update via the Google Play store. 
+b. iOS users can update by downloading the installation file via the Marlow Crew Portal",
+          "id": 0,
+          "opened": false,
+          "question": "How do I update the App?",
+        },
+        Object {
+          "answer": "a. Please make sure that you have enabled GPS / location services in the settings screen 
+
+b. Please make sure you have activated the service for the required time (30 mins to 5.5 hours) 
+
+c. Please note that you will only be able to view other Marlow seafarers that have activated the chat feature and are within 30km radius range",
+          "id": 1,
+          "opened": false,
+          "question": "I cannot see anyone in the Chat feature? ",
+        },
+        Object {
+          "answer": "Apple do not allow Apps for internal employees to be listed in their store. You can download and install the App via the Marlow Crew Portal",
+          "id": 2,
+          "opened": false,
+          "question": "I have an iPhone. Why can’t I download via the Apple App Store?",
+        },
+        Object {
+          "answer": "Go to ‘settings’ and then ‘display and brightness’",
+          "id": 3,
+          "opened": false,
+          "question": "I have an iPhone. How do I enable ‘dark mode’ for the App?",
+        },
+        Object {
+          "answer": "a. You need to login into the application using your credentials. 
+b. Set your security passcode 
+c. Select More from the menu bar. 
+d. Select the Settings tab. 
+e. Swipe button to the right to Enable Biometrics.
+f. Use biometric confirmation to enable this feature. 
+ Please note that Biometric security settings should be configured on your smartphone to be able to activate on the application.",
+          "id": 4,
+          "opened": false,
+          "question": "How can I enable biometric login (finger print / face ID)?",
+        },
+        Object {
+          "answer": "a. Go to Settings -> Apps 
+b. Select Default apps 
+c. Go to More defaults. 
+d. Select Gallery. 
+e. Swipe button to the right to Enable Biometrics. 
+f. Use biometric confirmation to enable this feature. 
+ Please note that Biometric security settings should be configured on your smartphone to be able to activate on the application.",
+          "id": 5,
+          "opened": false,
+          "question": "I cannot share my documents on my Huawei/Xiaomi device. What can I do?",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-0"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                How do I update the App?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-1"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I cannot see anyone in the Chat feature? 
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-2"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I have an iPhone. Why can’t I download via the Apple App Store?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-3"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I have an iPhone. How do I enable ‘dark mode’ for the App?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-4"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                How can I enable biometric login (finger print / face ID)?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-5"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I cannot share my documents on my Huawei/Xiaomi device. What can I do?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

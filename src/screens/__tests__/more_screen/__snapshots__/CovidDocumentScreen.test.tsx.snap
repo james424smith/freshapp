@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CovidDocumentScreen snapshot test should render CovidDocumentScreen when loader is false  1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <PDFView
+        fadeInDuration={10}
+        onError={[Function]}
+        onLoad={[Function]}
+        onPageChanged={[Function]}
+        onScrolled={[Function]}
+        resource="1234"
+        resourceType="base64"
+        style={
+          Object {
+            "flex": 1,
+            "width": 750,
+          }
+        }
+        textEncoding="utf-8"
+        urlProps={Object {}}
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`CovidDocumentScreen snapshot test should render CovidDocumentScreen when loader is false  and covidDocument is undefined 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View>
+    <View />
+  </View>
+</RCTScrollView>
+`;
+
+exports[`CovidDocumentScreen snapshot test should render CovidDocumentScreen when loader is true  1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 100,
+          "width": 100,
+        }
+      }
+    />
+  </View>
+</View>
+`;

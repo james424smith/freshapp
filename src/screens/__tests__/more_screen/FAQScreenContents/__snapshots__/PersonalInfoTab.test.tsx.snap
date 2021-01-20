@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInfoTab snapshot test should render correct ui for PersonalInfoTab 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "answer": "a. No. Both systems are separate for each other.  For both systems you firstly need to register and create a personal password 
+
+b. Crew Portal Registration guide",
+          "id": 0,
+          "opened": false,
+          "question": "Is my Crew Portal and CrewCompanion account linked?",
+        },
+        Object {
+          "answer": "Please contact your local manning agency or crew manager.  They will update your database file and then you will see these changes in the App.",
+          "id": 1,
+          "opened": false,
+          "question": "The details in my account are not correct / need updating?",
+        },
+        Object {
+          "answer": "Yes. For each document entry you will see switch.  Slide this switch from left to right.  The switch will change to blue.  The image of the document has been download and can be viewed in the App when offline.",
+          "id": 2,
+          "opened": false,
+          "question": "I cannot see previous payroll / working clothes records?",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-0"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                Is my Crew Portal and CrewCompanion account linked?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-1"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                The details in my account are not correct / need updating?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-2"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I cannot see previous payroll / working clothes records?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

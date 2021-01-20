@@ -1,0 +1,65 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "29.0.2"
+        minSdkVersion = 23
+        compileSdkVersion = 29
+        targetSdkVersion = 29
+        supportLibVersion = "28.0.0"
+        googlePlayServicesVersion = "16.0.0" // or set latest version
+        androidMapsUtilsVersion = "0.5+"
+    }
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:3.5.3")
+        classpath 'com.google.gms:google-services:4.3.3'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url("$rootDir/../node_modules/react-native/android")
+        }
+        maven {
+            // Android JSC is installed from npm
+            url("$rootDir/../node_modules/jsc-android/dist")
+        }
+
+        google()
+        jcenter()
+        maven { url 'https://www.jitpack.io' }
+    }
+    subprojects { subproject ->
+        afterEvaluate {
+            if ((subproject.plugins.hasPlugin('android') || subproject.plugins.hasPlugin('android-library'))) {
+                android {
+                    compileSdkVersion rootProject.ext.compileSdkVersion
+                    buildToolsVersion rootProject.ext.buildToolsVersion
+                }
+            }
+            if (project.hasProperty("android")) {
+                android {
+                    compileSdkVersion 28     // have to match with build.gradle and app/build.gradle ones
+                    buildToolsVersion '28.0.3'  // have to match with build.gradle and app/build.gradle ones
+                    variantFilter { variant ->
+                        def names = variant.flavors*.name
+                        // To check for a certain build type, use variant.buildType.name == "<buildType>"
+                        if (names.contains("reactNative51") || names.contains("reactNative55") || names.contains("reactNative56")) {
+                            // Gradle ignores any variants that satisfy the conditions above.
+                            setIgnore(true)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

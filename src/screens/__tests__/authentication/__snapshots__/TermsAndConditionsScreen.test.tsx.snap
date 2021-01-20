@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TermsAndConditionsScreen snapshot test should render correct ui when focus is true when termsAndConditionsDocument is present 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <PDFView
+        fadeInDuration={10}
+        onError={[Function]}
+        onLoad={[Function]}
+        onPageChanged={[Function]}
+        onScrolled={[Function]}
+        resource="1234"
+        resourceType="base64"
+        style={
+          Object {
+            "flex": 1,
+            "width": 750,
+          }
+        }
+        textEncoding="utf-8"
+        urlProps={Object {}}
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TermsAndConditionsScreen snapshot test should render correct ui when focus is true when termsAndConditionsDocument is undefined 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View>
+    <View />
+  </View>
+</RCTScrollView>
+`;

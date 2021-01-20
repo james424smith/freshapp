@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card snapshot test should render correct ui and  when hasReadMoreis false 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#232D36",
+      "borderBottomLeftRadius": 5,
+      "borderBottomRightRadius": 5,
+      "borderTopLeftRadius": 5,
+      "borderTopRightRadius": 5,
+      "elevation": 5,
+      "marginBottom": 37.5,
+      "marginLeft": 22.5,
+      "paddingBottom": 22.5,
+      "paddingLeft": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+  testID="card-button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 29.5,
+          "fontWeight": "bold",
+          "marginTop": 24,
+          "minHeight": 73.5,
+          "paddingBottom": 7.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some title
+  </Text>
+  <Text
+    numberOfLines={4}
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 26.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some summary
+  </Text>
+</View>
+`;
+
+exports[`Card snapshot test should render correct ui and when hasReadMore and screen defined and click card-button 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#232D36",
+      "borderBottomLeftRadius": 5,
+      "borderBottomRightRadius": 5,
+      "borderTopLeftRadius": 5,
+      "borderTopRightRadius": 5,
+      "elevation": 5,
+      "marginBottom": 37.5,
+      "marginLeft": 22.5,
+      "paddingBottom": 22.5,
+      "paddingLeft": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+  testID="card-button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 29.5,
+          "fontWeight": "bold",
+          "marginTop": 24,
+          "minHeight": 73.5,
+          "paddingBottom": 7.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some title
+  </Text>
+  <Text
+    numberOfLines={4}
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 26.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some summary
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="read-more-card-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#83E1FA",
+            "fontSize": 26.5,
+            "marginTop": 37.5,
+            "paddingRight": 30,
+            "textAlign": "right",
+          },
+        ]
+      }
+    >
+      Read More
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Card snapshot test should render correct ui when hasReadMore and screen are defined and click read-more-card-button 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "borderBottomLeftRadius": 5,
+      "borderBottomRightRadius": 5,
+      "borderTopLeftRadius": 5,
+      "borderTopRightRadius": 5,
+      "elevation": 5,
+      "marginBottom": 37.5,
+      "marginLeft": 22.5,
+      "paddingBottom": 22.5,
+      "paddingLeft": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+  testID="card-button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 29.5,
+          "fontWeight": "bold",
+          "marginTop": 24,
+          "minHeight": 73.5,
+          "paddingBottom": 7.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some title
+  </Text>
+  <Text
+    numberOfLines={4}
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 26.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some summary
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="read-more-card-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": undefined,
+            "fontSize": 26.5,
+            "marginTop": 37.5,
+            "paddingRight": 30,
+            "textAlign": "right",
+          },
+        ]
+      }
+    >
+      Read More
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Card snapshot test should render correct ui when hasReadMore and screen are defined and click read-more-card-buttonand all styles are passed as props and useTheme returns dark 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#232D36",
+      "borderBottomLeftRadius": 5,
+      "borderBottomRightRadius": 5,
+      "borderTopLeftRadius": 5,
+      "borderTopRightRadius": 5,
+      "elevation": 5,
+      "marginBottom": 37.5,
+      "marginLeft": 22.5,
+      "paddingBottom": 22.5,
+      "paddingLeft": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+  testID="card-button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 29.5,
+          "fontWeight": "bold",
+          "marginTop": 24,
+          "minHeight": 73.5,
+          "paddingBottom": 7.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some title
+  </Text>
+  <Text
+    numberOfLines={4}
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 26.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some summary
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="read-more-card-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#83E1FA",
+            "fontSize": 26.5,
+            "marginTop": 37.5,
+            "paddingRight": 30,
+            "textAlign": "right",
+          },
+        ]
+      }
+    >
+      Read More
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Card snapshot test should render correct ui when hasReadMore and screen are defined and click read-more-card-buttonand all styles are passed as props and useTheme returns light 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f6f6f6",
+      "borderBottomLeftRadius": 5,
+      "borderBottomRightRadius": 5,
+      "borderTopLeftRadius": 5,
+      "borderTopRightRadius": 5,
+      "elevation": 5,
+      "marginBottom": 37.5,
+      "marginLeft": 22.5,
+      "paddingBottom": 22.5,
+      "paddingLeft": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+  testID="card-button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 29.5,
+          "fontWeight": "bold",
+          "marginTop": 24,
+          "minHeight": 73.5,
+          "paddingBottom": 7.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some title
+  </Text>
+  <Text
+    numberOfLines={4}
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 26.5,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        },
+      ]
+    }
+  >
+    Some summary
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="read-more-card-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#0093BB",
+            "fontSize": 26.5,
+            "marginTop": 37.5,
+            "paddingRight": 30,
+            "textAlign": "right",
+          },
+        ]
+      }
+    >
+      Read More
+    </Text>
+  </View>
+</View>
+`;

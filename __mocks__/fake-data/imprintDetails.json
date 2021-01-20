@@ -1,0 +1,28 @@
+{
+  "mailingAddress": {
+    "poBox": "54077",
+    "postCode": "3720",
+    "city": "Limassol",
+    "country": "Cyprus"
+  },
+  "physicalAddress": {
+    "addressLine1": "Marlow Building",
+    "addressLine2": "13 Alexandrias St",
+    "postCode": "3013",
+    "city": "Limassol",
+    "country": "Cyprus"
+  },
+  "contact": {
+    "phone": "+357 25 882 588",
+    "fax": "+357 25 882 599",
+    "email": "info@marlow-navigation.com",
+    "website": "https://marlow-navigation.com",
+    "managers": [
+      { "label": "chairman", "value": "Hermann Eden", "order": 1 },
+      { "label": "director1", "value": "Andreas Neophytou", "order": 2 },
+      { "label": "director2", "value": "Jan Meyering", "order": 3 }
+    ],
+    "vatNumber": "CY99000107P",
+    "contactEmail": "feedback.app@marlowgroup.com"
+  }
+}

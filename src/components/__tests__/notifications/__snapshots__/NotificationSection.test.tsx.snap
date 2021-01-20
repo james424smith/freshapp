@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationSection snapshot test should render correct ui 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "paddingTop": 45,
+      }
+    }
+  />
+</View>
+`;

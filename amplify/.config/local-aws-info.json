@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "crewcompanion-amplify"
+  },
+  "staging": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "crewcompanion-amplify"
+  },
+  "prod": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "crewcompanion-amplify"
+  }
+}

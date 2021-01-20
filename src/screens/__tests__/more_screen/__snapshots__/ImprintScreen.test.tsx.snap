@@ -1,0 +1,1725 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImprintScreen snapshot test should render ImprintScreen when loader is false and imprintDetails is empty 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`ImprintScreen snapshot test should render ImprintScreen when loader is false when user is Signed In 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgb(0, 122, 255)",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            Marlow Navigation Co. Ltd
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                },
+              ]
+            }
+          >
+            Crew & Ship Management
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(0, 122, 255)",
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 60,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 24,
+                        "marginHorizontal": 60,
+                        "marginTop": 60,
+                      },
+                    ]
+                  }
+                >
+                  Address
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Marlow Building
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  13 Alexandrias St
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  3013
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Limassol
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Cyprus
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 24,
+                        "marginHorizontal": 60,
+                        "marginTop": 60,
+                      },
+                    ]
+                  }
+                >
+                  Mailing Address
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  P.O. Box 54077
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  CY-3720
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Limassol
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  CYPRUS
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#78849E",
+              "borderBottomWidth": 0,
+              "marginTop": 60,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 60,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="phone-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 24,
+                      "marginHorizontal": 60,
+                      "marginTop": 60,
+                    },
+                  ]
+                }
+              >
+                Phone
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 26.5,
+                      "fontWeight": "bold",
+                      "marginHorizontal": 60,
+                      "textDecorationLine": "underline",
+                    },
+                  ]
+                }
+              >
+                +357 25 882 588
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="fax-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 24,
+                      "marginHorizontal": 60,
+                      "marginTop": 60,
+                    },
+                  ]
+                }
+              >
+                Fax
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 26.5,
+                      "fontWeight": "bold",
+                      "marginHorizontal": 60,
+                      "textDecorationLine": "underline",
+                    },
+                  ]
+                }
+              >
+                +357 25 882 599
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="email-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              General email
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              info@marlow-navigation.com
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="contactEmail-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              Contact Email
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              feedback.app@marlowgroup.com
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="website-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              Web
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              https://marlow-navigation.com
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#78849E",
+              "borderBottomWidth": 0,
+              "marginTop": 60,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgb(0, 122, 255)",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 37.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              chairman
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                  },
+                ]
+              }
+            >
+              Hermann Eden
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginBottom": 37.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              director1
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                  },
+                ]
+              }
+            >
+              Andreas Neophytou
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginBottom": 37.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              director2
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                  },
+                ]
+              }
+            >
+              Jan Meyering
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            Cyprus VAT No
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                },
+              ]
+            }
+          >
+            CY99000107P
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 60,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`ImprintScreen snapshot test should render ImprintScreen when loader is false when user is not Signed In 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgb(0, 122, 255)",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            Marlow Navigation Co. Ltd
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                },
+              ]
+            }
+          >
+            Crew & Ship Management
+          </Text>
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(0, 122, 255)",
+                "flex": 1,
+                "flexDirection": "row",
+                "marginBottom": 60,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 24,
+                        "marginHorizontal": 60,
+                        "marginTop": 60,
+                      },
+                    ]
+                  }
+                >
+                  Address
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Marlow Building
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  13 Alexandrias St
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  3013
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Limassol
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Cyprus
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 24,
+                        "marginHorizontal": 60,
+                        "marginTop": 60,
+                      },
+                    ]
+                  }
+                >
+                  Mailing Address
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  P.O. Box 54077
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  CY-3720
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  Limassol
+                </Text>
+              </View>
+              <View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                        "marginHorizontal": 60,
+                        "marginTop": 1,
+                      },
+                    ]
+                  }
+                >
+                  CYPRUS
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#78849E",
+              "borderBottomWidth": 0,
+              "marginTop": 60,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 60,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="phone-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 24,
+                      "marginHorizontal": 60,
+                      "marginTop": 60,
+                    },
+                  ]
+                }
+              >
+                Phone
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 26.5,
+                      "fontWeight": "bold",
+                      "marginHorizontal": 60,
+                      "textDecorationLine": "underline",
+                    },
+                  ]
+                }
+              >
+                +357 25 882 588
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="fax-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 24,
+                      "marginHorizontal": 60,
+                      "marginTop": 60,
+                    },
+                  ]
+                }
+              >
+                Fax
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 26.5,
+                      "fontWeight": "bold",
+                      "marginHorizontal": 60,
+                      "textDecorationLine": "underline",
+                    },
+                  ]
+                }
+              >
+                +357 25 882 599
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="email-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              General email
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              info@marlow-navigation.com
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="contactEmail-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              Contact Email
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              feedback.app@marlowgroup.com
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="website-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              Web
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              https://marlow-navigation.com
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#78849E",
+              "borderBottomWidth": 0,
+              "marginTop": 60,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "rgb(0, 122, 255)",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginBottom": 37.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              chairman
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                  },
+                ]
+              }
+            >
+              Hermann Eden
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginBottom": 37.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              director1
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                  },
+                ]
+              }
+            >
+              Andreas Neophytou
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "marginBottom": 37.5,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                    "marginHorizontal": 60,
+                    "marginTop": 60,
+                  },
+                ]
+              }
+            >
+              director2
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                  },
+                ]
+              }
+            >
+              Jan Meyering
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            Cyprus VAT No
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                },
+              ]
+            }
+          >
+            CY99000107P
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 60,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

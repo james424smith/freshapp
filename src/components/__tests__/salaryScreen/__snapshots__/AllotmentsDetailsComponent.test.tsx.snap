@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllotmentsDetailsComponent snapshot test should render correct ui when allotmentTypeText 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginHorizontal": 52.5,
+        "marginTop": 37.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 28,
+            },
+          ]
+        }
+      >
+        Beneficiary
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 29.5,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        beneficiary value
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 30,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": "40%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 28,
+              },
+            ]
+          }
+        >
+          Date
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 29.5,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          date
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "width": "35%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 28,
+              },
+            ]
+          }
+        >
+          Amount
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 29.5,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          amount value
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "width": "35%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 28,
+              },
+            ]
+          }
+        >
+          Type
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 29.5,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Allotment type
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#78849E",
+        "borderBottomWidth": 0.7,
+        "marginLeft": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+</View>
+`;

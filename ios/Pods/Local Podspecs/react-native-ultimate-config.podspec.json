@@ -1,0 +1,26 @@
+{
+  "name": "react-native-ultimate-config",
+  "version": "3.2.5",
+  "summary": "Config that works",
+  "description": "react-native-ultimate-config",
+  "homepage": "https://github.com/maxkomarychev/react-native-ultimate-config",
+  "license": "MIT",
+  "authors": {
+    "Your Name": "maxkomarychev@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/maxkomarychev/react-native-ultimate-config.git",
+    "tag": "3.2.5"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

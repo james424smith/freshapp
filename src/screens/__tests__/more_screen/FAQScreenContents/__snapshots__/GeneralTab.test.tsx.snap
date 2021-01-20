@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneralTab snapshot test should render correct ui for GeneralTab 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "answer": "We are happy to hear all feedback. Please contact our support team for further assistance (feedback.app@marlowgroup.com) or through our support page in our application.",
+          "id": 0,
+          "opened": false,
+          "question": "I have a suggestion to improve the App",
+          "url": "mailto:feedback.app@marlowgroup.com",
+        },
+        Object {
+          "answer": "You can always visit the link below to see Marlow's open vacancies and follow the application procedures. 
+  https://marlow-navigation.com/en/marlow-careers.asp'",
+          "id": 1,
+          "opened": false,
+          "question": "Where do I see Marlow's job openings? Can I apply online?",
+          "url": "https://marlow-navigation.com/en/marlow-careers.asp",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-0"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I have a suggestion to improve the App
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-1"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                Where do I see Marlow's job openings? Can I apply online?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

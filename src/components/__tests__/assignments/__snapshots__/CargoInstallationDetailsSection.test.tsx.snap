@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CargoInstallationDetailsSection snapshot test should render CargoInstallationDetailsSection correctly as per the ui made when cargoInstallationTable has no values  1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "paddingTop": 22.5,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+          "marginTop": 34,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "flexBasis": "90%",
+              "fontSize": 46.5,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Cargo Installation
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "margin": 37.5,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`CargoInstallationDetailsSection snapshot test should render CargoInstallationDetailsSection correctly as per the ui made when the  cargoInstallationTable has values 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "paddingTop": 22.5,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+          "marginTop": 34,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "flexBasis": "90%",
+              "fontSize": 46.5,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Cargo Installation
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "margin": 37.5,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "paddingRight": 22.5,
+                },
+              ]
+            }
+          >
+            Number
+            :
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "maxWidth": "80%",
+                },
+              ]
+            }
+          >
+            2
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "paddingRight": 22.5,
+                },
+              ]
+            }
+          >
+            Unit
+            :
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "maxWidth": "80%",
+                },
+              ]
+            }
+          >
+            TO
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "paddingRight": 22.5,
+                },
+              ]
+            }
+          >
+            Cargo Installation
+            :
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "maxWidth": "80%",
+                },
+              ]
+            }
+          >
+            CRANES
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 24,
+                  "paddingRight": 22.5,
+                },
+              ]
+            }
+          >
+            Capacity
+            :
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "maxWidth": "80%",
+                },
+              ]
+            }
+          >
+            250
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,27 @@
+{
+  "name": "RNSslPinning",
+  "version": "1.5.2",
+  "summary": "React-Native Ssl pinning using OkHttp 3 in Android, and AFNetworking on iOS.",
+  "homepage": "https://github.com/MaxToyberman/react-native-ssl-pinning#README",
+  "license": "MIT",
+  "authors": {
+    "author": "author@domain.cn"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/MaxToyberman/react-native-ssl-pinning",
+    "tag": "master"
+  },
+  "source_files": "RNSslPinning/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ],
+    "AFNetworking": [
+      "~> 4.0"
+    ]
+  }
+}

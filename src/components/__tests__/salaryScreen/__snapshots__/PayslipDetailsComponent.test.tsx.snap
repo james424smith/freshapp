@@ -1,0 +1,1427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is false 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 30,
+      "marginBottom": 9,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "elevation": 5,
+        "flex": 1,
+        "shadowColor": "#78849E",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="read-more-payslip-button"
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+                "borderRadius": 5,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginBottom": 19,
+                "marginLeft": 56.5,
+                "marginRight": 19,
+                "marginTop": 19,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 19,
+                  "marginTop": 15,
+                  "width": "100%",
+                }
+              }
+            >
+              <<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.256" height="16" viewBox="0 0 15.256 16"><defs><style>.a{fill:none;}.b{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="15.256" height="16"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><path d="M18.948,16A4.022,4.022,0,0,1,16.1,9.133L24.376.86a2.945,2.945,0,0,1,4.165,4.165l-7.633,7.632-.1.09a1.662,1.662,0,0,1-2.339-.008l-.015-.015a1.659,1.659,0,0,1,0-2.344l3.965-3.965a.4.4,0,0,1,.559.559l-3.965,3.965a.868.868,0,0,0,0,1.229l.015.016a.869.869,0,0,0,1.225,0l7.726-7.714A2.154,2.154,0,0,0,24.935,1.42L16.662,9.692a3.233,3.233,0,1,0,4.572,4.572l8.272-8.273a.4.4,0,0,1,.559.559l-8.272,8.273A4.011,4.011,0,0,1,18.948,16Z" transform="translate(-14.926 0)"/></g></g></svg>
+                style={
+                  Object {
+                    "height": 53.5,
+                    "width": 30,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "marginLeft": 17,
+                      "width": "70%",
+                    },
+                  ]
+                }
+              >
+                May 2019
+              </Text>
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 20,
+                    "left": 20,
+                    "right": 20,
+                    "top": 20,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "marginTop": 22.5,
+                    "opacity": 1,
+                  }
+                }
+                testID="toggle-button"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#C5C5C5",
+                        "borderRadius": 20,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "padding": 10,
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "borderRadius": 7.5,
+                          "elevation": 1.5,
+                          "height": 15,
+                          "justifyContent": "center",
+                          "left": 0,
+                          "margin": 4,
+                          "position": "absolute",
+                          "shadowColor": "#000",
+                          "shadowOffset": Object {
+                            "height": 2,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.2,
+                          "shadowRadius": 2.5,
+                          "transform": Array [
+                            Object {
+                              "translateX": 0,
+                            },
+                          ],
+                          "width": 15,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={false}
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "color": "#2A2E43",
+                    "justifyContent": "flex-start",
+                    "width": "20%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Vessel:
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Rank:
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "justifyContent": "flex-start",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CMA CGM POINTE DES COLIBRIS
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CAPT
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "justifyContent": "flex-end",
+                      "width": 435,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="share-payslip-button"
+                  >
+                    <<svg xmlns="http://www.w3.org/2000/svg" width="13.905" height="16" viewBox="0 0 13.905 16"><g transform="translate(0 -1)"><g transform="translate(0 7.687)"><path d="M11.588,24.313H2.318A2.313,2.313,0,0,1,0,21.985V15.776A.794.794,0,0,1,.773,15a.794.794,0,0,1,.773.776v6.209a.794.794,0,0,0,.773.776h9.27a.794.794,0,0,0,.773-.776V15.776a.773.773,0,1,1,1.545,0v6.209A2.313,2.313,0,0,1,11.588,24.313Z" transform="translate(0 -15)"/></g><path d="M13.509,3.311,10.431.207c-.051-.052-.154-.155-.257-.155h0A.646.646,0,0,0,9.866,0,.382.382,0,0,0,9.61.052h0a1.12,1.12,0,0,0-.257.155l-3.079,3.1a.873.873,0,0,0-.051,1.138.918.918,0,0,0,1.129,0L9.1,2.639v8.226a.77.77,0,1,0,1.539,0V2.639L12.38,4.4a.651.651,0,0,0,.564.259.768.768,0,0,0,.564-.207A.938.938,0,0,0,13.509,3.311Z" transform="translate(-2.913 1)"/></g></svg>
+                      width={30}
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is false and the document is downloaded 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 30,
+      "marginBottom": 9,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "elevation": 5,
+        "flex": 1,
+        "shadowColor": "#78849E",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="read-more-payslip-button"
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+                "borderRadius": 5,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginBottom": 19,
+                "marginLeft": 56.5,
+                "marginRight": 19,
+                "marginTop": 19,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 19,
+                  "marginTop": 15,
+                  "width": "100%",
+                }
+              }
+            >
+              <<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.256" height="16" viewBox="0 0 15.256 16"><defs><style>.a{fill:none;}.b{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="15.256" height="16"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><path d="M18.948,16A4.022,4.022,0,0,1,16.1,9.133L24.376.86a2.945,2.945,0,0,1,4.165,4.165l-7.633,7.632-.1.09a1.662,1.662,0,0,1-2.339-.008l-.015-.015a1.659,1.659,0,0,1,0-2.344l3.965-3.965a.4.4,0,0,1,.559.559l-3.965,3.965a.868.868,0,0,0,0,1.229l.015.016a.869.869,0,0,0,1.225,0l7.726-7.714A2.154,2.154,0,0,0,24.935,1.42L16.662,9.692a3.233,3.233,0,1,0,4.572,4.572l8.272-8.273a.4.4,0,0,1,.559.559l-8.272,8.273A4.011,4.011,0,0,1,18.948,16Z" transform="translate(-14.926 0)"/></g></g></svg>
+                style={
+                  Object {
+                    "height": 53.5,
+                    "width": 30,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "marginLeft": 17,
+                      "width": "70%",
+                    },
+                  ]
+                }
+              >
+                May 2019
+              </Text>
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 20,
+                    "left": 20,
+                    "right": 20,
+                    "top": 20,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "marginTop": 22.5,
+                    "opacity": 1,
+                  }
+                }
+                testID="toggle-button"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#005AA5",
+                        "borderRadius": 20,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "padding": 10,
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "borderRadius": 7.5,
+                          "elevation": 1.5,
+                          "height": 15,
+                          "justifyContent": "center",
+                          "left": 0,
+                          "margin": 4,
+                          "position": "absolute",
+                          "shadowColor": "#000",
+                          "shadowOffset": Object {
+                            "height": 2,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.2,
+                          "shadowRadius": 2.5,
+                          "transform": Array [
+                            Object {
+                              "translateX": 0,
+                            },
+                          ],
+                          "width": 15,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={false}
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "color": "#2A2E43",
+                    "justifyContent": "flex-start",
+                    "width": "20%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Vessel:
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Rank:
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "justifyContent": "flex-start",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CMA CGM POINTE DES COLIBRIS
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CAPT
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "justifyContent": "flex-end",
+                      "width": 435,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="share-payslip-button"
+                  >
+                    <<svg xmlns="http://www.w3.org/2000/svg" width="13.905" height="16" viewBox="0 0 13.905 16"><g transform="translate(0 -1)"><g transform="translate(0 7.687)"><path d="M11.588,24.313H2.318A2.313,2.313,0,0,1,0,21.985V15.776A.794.794,0,0,1,.773,15a.794.794,0,0,1,.773.776v6.209a.794.794,0,0,0,.773.776h9.27a.794.794,0,0,0,.773-.776V15.776a.773.773,0,1,1,1.545,0v6.209A2.313,2.313,0,0,1,11.588,24.313Z" transform="translate(0 -15)"/></g><path d="M13.509,3.311,10.431.207c-.051-.052-.154-.155-.257-.155h0A.646.646,0,0,0,9.866,0,.382.382,0,0,0,9.61.052h0a1.12,1.12,0,0,0-.257.155l-3.079,3.1a.873.873,0,0,0-.051,1.138.918.918,0,0,0,1.129,0L9.1,2.639v8.226a.77.77,0,1,0,1.539,0V2.639L12.38,4.4a.651.651,0,0,0,.564.259.768.768,0,0,0,.564-.207A.938.938,0,0,0,13.509,3.311Z" transform="translate(-2.913 1)"/></g></svg>
+                      width={30}
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is true 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 30,
+      "marginBottom": 9,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "elevation": 5,
+        "flex": 1,
+        "shadowColor": "#78849E",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="read-more-payslip-button"
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+                "borderRadius": 5,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginBottom": 19,
+                "marginLeft": 56.5,
+                "marginRight": 19,
+                "marginTop": 19,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 19,
+                  "marginTop": 15,
+                  "width": "100%",
+                }
+              }
+            >
+              <<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.256" height="16" viewBox="0 0 15.256 16"><defs><style>.a{fill:none;}.b{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="15.256" height="16"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><path d="M18.948,16A4.022,4.022,0,0,1,16.1,9.133L24.376.86a2.945,2.945,0,0,1,4.165,4.165l-7.633,7.632-.1.09a1.662,1.662,0,0,1-2.339-.008l-.015-.015a1.659,1.659,0,0,1,0-2.344l3.965-3.965a.4.4,0,0,1,.559.559l-3.965,3.965a.868.868,0,0,0,0,1.229l.015.016a.869.869,0,0,0,1.225,0l7.726-7.714A2.154,2.154,0,0,0,24.935,1.42L16.662,9.692a3.233,3.233,0,1,0,4.572,4.572l8.272-8.273a.4.4,0,0,1,.559.559l-8.272,8.273A4.011,4.011,0,0,1,18.948,16Z" transform="translate(-14.926 0)"/></g></g></svg>
+                style={
+                  Object {
+                    "height": 53.5,
+                    "width": 30,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "marginLeft": 17,
+                      "width": "70%",
+                    },
+                  ]
+                }
+              >
+                May 2019
+              </Text>
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 20,
+                    "left": 20,
+                    "right": 20,
+                    "top": 20,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "marginTop": 22.5,
+                    "opacity": 1,
+                  }
+                }
+                testID="toggle-button"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#C5C5C5",
+                        "borderRadius": 20,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "padding": 10,
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "borderRadius": 7.5,
+                          "elevation": 1.5,
+                          "height": 15,
+                          "justifyContent": "center",
+                          "left": 0,
+                          "margin": 4,
+                          "position": "absolute",
+                          "shadowColor": "#000",
+                          "shadowOffset": Object {
+                            "height": 2,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.2,
+                          "shadowRadius": 2.5,
+                          "transform": Array [
+                            Object {
+                              "translateX": 0,
+                            },
+                          ],
+                          "width": 15,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginTop": 30,
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    animating={true}
+                    color="#999999"
+                    hidesWhenStopped={true}
+                    size="small"
+                  />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "color": "#2A2E43",
+                    "justifyContent": "flex-start",
+                    "width": "20%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Vessel:
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Rank:
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "justifyContent": "flex-start",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CMA CGM POINTE DES COLIBRIS
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CAPT
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "justifyContent": "flex-end",
+                      "width": 435,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="share-payslip-button"
+                  >
+                    <<svg xmlns="http://www.w3.org/2000/svg" width="13.905" height="16" viewBox="0 0 13.905 16"><g transform="translate(0 -1)"><g transform="translate(0 7.687)"><path d="M11.588,24.313H2.318A2.313,2.313,0,0,1,0,21.985V15.776A.794.794,0,0,1,.773,15a.794.794,0,0,1,.773.776v6.209a.794.794,0,0,0,.773.776h9.27a.794.794,0,0,0,.773-.776V15.776a.773.773,0,1,1,1.545,0v6.209A2.313,2.313,0,0,1,11.588,24.313Z" transform="translate(0 -15)"/></g><path d="M13.509,3.311,10.431.207c-.051-.052-.154-.155-.257-.155h0A.646.646,0,0,0,9.866,0,.382.382,0,0,0,9.61.052h0a1.12,1.12,0,0,0-.257.155l-3.079,3.1a.873.873,0,0,0-.051,1.138.918.918,0,0,0,1.129,0L9.1,2.639v8.226a.77.77,0,1,0,1.539,0V2.639L12.38,4.4a.651.651,0,0,0,.564.259.768.768,0,0,0,.564-.207A.938.938,0,0,0,13.509,3.311Z" transform="translate(-2.913 1)"/></g></svg>
+                      width={30}
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is true and is offline 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 30,
+      "marginBottom": 9,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "elevation": 5,
+        "flex": 1,
+        "shadowColor": "#78849E",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="read-more-payslip-button"
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": undefined,
+                "borderRadius": 5,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "marginBottom": 19,
+                "marginLeft": 56.5,
+                "marginRight": 19,
+                "marginTop": 19,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 19,
+                  "marginTop": 15,
+                  "width": "100%",
+                }
+              }
+            >
+              <<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.256" height="16" viewBox="0 0 15.256 16"><defs><style>.a{fill:none;}.b{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="15.256" height="16"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><path d="M18.948,16A4.022,4.022,0,0,1,16.1,9.133L24.376.86a2.945,2.945,0,0,1,4.165,4.165l-7.633,7.632-.1.09a1.662,1.662,0,0,1-2.339-.008l-.015-.015a1.659,1.659,0,0,1,0-2.344l3.965-3.965a.4.4,0,0,1,.559.559l-3.965,3.965a.868.868,0,0,0,0,1.229l.015.016a.869.869,0,0,0,1.225,0l7.726-7.714A2.154,2.154,0,0,0,24.935,1.42L16.662,9.692a3.233,3.233,0,1,0,4.572,4.572l8.272-8.273a.4.4,0,0,1,.559.559l-8.272,8.273A4.011,4.011,0,0,1,18.948,16Z" transform="translate(-14.926 0)"/></g></g></svg>
+                style={
+                  Object {
+                    "height": 53.5,
+                    "width": 30,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 32,
+                      "marginLeft": 17,
+                      "width": "70%",
+                    },
+                  ]
+                }
+              >
+                May 2019
+              </Text>
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 20,
+                    "left": 20,
+                    "right": 20,
+                    "top": 20,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "marginTop": 22.5,
+                    "opacity": 1,
+                  }
+                }
+                testID="toggle-button"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#005AA5",
+                        "borderRadius": 20,
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "padding": 10,
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "white",
+                          "borderRadius": 7.5,
+                          "elevation": 1.5,
+                          "height": 15,
+                          "justifyContent": "center",
+                          "left": 0,
+                          "margin": 4,
+                          "position": "absolute",
+                          "shadowColor": "#000",
+                          "shadowOffset": Object {
+                            "height": 2,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.2,
+                          "shadowRadius": 2.5,
+                          "transform": Array [
+                            Object {
+                              "translateX": 0,
+                            },
+                          ],
+                          "width": 15,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "marginTop": 30,
+                    }
+                  }
+                >
+                  <ActivityIndicator
+                    animating={true}
+                    color="#999999"
+                    hidesWhenStopped={true}
+                    size="small"
+                  />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "color": "#2A2E43",
+                    "justifyContent": "flex-start",
+                    "width": "20%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Vessel:
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 25.5,
+                        "marginBottom": 19,
+                        "marginLeft": 45,
+                        "textAlign": "left",
+                        "width": "90%",
+                      },
+                    ]
+                  }
+                >
+                  Rank:
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "justifyContent": "flex-start",
+                    "width": "100%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CMA CGM POINTE DES COLIBRIS
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "rgb(28, 28, 30)",
+                        "fontSize": 26.5,
+                        "fontWeight": "normal",
+                        "marginBottom": 15,
+                        "marginLeft": 37.5,
+                        "textAlign": "left",
+                      },
+                    ]
+                  }
+                >
+                  CAPT
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "flex-end",
+                      "justifyContent": "flex-end",
+                      "width": 435,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                    testID="share-payslip-button"
+                  >
+                    <<svg xmlns="http://www.w3.org/2000/svg" width="13.905" height="16" viewBox="0 0 13.905 16"><g transform="translate(0 -1)"><g transform="translate(0 7.687)"><path d="M11.588,24.313H2.318A2.313,2.313,0,0,1,0,21.985V15.776A.794.794,0,0,1,.773,15a.794.794,0,0,1,.773.776v6.209a.794.794,0,0,0,.773.776h9.27a.794.794,0,0,0,.773-.776V15.776a.773.773,0,1,1,1.545,0v6.209A2.313,2.313,0,0,1,11.588,24.313Z" transform="translate(0 -15)"/></g><path d="M13.509,3.311,10.431.207c-.051-.052-.154-.155-.257-.155h0A.646.646,0,0,0,9.866,0,.382.382,0,0,0,9.61.052h0a1.12,1.12,0,0,0-.257.155l-3.079,3.1a.873.873,0,0,0-.051,1.138.918.918,0,0,0,1.129,0L9.1,2.639v8.226a.77.77,0,1,0,1.539,0V2.639L12.38,4.4a.651.651,0,0,0,.564.259.768.768,0,0,0,.564-.207A.938.938,0,0,0,13.509,3.311Z" transform="translate(-2.913 1)"/></g></svg>
+                      width={30}
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

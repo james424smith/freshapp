@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marlowCrewCompanion.iml" filepath="$PROJECT_DIR$/.idea/modules/marlowCrewCompanion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/305493381/marlowCrewCompanion.@aws-amplify_pushnotification.iml" filepath="$PROJECT_DIR$/.idea/modules/305493381/marlowCrewCompanion.@aws-amplify_pushnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1720847198/marlowCrewCompanion.amazon-cognito-identity-js.iml" filepath="$PROJECT_DIR$/.idea/modules/1720847198/marlowCrewCompanion.amazon-cognito-identity-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/marlowCrewCompanion.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/marlowCrewCompanion.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-558820917/marlowCrewCompanion.appcenter.iml" filepath="$PROJECT_DIR$/.idea/modules/-558820917/marlowCrewCompanion.appcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-719536892/marlowCrewCompanion.appcenter-analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/-719536892/marlowCrewCompanion.appcenter-analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/455226515/marlowCrewCompanion.appcenter-crashes.iml" filepath="$PROJECT_DIR$/.idea/modules/455226515/marlowCrewCompanion.appcenter-crashes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/305493381/marlowCrewCompanion.aws-amplify_pushnotification.iml" filepath="$PROJECT_DIR$/.idea/modules/305493381/marlowCrewCompanion.aws-amplify_pushnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1634473157/marlowCrewCompanion.jail-monkey.iml" filepath="$PROJECT_DIR$/.idea/modules/-1634473157/marlowCrewCompanion.jail-monkey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1894284080/marlowCrewCompanion.quinaryio_react-native-doc-viewer.iml" filepath="$PROJECT_DIR$/.idea/modules/-1894284080/marlowCrewCompanion.quinaryio_react-native-doc-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2082399135/marlowCrewCompanion.react-native-appearance.iml" filepath="$PROJECT_DIR$/.idea/modules/-2082399135/marlowCrewCompanion.react-native-appearance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2019520209/marlowCrewCompanion.react-native-code-push.iml" filepath="$PROJECT_DIR$/.idea/modules/-2019520209/marlowCrewCompanion.react-native-code-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1343891377/marlowCrewCompanion.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1343891377/marlowCrewCompanion.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1367359762/marlowCrewCompanion.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1367359762/marlowCrewCompanion.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1405850734/marlowCrewCompanion.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1405850734/marlowCrewCompanion.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/514547054/marlowCrewCompanion.react-native-community_progress-bar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/514547054/marlowCrewCompanion.react-native-community_progress-bar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1188438324/marlowCrewCompanion.react-native-community_progress-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1188438324/marlowCrewCompanion.react-native-community_progress-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1794090212/marlowCrewCompanion.react-native-community_toolbar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/1794090212/marlowCrewCompanion.react-native-community_toolbar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2104971048/marlowCrewCompanion.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/2104971048/marlowCrewCompanion.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1525702191/marlowCrewCompanion.react-native-exit-app.iml" filepath="$PROJECT_DIR$/.idea/modules/1525702191/marlowCrewCompanion.react-native-exit-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-779879304/marlowCrewCompanion.react-native-fingerprint-scanner.iml" filepath="$PROJECT_DIR$/.idea/modules/-779879304/marlowCrewCompanion.react-native-fingerprint-scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1516232906/marlowCrewCompanion.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1516232906/marlowCrewCompanion.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-367130799/marlowCrewCompanion.react-native-geolocation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/-367130799/marlowCrewCompanion.react-native-geolocation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/780457385/marlowCrewCompanion.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/780457385/marlowCrewCompanion.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1400408507/marlowCrewCompanion.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1400408507/marlowCrewCompanion.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1053625674/marlowCrewCompanion.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/1053625674/marlowCrewCompanion.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-5150308/marlowCrewCompanion.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-5150308/marlowCrewCompanion.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1132012243/marlowCrewCompanion.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1132012243/marlowCrewCompanion.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-948361262/marlowCrewCompanion.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-948361262/marlowCrewCompanion.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/922404458/marlowCrewCompanion.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/922404458/marlowCrewCompanion.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1360368290/marlowCrewCompanion.react-native-secure-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1360368290/marlowCrewCompanion.react-native-secure-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-851116542/marlowCrewCompanion.react-native-sensitive-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-851116542/marlowCrewCompanion.react-native-sensitive-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-742574718/marlowCrewCompanion.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/-742574718/marlowCrewCompanion.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/715373419/marlowCrewCompanion.react-native-ssl-pinning.iml" filepath="$PROJECT_DIR$/.idea/modules/715373419/marlowCrewCompanion.react-native-ssl-pinning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-475085881/marlowCrewCompanion.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-475085881/marlowCrewCompanion.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-656938207/marlowCrewCompanion.react-native-ultimate-config.iml" filepath="$PROJECT_DIR$/.idea/modules/-656938207/marlowCrewCompanion.react-native-ultimate-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-365671731/marlowCrewCompanion.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-365671731/marlowCrewCompanion.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-786455801/marlowCrewCompanion.react-native-view-pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/-786455801/marlowCrewCompanion.react-native-view-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/181347036/marlowCrewCompanion.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/181347036/marlowCrewCompanion.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-163473002/marlowCrewCompanion.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-163473002/marlowCrewCompanion.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>

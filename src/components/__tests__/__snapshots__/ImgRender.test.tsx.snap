@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImgRender snapshot test should render correct ui when resourceType is base64 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  maximumZoomScale={2.5}
+  minimumZoomScale={1}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "data:application/jpg;base64,1234",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "width": 750,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
+
+exports[`ImgRender snapshot test should render correct ui when resourceType is file 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  maximumZoomScale={2.5}
+  minimumZoomScale={1}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "file://1234",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "width": 750,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ Screen UI test Should render the screen as UI 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "answer": "Please contact your local manning agency or crew manager.  They will update your database file and then you will see these changes in the App.",
+          "id": 0,
+          "opened": false,
+          "question": "I cannot see my flights / details of next assignment?",
+        },
+        Object {
+          "answer": "Presently the App only shows these records for your present / current assignment.  Historical records are not shown",
+          "id": 1,
+          "opened": false,
+          "question": "I cannot see previous payroll / working clothes records?",
+        },
+        Object {
+          "answer": "Go to the ‘Assignment screen’ and click on the map icon (top right)",
+          "id": 2,
+          "opened": false,
+          "question": "How do I see the location of the vessel I am joining?",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-0"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I cannot see my flights / details of next assignment?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-1"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                I cannot see previous payroll / working clothes records?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        style={null}
+      >
+        <RNGestureHandlerButton
+          collapsable={false}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          rippleColor={0}
+          testID="faq-button-2"
+        >
+          <View
+            accessible={true}
+            style={
+              Object {
+                "borderBottomColor": "#C5C5C5",
+                "borderBottomWidth": 0.3,
+                "opacity": 1,
+                "paddingVertical": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginLeft": 22.5,
+                  "marginRight": 30,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "width": 600,
+                    },
+                  ]
+                }
+              >
+                How do I see the location of the vessel I am joining?
+              </Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#8E9397",
+                            "fontSize": 30,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeIdInput snapshot test should render correct ui and change value of employeeId 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "answer": "Some Answer",
+        "id": 1,
+        "opened": false,
+        "question": "Some Question",
+      },
+      Object {
+        "answer": "Some Answer 2",
+        "id": 2,
+        "opened": true,
+        "question": "Some Question 2",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  getItemLayout={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      style={null}
+    >
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+        testID="faq-button-1"
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "borderBottomColor": "#C5C5C5",
+              "borderBottomWidth": 0.3,
+              "opacity": 1,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "marginRight": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": undefined,
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "width": 600,
+                  },
+                ]
+              }
+            >
+              Some Question
+            </Text>
+            <View
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#8E9397",
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "fontFamily": "Material Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="iconIcon"
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNGestureHandlerButton>
+    </View>
+    <View
+      style={null}
+    >
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+        testID="faq-button-2"
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "borderBottomColor": "#C5C5C5",
+              "borderBottomWidth": 0.3,
+              "opacity": 1,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "marginRight": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": undefined,
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "width": 600,
+                  },
+                ]
+              }
+            >
+              Some Question 2
+            </Text>
+            <View
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#8E9397",
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "fontFamily": "Material Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="iconIcon"
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+            testID="open-url-button"
+          >
+            <View
+              accessible={true}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginLeft": 22.5,
+                  "marginRight": 45,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "marginRight": 52.5,
+                      "paddingTop": 40,
+                    },
+                  ]
+                }
+              >
+                Some Answer 2
+              </Text>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+      </RNGestureHandlerButton>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`EmployeeIdInput snapshot test should render correct ui and change value of employeeId whem selectedQuestion is not present in the questions array 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "answer": "Some Answer",
+        "id": 1,
+        "opened": true,
+        "question": "Some Question",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  getItemLayout={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      style={null}
+    >
+      <RNGestureHandlerButton
+        collapsable={false}
+        onGestureEvent={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onHandlerStateChange={[Function]}
+        rippleColor={0}
+        testID="faq-button-1"
+      >
+        <View
+          accessible={true}
+          style={
+            Object {
+              "borderBottomColor": "#C5C5C5",
+              "borderBottomWidth": 0.3,
+              "opacity": 1,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "marginRight": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": undefined,
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "width": 600,
+                  },
+                ]
+              }
+            >
+              Some Question
+            </Text>
+            <View
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#8E9397",
+                          "fontSize": 30,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "fontFamily": "Material Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="iconIcon"
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+            testID="open-url-button"
+          >
+            <View
+              accessible={true}
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginLeft": 22.5,
+                  "marginRight": 45,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": undefined,
+                      "fontSize": 14,
+                      "marginRight": 52.5,
+                      "paddingTop": 40,
+                    },
+                  ]
+                }
+              >
+                Some Answer
+              </Text>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+      </RNGestureHandlerButton>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationsScreen snapshot test should render NotificationsScreen when loader is false and photoSmall is defined and hasBoth is false 1`] = `
+<RCTScrollView
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={true}
+    />
+  }
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  testID="scrollview"
+>
+  <RCTRefreshControl />
+  <View>
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingTop": 45,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 60,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="notification-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 22.5,
+                        "fontWeight": "bold",
+                        "paddingBottom": 11.5,
+                      },
+                    ]
+                  }
+                >
+                  02 Jul 2019, 17:14
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                      },
+                    ]
+                  }
+                >
+                  You have expired/expiring documentation. Please check.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#78849E",
+                  "borderBottomWidth": 0.2,
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 60,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="notification-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 22.5,
+                        "fontWeight": "bold",
+                        "paddingBottom": 11.5,
+                      },
+                    ]
+                  }
+                >
+                  02 Jul 2019, 17:07
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                      },
+                    ]
+                  }
+                >
+                  You have expired/expiring documentation. Please check.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#78849E",
+                  "borderBottomWidth": 0.2,
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 60,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="notification-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 22.5,
+                        "fontWeight": "bold",
+                        "paddingBottom": 11.5,
+                      },
+                    ]
+                  }
+                >
+                  02 Jul 2019, 17:04
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                      },
+                    ]
+                  }
+                >
+                  You have expired/expiring documentation. Please check.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#78849E",
+                  "borderBottomWidth": 0.2,
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`NotificationsScreen snapshot test should render NotificationsScreen when loader is false and photoSmall is defined and hasBoth is true 1`] = `
+<RCTScrollView
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  testID="scrollview"
+>
+  <RCTRefreshControl />
+  <View>
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "paddingTop": 45,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 60,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="notification-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 22.5,
+                        "fontWeight": "bold",
+                        "paddingBottom": 11.5,
+                      },
+                    ]
+                  }
+                >
+                  02 Jul 2019, 17:14
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                      },
+                    ]
+                  }
+                >
+                  You have expired/expiring documentation. Please check.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#78849E",
+                  "borderBottomWidth": 0.2,
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 60,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="notification-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 22.5,
+                        "fontWeight": "bold",
+                        "paddingBottom": 11.5,
+                      },
+                    ]
+                  }
+                >
+                  02 Jul 2019, 17:07
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                      },
+                    ]
+                  }
+                >
+                  You have expired/expiring documentation. Please check.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#78849E",
+                  "borderBottomWidth": 0.2,
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                }
+              }
+            />
+          </View>
+          <View>
+            <View
+              style={
+                Object {
+                  "marginHorizontal": 60,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="notification-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 22.5,
+                        "fontWeight": "bold",
+                        "paddingBottom": 11.5,
+                      },
+                    ]
+                  }
+                >
+                  02 Jul 2019, 17:04
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": undefined,
+                        "fontSize": 26.5,
+                        "fontWeight": "bold",
+                      },
+                    ]
+                  }
+                >
+                  You have expired/expiring documentation. Please check.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "#78849E",
+                  "borderBottomWidth": 0.2,
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

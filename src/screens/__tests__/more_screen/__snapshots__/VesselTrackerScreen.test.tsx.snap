@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VesselTrackerScreen snapshot test should render VesselTrackerScreen when vesselDetails is defined  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "justifyContent": "flex-end",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(255,255,255,0.7)",
+          "borderRadius": 20,
+          "paddingHorizontal": 18,
+          "paddingVertical": 12,
+        },
+        Object {
+          "alignItems": "stretch",
+          "width": 200,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      37.89176
+      ,
+      -0.2436650
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255,255,255,0.7)",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "marginHorizontal": 5,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+          "width": 100,
+        }
+      }
+      testID="go-to-current-position"
+    >
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#242424",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  Object {
+                    "fontFamily": "Material Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="iconIcon"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`VesselTrackerScreen snapshot test should render VesselTrackerScreen when vesselDetails is undefined 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "justifyContent": "flex-end",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(255,255,255,0.7)",
+          "borderRadius": 20,
+          "paddingHorizontal": 18,
+          "paddingVertical": 12,
+        },
+        Object {
+          "alignItems": "stretch",
+          "width": 200,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      34.66520
+      ,
+      33.00854
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255,255,255,0.7)",
+          "borderRadius": 20,
+          "justifyContent": "center",
+          "marginHorizontal": 5,
+          "opacity": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+          "width": 100,
+        }
+      }
+      testID="go-to-current-position"
+    >
+      <View
+        style={
+          Object {
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#242424",
+                    "fontSize": 24,
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                  Object {
+                    "fontFamily": "Material Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="iconIcon"
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

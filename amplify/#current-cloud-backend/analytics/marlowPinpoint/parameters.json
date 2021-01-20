@@ -1,0 +1,18 @@
+{
+  "appName": "marlowPinpoint",
+  "roleName": "pinpointLambdaRoleb9ec10a7",
+  "cloudWatchPolicyName": "cloudWatchPolicyb9ec10a7",
+  "pinpointPolicyName": "pinpointPolicyb9ec10a7",
+  "authPolicyName": "pinpoint_amplify_b9ec10a7",
+  "unauthPolicyName": "pinpoint_amplify_b9ec10a7",
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "authRoleArn": {
+    "Fn::GetAtt": ["AuthRole", "Arn"]
+  },
+  "appId": "ba6390f1b57c403e96e7a2d283d5b302"
+}

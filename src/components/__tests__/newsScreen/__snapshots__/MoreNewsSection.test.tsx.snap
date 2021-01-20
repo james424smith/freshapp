@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreNewsSection snapshot test should render correct ui 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+      "marginLeft": 26.5,
+      "marginRight": 26.5,
+      "marginTop": 37.5,
+      "width": "93%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgb(0, 122, 255)",
+        "borderBottomLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "borderTopLeftRadius": 5,
+        "borderTopRightRadius": 5,
+        "elevation": 5,
+        "flex": 1,
+        "shadowColor": "#78849E",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "margin": 37.5,
+          "opacity": 1,
+        }
+      }
+      testID="news-button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 29.5,
+              "fontWeight": "bold",
+              "marginTop": 16,
+              "paddingBottom": 15,
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 26.5,
+              "marginBottom": 30,
+            },
+          ]
+        }
+      >
+        summary
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="readmore-button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 26.5,
+                "marginTop": 37.5,
+                "paddingRight": 30,
+                "textAlign": "right",
+              },
+            ]
+          }
+        >
+          Read more
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

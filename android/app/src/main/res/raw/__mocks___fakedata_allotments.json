@@ -1,0 +1,16 @@
+[
+  {
+    "date": "27-06-2019",
+    "beneficiary": "113282",
+    "amount": "3500",
+    "allotmentType": "Recurring",
+    "currency": "USD"
+  },
+  {
+    "date": "29-05-2019",
+    "beneficiary": "113282",
+    "amount": "3500",
+    "allotmentType": "Recurring",
+    "currency": "USD"
+  }
+]

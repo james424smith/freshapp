@@ -1,0 +1,3300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsScreen snapshot test should render SettingsScreen when loader is false when biometrics is thorwing an error  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "marginTop": 20,
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+    testID="change-theme"
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Dark Mode
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "#8E9397",
+                },
+              ],
+            ]
+          }
+        >
+          dark
+        </Text>
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8E9397",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "margin": 150,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 33.5,
+            "fontWeight": "bold",
+            "marginBottom": 22.5,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Marlow CrewCompanion
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#C5C5C5",
+            "fontSize": 26.5,
+            "fontWeight": "bold",
+            "marginBottom": 75,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Version: 
+      iphone
+       (J-
+      2.0.0
+      )
+    </Text>
+  </View>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "margin": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "height": 800.4,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#222222",
+              "borderBottomColor": "#444444",
+              "borderBottomWidth": 1,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "justifyContent": "center",
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Dark Mode
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#222222",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#333333",
+                "borderTopColor": "#444444",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-dark-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  On
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 28,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomColor": "#444444",
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-light-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  Off
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-system-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  System
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "width": 675,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#C5C5C5",
+                    "fontSize": 13,
+                  },
+                ]
+              }
+            >
+              If system is selected, CrewCompanion will automatically adjust your appearance based on your device’s system settings.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`SettingsScreen snapshot test should render SettingsScreen when loader is false when biometrics is unavalable  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "marginTop": 20,
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+    testID="change-theme"
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Dark Mode
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "#8E9397",
+                },
+              ],
+            ]
+          }
+        >
+          dark
+        </Text>
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8E9397",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "margin": 150,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 33.5,
+            "fontWeight": "bold",
+            "marginBottom": 22.5,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Marlow CrewCompanion
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#C5C5C5",
+            "fontSize": 26.5,
+            "fontWeight": "bold",
+            "marginBottom": 75,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Version: 
+      iphone
+       (J-
+      2.0.0
+      )
+    </Text>
+  </View>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "margin": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "height": 800.4,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#222222",
+              "borderBottomColor": "#444444",
+              "borderBottomWidth": 1,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "justifyContent": "center",
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Dark Mode
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#222222",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#333333",
+                "borderTopColor": "#444444",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-dark-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  On
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 28,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomColor": "#444444",
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-light-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  Off
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-system-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  System
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "width": 675,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#C5C5C5",
+                    "fontSize": 13,
+                  },
+                ]
+              }
+            >
+              If system is selected, CrewCompanion will automatically adjust your appearance based on your device’s system settings.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`SettingsScreen snapshot test should render SettingsScreen when loader is false when biometrics is unavalable and change theme  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "marginTop": 20,
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+    testID="change-theme"
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Dark Mode
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "#8E9397",
+                },
+              ],
+            ]
+          }
+        >
+          dark
+        </Text>
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8E9397",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "margin": 150,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 33.5,
+            "fontWeight": "bold",
+            "marginBottom": 22.5,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Marlow CrewCompanion
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#C5C5C5",
+            "fontSize": 26.5,
+            "fontWeight": "bold",
+            "marginBottom": 75,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Version: 
+      iphone
+       (J-
+      2.0.0
+      )
+    </Text>
+  </View>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "margin": 0,
+          "transform": Array [
+            Object {
+              "translateY": 1334,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "height": 800.4,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#222222",
+              "borderBottomColor": "#444444",
+              "borderBottomWidth": 1,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "justifyContent": "center",
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Dark Mode
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#222222",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#333333",
+                "borderTopColor": "#444444",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-dark-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  On
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 28,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomColor": "#444444",
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-light-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  Off
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-system-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  System
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "width": 675,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#C5C5C5",
+                    "fontSize": 13,
+                  },
+                ]
+              }
+            >
+              If system is selected, CrewCompanion will automatically adjust your appearance based on your device’s system settings.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`SettingsScreen snapshot test should render SettingsScreen when loader is true is available and setup  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 18,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Enable Biometrics
+      </Text>
+      <RCTSwitch
+        accessibilityRole="switch"
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#005AA5"
+        style={
+          Object {
+            "height": 31,
+            "width": 51,
+          }
+        }
+        thumbTintColor="#FFFFFF"
+        tintColor="#C5C5C5"
+        value={true}
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "marginTop": 20,
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+    testID="change-theme"
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Dark Mode
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "#8E9397",
+                },
+              ],
+            ]
+          }
+        >
+          dark
+        </Text>
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8E9397",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "margin": 150,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 33.5,
+            "fontWeight": "bold",
+            "marginBottom": 22.5,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Marlow CrewCompanion
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#C5C5C5",
+            "fontSize": 26.5,
+            "fontWeight": "bold",
+            "marginBottom": 75,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Version: 
+      iphone
+       (J-
+      2.0.0
+      )
+    </Text>
+  </View>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "margin": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "height": 800.4,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#222222",
+              "borderBottomColor": "#444444",
+              "borderBottomWidth": 1,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "justifyContent": "center",
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Dark Mode
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#222222",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#333333",
+                "borderTopColor": "#444444",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-dark-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  On
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 28,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomColor": "#444444",
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-light-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  Off
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-system-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  System
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "width": 675,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#C5C5C5",
+                    "fontSize": 13,
+                  },
+                ]
+              }
+            >
+              If system is selected, CrewCompanion will automatically adjust your appearance based on your device’s system settings.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`SettingsScreen snapshot test should render SettingsScreen when loader is true is available but not setup  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "margin": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 18,
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        Enable Biometrics
+      </Text>
+      <RCTSwitch
+        accessibilityRole="switch"
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#005AA5"
+        style={
+          Object {
+            "height": 31,
+            "width": 51,
+          }
+        }
+        thumbTintColor="#78849E"
+        tintColor="#C5C5C5"
+        value={false}
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "flexDirection": "row",
+        "marginTop": 20,
+        "opacity": 1,
+        "paddingBottom": 15,
+        "paddingTop": 15,
+      }
+    }
+    testID="change-theme"
+  >
+    <View
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#78849E",
+            "borderRadius": 20,
+            "height": 40,
+            "justifyContent": "center",
+            "width": 40,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+            testID="iconIcon"
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "#C5C5C5",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": 10,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 18,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Dark Mode
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Array [
+                Object {
+                  "color": "#000",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "#8E9397",
+                },
+              ],
+            ]
+          }
+        >
+          dark
+        </Text>
+        <View
+          style={
+            Object {
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#8E9397",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "fontFamily": "Material Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+                testID="iconIcon"
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "margin": 150,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 33.5,
+            "fontWeight": "bold",
+            "marginBottom": 22.5,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Marlow CrewCompanion
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#C5C5C5",
+            "fontSize": 26.5,
+            "fontWeight": "bold",
+            "marginBottom": 75,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Version: 
+      iphone
+       (J-
+      2.0.0
+      )
+    </Text>
+  </View>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={false}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "margin": 0,
+          "transform": Array [
+            Object {
+              "translateY": 0,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderTopLeftRadius": 20,
+            "borderTopRightRadius": 20,
+            "height": 800.4,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#222222",
+              "borderBottomColor": "#444444",
+              "borderBottomWidth": 1,
+              "borderTopLeftRadius": 20,
+              "borderTopRightRadius": 20,
+              "justifyContent": "center",
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                },
+              ]
+            }
+          >
+            Dark Mode
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#222222",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#333333",
+                "borderTopColor": "#444444",
+                "borderTopWidth": 1,
+                "marginTop": 20,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-dark-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  On
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 28,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomColor": "#444444",
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-light-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  Off
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderTopColor": "#444444",
+                    "borderTopWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingBottom": 20,
+                    "paddingTop": 20,
+                  }
+                }
+                testID="change-color-system-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2A2E43",
+                        "fontFamily": "Roboto-Regular",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "fontSize": 18,
+                      },
+                    ]
+                  }
+                >
+                  System
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22.5,
+                "width": 675,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#C5C5C5",
+                    "fontSize": 13,
+                  },
+                ]
+              }
+            >
+              If system is selected, CrewCompanion will automatically adjust your appearance based on your device’s system settings.
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

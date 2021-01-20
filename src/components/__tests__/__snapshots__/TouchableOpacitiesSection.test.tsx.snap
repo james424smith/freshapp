@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TouchableOpacitiesSection snapshot test should render correct ui when all optional props are undefinfed 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "backgroundColor": "rgb(0, 122, 255)",
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderBottomColor": "#2A2E43",
+        "borderBottomWidth": 2,
+        "opacity": 1,
+      }
+    }
+    testID="first-option-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+            },
+            Object {},
+            Object {},
+          ],
+        ]
+      }
+    >
+      allotments
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="second-option-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "opacity": 0.2,
+            },
+          ],
+        ]
+      }
+    >
+      payslips
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TouchableOpacitiesSection snapshot test should render correct ui when everetyhing is definfed 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "backgroundColor": "rgb(0, 122, 255)",
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+      },
+      Object {
+        "backgroundColor": "black",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderBottomColor": "black",
+        "borderBottomWidth": 2,
+        "opacity": 1,
+      }
+    }
+    testID="first-option-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "paddingBottom": 5,
+            },
+            Object {
+              "color": "black",
+            },
+            Object {
+              "fontWeight": "100",
+            },
+          ],
+        ]
+      }
+    >
+      allotments
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="second-option-button"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "opacity": 0.2,
+            },
+          ],
+        ]
+      }
+    >
+      payslips
+    </Text>
+  </View>
+</View>
+`;

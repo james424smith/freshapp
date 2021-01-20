@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PdfRender snapshot test should render correct ui 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <PDFView
+    fadeInDuration={10}
+    onError={[Function]}
+    onLoad={[Function]}
+    onPageChanged={[Function]}
+    onScrolled={[Function]}
+    resource="1234"
+    resourceType="base64"
+    style={
+      Object {
+        "flex": 1,
+        "width": 750,
+      }
+    }
+    textEncoding="utf-8"
+    urlProps={Object {}}
+  />
+</View>
+`;

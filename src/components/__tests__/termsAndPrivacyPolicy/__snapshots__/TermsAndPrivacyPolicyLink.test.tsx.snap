@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppColorScheme snapshot test should render correct ui and press privacy-policy-button 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#78849E",
+            "fontSize": 22.5,
+          },
+        ]
+      }
+    >
+      By registering you accept our 
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="privacy-policy-button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "#78849E",
+              "fontSize": 22.5,
+              "textDecorationLine": "underline",
+            },
+          ]
+        }
+      >
+        Privacy Policy
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#78849E",
+            "fontSize": 22.5,
+          },
+        ]
+      }
+    >
+       and 
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="terms-and-condition-button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "#78849E",
+              "fontSize": 22.5,
+              "textDecorationLine": "underline",
+            },
+          ]
+        }
+      >
+        Terms & Conditions
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`AppColorScheme snapshot test should render correct ui and press terms-and-condition-button 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#78849E",
+            "fontSize": 22.5,
+          },
+        ]
+      }
+    >
+      By registering you accept our 
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="privacy-policy-button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "#78849E",
+              "fontSize": 22.5,
+              "textDecorationLine": "underline",
+            },
+          ]
+        }
+      >
+        Privacy Policy
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#78849E",
+            "fontSize": 22.5,
+          },
+        ]
+      }
+    >
+       and 
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="terms-and-condition-button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "#78849E",
+              "fontSize": 22.5,
+              "textDecorationLine": "underline",
+            },
+          ]
+        }
+      >
+        Terms & Conditions
+      </Text>
+    </View>
+  </View>
+</View>
+`;

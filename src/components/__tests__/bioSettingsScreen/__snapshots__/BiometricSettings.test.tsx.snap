@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInScreen test should render correctly as per the ui made when the toggle is disabled 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "flexDirection": "row",
+      "paddingBottom": 15,
+      "paddingTop": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#78849E",
+          "borderRadius": 20,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 25,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="iconIcon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#C5C5C5",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginLeft": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      Enable Biometrics
+    </Text>
+    <RCTSwitch
+      accessibilityRole="switch"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onTintColor="#005AA5"
+      style={
+        Object {
+          "height": 31,
+          "width": 51,
+        }
+      }
+      thumbTintColor="#78849E"
+      tintColor="#C5C5C5"
+      value={false}
+    />
+  </View>
+</View>
+`;
+
+exports[`SignInScreen test should render correctly as per the ui made when the toggle is enabled  1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "flexDirection": "row",
+      "paddingBottom": 15,
+      "paddingTop": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#78849E",
+          "borderRadius": 20,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 25,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="iconIcon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#C5C5C5",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginLeft": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      Enable Biometrics
+    </Text>
+    <RCTSwitch
+      accessibilityRole="switch"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onTintColor="#005AA5"
+      style={
+        Object {
+          "height": 31,
+          "width": 51,
+        }
+      }
+      thumbTintColor="#FFFFFF"
+      tintColor="#C5C5C5"
+      value={true}
+    />
+  </View>
+</View>
+`;

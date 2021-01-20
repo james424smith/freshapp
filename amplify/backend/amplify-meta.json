@@ -1,0 +1,98 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "marlowappamplify-dev-20190524104248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695752350792:role/marlowappamplify-dev-20190524104248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695752350792:role/marlowappamplify-dev-20190524104248-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "marlowappamplify-dev-20190524104248-deployment",
+      "UnauthRoleName": "marlowappamplify-dev-20190524104248-unauthRole",
+      "StackName": "marlowappamplify-dev-20190524104248",
+      "StackId": "arn:aws:cloudformation:eu-west-1:695752350792:stack/marlowappamplify-dev-20190524104248/874ceb30-7df7-11e9-b722-06b176c04864",
+      "AmplifyAppId": "d2uwguhhjxmdh4"
+    },
+    "categories": {
+      "auth": {
+        "marlowappamplifyf62bbc17": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "marlowPinpoint",
+          "Id": "ba6390f1b57c403e96e7a2d283d5b302",
+          "Region": "eu-west-1"
+        }
+      }
+    }
+  },
+  "auth": {
+    "marlowappamplifyf62bbc17": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "AppClientSecret": "unrq4d3tiihmfdn9pl3vaqace0c3s8u83og9ehgomn73bc95uta",
+        "UserPoolId": "eu-west-1_T9skgzySB",
+        "AppClientIDWeb": "2i3qoe8am72mgbrn95h1q0kj53",
+        "AppClientID": "409h4bkkbrvttpvd6qp2qjrgfr",
+        "IdentityPoolId": "eu-west-1:7e172a68-cc5c-4472-853e-4a3f9746687d",
+        "IdentityPoolName": "marlowappamplifyf62bbc17_identitypool_f62bbc17__dev",
+        "UserPoolName": "marlowappamplifyf62bbc17_userpool_f62bbc17"
+      },
+      "lastPushTimeStamp": "2020-04-24T17:38:32.115Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-marlowappamplify-prod-120151-deployment/amplify-cfn-templates/auth/marlowappamplifyf62bbc17-cloudformation-template.yml",
+        "logicalId": "authmarlowappamplifyf62bbc17"
+      }
+    }
+  },
+  "notifications": {
+    "marlowPinpoint": {
+      "service": "Pinpoint",
+      "output": {
+        "Name": "marlowPinpoint",
+        "Id": "ba6390f1b57c403e96e7a2d283d5b302",
+        "Region": "eu-west-1",
+        "APNS": {
+          "ApplicationId": "ba6390f1b57c403e96e7a2d283d5b302",
+          "CreationDate": "2019-05-28T13:47:17.186Z",
+          "DefaultAuthenticationMethod": "CERTIFICATE",
+          "Enabled": true,
+          "HasCredential": true,
+          "HasTokenKey": false,
+          "Id": "apns",
+          "IsArchived": false,
+          "LastModifiedDate": "2020-04-18T06:24:02.619Z",
+          "Platform": "APNS",
+          "Version": 8
+        },
+        "FCM": {
+          "ApplicationId": "ba6390f1b57c403e96e7a2d283d5b302",
+          "CreationDate": "2019-05-24T07:56:14.648Z",
+          "Enabled": true,
+          "HasCredential": true,
+          "Id": "gcm",
+          "IsArchived": false,
+          "LastModifiedDate": "2019-05-24T07:56:14.648Z",
+          "Platform": "GCM",
+          "Version": 1
+        }
+      },
+      "lastPushTimeStamp": "2020-04-24T17:38:33.606Z"
+    }
+  },
+  "analytics": {
+    "marlowPinpoint": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "appName": "marlowPinpoint",
+        "Region": "eu-west-1",
+        "Id": "ba6390f1b57c403e96e7a2d283d5b302"
+      },
+      "lastPushTimeStamp": "2020-04-24T17:38:32.115Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-marlowappamplify-prod-120151-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticsmarlowPinpoint"
+      }
+    }
+  }
+}

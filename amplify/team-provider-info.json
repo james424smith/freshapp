@@ -1,0 +1,77 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "marlowappamplify-dev-20190524104248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695752350792:role/marlowappamplify-dev-20190524104248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695752350792:role/marlowappamplify-dev-20190524104248-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "marlowappamplify-dev-20190524104248-deployment",
+      "UnauthRoleName": "marlowappamplify-dev-20190524104248-unauthRole",
+      "StackName": "marlowappamplify-dev-20190524104248",
+      "StackId": "arn:aws:cloudformation:eu-west-1:695752350792:stack/marlowappamplify-dev-20190524104248/874ceb30-7df7-11e9-b722-06b176c04864",
+      "AmplifyAppId": "d2uwguhhjxmdh4"
+    },
+    "categories": {
+      "auth": {
+        "marlowappamplifyf62bbc17": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "marlowPinpoint",
+          "Id": "ba6390f1b57c403e96e7a2d283d5b302",
+          "Region": "eu-west-1"
+        }
+      }
+    }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-marlowappamplify-staging-113010-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695752350792:role/amplify-marlowappamplify-staging-113010-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695752350792:role/amplify-marlowappamplify-staging-113010-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-marlowappamplify-staging-113010-deployment",
+      "UnauthRoleName": "amplify-marlowappamplify-staging-113010-unauthRole",
+      "StackName": "amplify-marlowappamplify-staging-113010",
+      "StackId": "arn:aws:cloudformation:eu-west-1:695752350792:stack/amplify-marlowappamplify-staging-113010/463e92f0-48c3-11ea-bae3-02bb3de2f99e",
+      "AmplifyAppId": "d2uwguhhjxmdh4"
+    },
+    "categories": {
+      "auth": {
+        "marlowappamplifyf62bbc17": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "marlowPinpoint-staging",
+          "Id": "3b58d8d83b4e4e2899bbea5f24c78866",
+          "Region": "eu-west-1"
+        }
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-marlowappamplify-prod-120151-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695752350792:role/amplify-marlowappamplify-prod-120151-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695752350792:role/amplify-marlowappamplify-prod-120151-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-marlowappamplify-prod-120151-deployment",
+      "UnauthRoleName": "amplify-marlowappamplify-prod-120151-unauthRole",
+      "StackName": "amplify-marlowappamplify-prod-120151",
+      "StackId": "arn:aws:cloudformation:eu-west-1:695752350792:stack/amplify-marlowappamplify-prod-120151/b3ae7c70-48c7-11ea-aa6e-064577b832c8",
+      "AmplifyAppId": "d2uwguhhjxmdh4"
+    },
+    "categories": {
+      "auth": {
+        "marlowappamplifyf62bbc17": {}
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "marlowPinpoint-prod",
+          "Id": "33c953d8b8a04972904e65148ea64665",
+          "Region": "eu-west-1"
+        }
+      }
+    }
+  }
+}

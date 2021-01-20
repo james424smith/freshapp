@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssignmentBasicInformationComponent snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": undefined,
+      "borderRadius": 16,
+      "borderWidth": 1,
+      "flexBasis": "45%",
+      "height": 160,
+      "justifyContent": "center",
+      "margin": 15,
+      "marginTop": 30,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "alignItems": "center",
+          "color": undefined,
+          "fontSize": 24,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    Some Label
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "alignItems": "center",
+          "color": undefined,
+          "fontSize": 37.5,
+          "fontWeight": "bold",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    Some Value
+  </Text>
+</View>
+`;

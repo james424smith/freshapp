@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortAgentContactDetails snapshot test should render PortAgentContactDetails correctly as per the ui made and  photoSmall is defined 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "marginHorizontal": 60,
+                "marginTop": 60,
+              },
+            ]
+          }
+        >
+          Port Agent Name
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 26.5,
+                "fontWeight": "bold",
+                "marginHorizontal": 60,
+                "marginTop": 2.5,
+              },
+            ]
+          }
+        >
+          Inchcape Shipping Services
+        </Text>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 22.5,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            Direct Phone Numbers
+          </Text>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="directTelephoneNumber-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              34-93-4813960
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 22.5,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            AOH Phone Numbers
+          </Text>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="aohTelephoneNumber-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                    "marginHorizontal": 60,
+                    "marginTop": 2.5,
+                    "textDecorationLine": "underline",
+                  },
+                ]
+              }
+            >
+              34-93-4813960
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#78849E",
+            "borderBottomWidth": 0.3,
+            "marginTop": 60,
+          }
+        }
+      />
+    </View>
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "marginHorizontal": 60,
+                "marginTop": 60,
+              },
+            ]
+          }
+        >
+          Email
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="email-button"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            consignacion.bcn@berge-m.es
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "marginHorizontal": 60,
+                "marginTop": 60,
+              },
+            ]
+          }
+        >
+          Skype
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="skype-button"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#78849E",
+            "borderBottomWidth": 0.3,
+            "marginTop": 60,
+          }
+        }
+      />
+    </View>
+    <View>
+      <View>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="website-button"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 22.5,
+                  "marginHorizontal": 60,
+                  "marginTop": 60,
+                },
+              ]
+            }
+          >
+            Web
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            1234
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "marginHorizontal": 60,
+                "marginTop": 60,
+              },
+            ]
+          }
+        >
+          Address
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="address-button"
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 26.5,
+                  "fontWeight": "bold",
+                  "marginHorizontal": 60,
+                  "marginTop": 2.5,
+                  "textDecorationLine": "underline",
+                },
+              ]
+            }
+          >
+            Avda. Drassanes 6-8, 18a Planta Ed. Colon, 8001, Barcelona
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "marginBottom": "30%",
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

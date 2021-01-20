@@ -1,0 +1,1823 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkingClothesScreen snapshot test should render WorkingClothesScreen when loader is false  1`] = `
+<RCTScrollView
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "flexGrow": 1,
+    }
+  }
+  testID="scrollview"
+>
+  <RCTRefreshControl />
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f6f6f6",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "margin": 45,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 33.5,
+                    "fontWeight": "bold",
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              Shoe Size
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginBottom": 45,
+                  "marginTop": 45,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgb(242, 242, 242)",
+                      "borderBottomEndRadius": 0.5,
+                      "borderBottomRightRadius": 0.5,
+                      "borderRadius": 2,
+                    },
+                    Object {
+                      "borderBottomWidth": 0.5,
+                      "borderColor": "#005AA5",
+                      "borderLeftWidth": 0.5,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      undefined,
+                      0,
+                      Object {
+                        "flexDirection": "row",
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "height": 80,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      PHL
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      US
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      EU
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      UK
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      0,
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        undefined,
+                        0,
+                        Object {
+                          "flexDirection": "row",
+                          "overflow": "hidden",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        8.5
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        42
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        8
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        8
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(0, 122, 255)",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingTop": 22.5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 33.5,
+                  "fontWeight": "700",
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                  "textAlign": "left",
+                },
+              ]
+            }
+          >
+            Clothes Allocation
+          </Text>
+          <View
+            style={
+              Object {
+                "paddingTop": 45,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgb(0, 122, 255)",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 20,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                08-01-2019
+              </Text>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 45,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "rgb(28, 28, 30)",
+                          "fontSize": 22.5,
+                          "fontWeight": "700",
+                          "marginBottom": 22.5,
+                          "marginHorizontal": 45,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    OVERALL
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "width": "20%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Qty:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Agent:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Vessel:
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      2
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      MN UKR
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      LEA AUERBACH
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomColor": "#78849E",
+                    "borderBottomWidth": 0.3,
+                    "marginVertical": 45,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgb(0, 122, 255)",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 20,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                08-01-2019
+              </Text>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 45,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "rgb(28, 28, 30)",
+                          "fontSize": 22.5,
+                          "fontWeight": "700",
+                          "marginBottom": 22.5,
+                          "marginHorizontal": 45,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    SAFETY SHOES
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "width": "20%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Qty:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Agent:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Vessel:
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      1
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      MN UKR
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      LEA AUERBACH
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomColor": "#78849E",
+                    "borderBottomWidth": 0.3,
+                    "marginVertical": 45,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`WorkingClothesScreen snapshot test should render WorkingClothesScreen when loader is true  1`] = `
+<RCTScrollView
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={true}
+    />
+  }
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "flexGrow": 1,
+    }
+  }
+  testID="scrollview"
+>
+  <RCTRefreshControl />
+  <View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f6f6f6",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": undefined,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "margin": 45,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 33.5,
+                    "fontWeight": "bold",
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              Shoe Size
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginBottom": 45,
+                  "marginTop": 45,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "rgb(242, 242, 242)",
+                      "borderBottomEndRadius": 0.5,
+                      "borderBottomRightRadius": 0.5,
+                      "borderRadius": 2,
+                    },
+                    Object {
+                      "borderBottomWidth": 0.5,
+                      "borderColor": "#005AA5",
+                      "borderLeftWidth": 0.5,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      undefined,
+                      0,
+                      Object {
+                        "flexDirection": "row",
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "height": 80,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      PHL
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      US
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      EU
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#005AA5",
+                          "borderRightWidth": 0.5,
+                          "borderTopWidth": 0.5,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                        undefined,
+                        undefined,
+                        undefined,
+                        Object {
+                          "flex": 1,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 26.5,
+                            "textAlign": "center",
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ]
+                      }
+                    >
+                      UK
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Array [
+                      0,
+                      0,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        undefined,
+                        0,
+                        Object {
+                          "flexDirection": "row",
+                          "overflow": "hidden",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        8.5
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        42
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        8
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderColor": "#005AA5",
+                            "borderRightWidth": 0.5,
+                            "borderTopWidth": 0.5,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                          undefined,
+                          undefined,
+                          undefined,
+                          Object {
+                            "flex": 1,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": undefined,
+                              "fontSize": 25.5,
+                              "fontWeight": "bold",
+                              "height": 57.5,
+                              "margin": 13.5,
+                              "textAlign": "center",
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                          ]
+                        }
+                      >
+                        8
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(0, 122, 255)",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "paddingTop": 22.5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 33.5,
+                  "fontWeight": "700",
+                  "marginBottom": 45,
+                  "marginLeft": 45,
+                  "marginTop": 45,
+                  "textAlign": "left",
+                },
+              ]
+            }
+          >
+            Clothes Allocation
+          </Text>
+          <View
+            style={
+              Object {
+                "paddingTop": 45,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgb(0, 122, 255)",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 20,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                08-01-2019
+              </Text>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 45,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "rgb(28, 28, 30)",
+                          "fontSize": 22.5,
+                          "fontWeight": "700",
+                          "marginBottom": 22.5,
+                          "marginHorizontal": 45,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    OVERALL
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "width": "20%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Qty:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Agent:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Vessel:
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      2
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      MN UKR
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      LEA AUERBACH
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomColor": "#78849E",
+                    "borderBottomWidth": 0.3,
+                    "marginVertical": 45,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "rgb(0, 122, 255)",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 20,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                08-01-2019
+              </Text>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "marginBottom": 45,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "rgb(28, 28, 30)",
+                          "fontSize": 22.5,
+                          "fontWeight": "700",
+                          "marginBottom": 22.5,
+                          "marginHorizontal": 45,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    SAFETY SHOES
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "width": "20%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Qty:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Agent:
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "marginBottom": 22.5,
+                            "marginLeft": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      Vessel:
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      1
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      MN UKR
+                    </Text>
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#2A2E43",
+                            "fontFamily": "Roboto-Regular",
+                          },
+                          Object {
+                            "color": "rgb(28, 28, 30)",
+                            "fontSize": 22.5,
+                            "fontWeight": "700",
+                            "marginBottom": 22.5,
+                            "marginHorizontal": 45,
+                            "textAlign": "left",
+                          },
+                        ]
+                      }
+                    >
+                      LEA AUERBACH
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomColor": "#78849E",
+                    "borderBottomWidth": 0.3,
+                    "marginVertical": 45,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

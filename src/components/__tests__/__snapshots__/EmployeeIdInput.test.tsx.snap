@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeIdInput snapshot test should render correct ui and change value of employeeId 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": undefined,
+      "borderRadius": 30,
+      "height": 86.5,
+      "marginBottom": 22.5,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 0,
+        "borderColor": "#86939e",
+        "flexDirection": "row",
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+        "zIndex": 1,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      autoFocus={false}
+      blurOnSubmit={false}
+      editable={true}
+      keyboardAppearance="light"
+      keyboardType="numeric"
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      placeholder="Employee ID"
+      placeholderTextColor="#8FAABF"
+      rejectResponderTermination={true}
+      returnKeyType="default"
+      secureTextEntry={false}
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#FFF",
+          "flex": 1,
+          "flexDirection": undefined,
+          "fontFamily": "Roboto-Regular",
+          "fontSize": 29.5,
+          "marginLeft": 22.5,
+          "minHeight": 40,
+          "width": 600,
+        }
+      }
+      testID="employee-input"
+      underlineColorAndroid="transparent"
+      value="1234"
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#ff190c",
+        "fontSize": 12,
+        "margin": 5,
+      }
+    }
+  />
+</View>
+`;

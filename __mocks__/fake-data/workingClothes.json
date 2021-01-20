@@ -1,0 +1,24 @@
+{
+  "shoeSizeUk": 8,
+  "shoeSizeEu": 8,
+  "shoeSizePhl": 8.5,
+  "shoeSizeUs": 42,
+  "workingClothes": [
+    {
+      "clothingId": 49,
+      "item": "OVERALL",
+      "quantity": 2,
+      "vesselName": "LEA AUERBACH",
+      "issuingAgentName": "MN UKR",
+      "issueDate": "08-01-2019"
+    },
+    {
+      "clothingId": 50,
+      "item": "SAFETY SHOES",
+      "quantity": 1,
+      "vesselName": "LEA AUERBACH",
+      "issuingAgentName": "MN UKR",
+      "issueDate": "08-01-2019"
+    }
+  ]
+}

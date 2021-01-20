@@ -1,0 +1,969 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactScreenTopMenu snapshot test should render correct ui when flight is  cancel 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "elevation": 5,
+      "height": "80%",
+      "marginTop": "30%",
+      "marginVertical": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingVertical": 60,
+      }
+    }
+  >
+    <<svg
+  xmlns="http://www.w3.org/2000/svg" width="216.067" height="75.668" viewBox="0 0 216.067 75.668">
+  <defs>
+    <style>.a{}</style>
+  </defs>
+  <g transform="translate(-36.971 -35.304)">
+    <path class="a" d="M83.776,110.97H44.957a1.324,1.324,0,1,1,0-2.647H83.776a1.324,1.324,0,0,1,0,2.647Z"/>
+    <path class="a" d="M38.34,110.97a.569.569,0,0,1-.267-.044.621.621,0,0,1-.265-.088c-.088-.044-.132-.088-.221-.132a.34.34,0,0,1-.176-.176.962.962,0,0,1-.176-.221c-.044-.088-.088-.132-.132-.221s-.044-.176-.088-.265c0-.088-.044-.176-.044-.265a1.2,1.2,0,0,1,.4-.926l.176-.176c.088-.044.132-.088.221-.132s.176-.044.265-.088a1.077,1.077,0,0,1,.529,0,.626.626,0,0,1,.265.088.973.973,0,0,1,.221.132.347.347,0,0,1,.176.176,1.272,1.272,0,0,1,.4.926.558.558,0,0,1-.044.265.626.626,0,0,1-.088.265.951.951,0,0,1-.132.221.77.77,0,0,1-.176.221l-.176.176c-.088.044-.132.088-.221.132s-.176.044-.265.088c0,.044-.088.044-.176.044Z"/>
+    <path class="a" d="M85.011,75.151a3.96,3.96,0,0,0-5.066-2.385l-.007,0L69.66,76.519,51.574,68.71a3.786,3.786,0,0,0-2.779-.088,3.736,3.736,0,0,0-2.47,3.22,3.784,3.784,0,0,0,1.853,3.617l9.215,5.515L53.776,82.3a1.291,1.291,0,0,0-.808,1.637l.014.039a1.325,1.325,0,0,0,1.235.882,1.585,1.585,0,0,0,.441-.088l6.264-2.294a1.291,1.291,0,0,0,.808-1.637l-.014-.039a1.162,1.162,0,0,0-.529-.662l-11.734-6.97a1.217,1.217,0,0,1-.573-1.1,1.118,1.118,0,0,1,1.2-1.028,1.132,1.132,0,0,1,.387.1l18.575,8.026a1.354,1.354,0,0,0,.926.044h.044l10.764-3.926a1.312,1.312,0,0,1,.958,2.443c-.025.01-.05.019-.076.027L48.266,89.928,42.223,87.1a.83.83,0,0,1-.485-.838.807.807,0,0,1,.573-.75.707.707,0,0,1,.662.044l3.705,1.72a1.333,1.333,0,0,0,1.1-2.426l-3.7-1.72A3.556,3.556,0,0,0,41.382,83a3.412,3.412,0,0,0-2.289,3.134,3.491,3.491,0,0,0,2.029,3.353l6.529,3.044a1.224,1.224,0,0,0,.573.132,1.585,1.585,0,0,0,.441-.088L82.673,80.224A3.973,3.973,0,0,0,85.011,75.151Z"/>
+    <path class="a" d="M251.715,110.971H212.9a1.324,1.324,0,1,1,0-2.647h38.819a1.324,1.324,0,0,1,0,2.647Z"/>
+    <path class="a" d="M250.921,90.679a4,4,0,0,0-2.25-2.073l-10.278-3.75L229.571,67.3a3.706,3.706,0,0,0-2.073-1.853,3.8,3.8,0,0,0-3.97.882,3.741,3.741,0,0,0-.926,3.926l3.573,10.19-3.616-1.323a1.312,1.312,0,1,0-.958,2.443c.025.01.05.019.076.027l6.22,2.294a1.506,1.506,0,0,0,.882,0,1.276,1.276,0,0,0,.818-1.608c-.007-.023-.015-.046-.024-.068l-4.457-12.836a1.229,1.229,0,0,1,.265-1.191,1.115,1.115,0,0,1,1.809.308l9.087,18.086a1.474,1.474,0,0,0,.706.662l10.763,3.926a1.192,1.192,0,0,1,.75.706,1.352,1.352,0,0,1,.044,1.015,1.192,1.192,0,0,1-.706.75,1.342,1.342,0,0,1-1.015.044L213.426,81.415,210.6,75.372a.821.821,0,0,1,.132-.926.834.834,0,0,1,.926-.221.8.8,0,0,1,.485.441l1.72,3.705a1.333,1.333,0,1,0,2.471-1c-.014-.034-.029-.067-.045-.1l-1.72-3.705a3.523,3.523,0,0,0-5.779-.882,3.431,3.431,0,0,0-.573,3.838l3.044,6.529a1.318,1.318,0,0,0,.75.706l34.01,12.351a3.578,3.578,0,0,0,1.367.221,4.393,4.393,0,0,0,1.676-.353,4,4,0,0,0,2.073-2.25,4.069,4.069,0,0,0-.221-3.044Z"/>
+    <circle class="a" cx="1.307" cy="1.307" r="1.307" transform="translate(204.973 108.357)"/>
+    <path class="a" d="M69.264,57.629l-.583-.813c.061-.043,1.515-1.082,4.272-2.71l.509.862C70.747,56.57,69.278,57.619,69.264,57.629ZM216.488,55.32c-1.456-.779-2.945-1.549-4.427-2.29l.447-.9c1.49.745,2.988,1.52,4.453,2.3ZM77.811,52.537l-.469-.884c1.452-.769,2.961-1.531,4.485-2.264l.433.9C80.748,51.018,79.25,51.773,77.811,52.537ZM207.57,50.864c-1.508-.7-3.039-1.385-4.549-2.035l.394-.919c1.521.654,3.061,1.342,4.577,2.047ZM86.792,48.216l-.4-.917c1.518-.661,3.079-1.308,4.638-1.923l.366.931C89.849,46.917,88.3,47.56,86.792,48.216ZM198.411,46.93c-1.534-.606-3.1-1.2-4.663-1.759l.338-.941c1.57.565,3.149,1.16,4.692,1.77ZM96.066,44.56l-.334-.942c1.562-.554,3.163-1.09,4.759-1.6l.3.954C99.208,43.478,97.617,44.011,96.066,44.56Zm92.966-1c-1.58-.512-3.182-1-4.763-1.46l.277-.961c1.592.46,3.205.954,4.795,1.47Zm-83.461-2L105.3,40.6c1.611-.448,3.245-.873,4.857-1.262l.235.972C108.794,40.691,107.171,41.113,105.571,41.559Zm73.891-.767c-1.611-.409-3.243-.794-4.85-1.146l.213-.977c1.618.354,3.261.742,4.883,1.153Zm-64.2-1.574-.2-.979c1.638-.336,3.3-.647,4.932-.924l.167.986C118.534,38.576,116.886,38.885,115.259,39.218Zm54.468-.555c-1.623-.3-3.277-.572-4.915-.815l.146-.989c1.649.245,3.314.521,4.948.821Zm-44.644-1.108-.132-.992c1.652-.221,3.329-.415,4.984-.577l.1.995C128.389,37.142,126.724,37.335,125.083,37.555ZM159.87,37.2c-1.638-.185-3.306-.345-4.959-.474l.078-1c1.664.13,3.345.29,4.994.478ZM135,36.58l-.063-1c1.658-.1,3.344-.181,5.012-.228l.027,1C138.319,36.4,136.645,36.476,135,36.58Zm14.939-.151c-1.648-.071-3.324-.113-4.98-.125l.008-1c1.667.012,3.354.055,5.015.126Z"/>
+  </g>
+</svg>
+
+      width={375}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginHorizontal": 22.5,
+        "marginVertical": 66.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "45%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 73.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        ODS
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 26.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Odesa
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 40,
+              "paddingTop": 22.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": undefined,
+              "fontSize": 73.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        -
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "45%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 73.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        FRA
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 26.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Frankfurt
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 40,
+              "paddingTop": 22.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomRightRadius": 150,
+          "borderTopRightRadius": 150,
+          "height": 46.5,
+          "left": -27.5,
+          "overflow": "hidden",
+          "position": "absolute",
+          "width": 54,
+          "zIndex": 0.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginTop": 24,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 1,
+            "justifyContent": "center",
+            "width": undefined,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomLeftRadius": 150,
+          "borderTopLeftRadius": 150,
+          "height": 46.5,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": -26,
+          "width": 52.5,
+          "zIndex": 0.5,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginHorizontal": 22.5,
+        "marginVertical": 66.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+              },
+            ]
+          }
+        >
+          Departure date
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          18-01-2019
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+                "paddingTop": 34,
+              },
+            ]
+          }
+        >
+          PNR
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          6R5E4T65ER
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+              },
+            ]
+          }
+        >
+          Flight number
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "rgb(28, 28, 30)",
+                  "fontSize": 22.5,
+                  "maxWidth": "100%",
+                },
+              ]
+            }
+          >
+            1234
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#2A2E43",
+                  "fontFamily": "Roboto-Regular",
+                },
+                Object {
+                  "color": "red",
+                  "fontSize": 22.5,
+                  "maxWidth": "100%",
+                },
+              ]
+            }
+          >
+             (CANCEL)
+          </Text>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+                "paddingTop": 34,
+              },
+            ]
+          }
+        >
+          PTA
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          654-654165146565465465
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+           654-654165146565465468
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+           654-6541651465654654678
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ContactScreenTopMenu snapshot test should render correct ui when flight is not cancel 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "borderBottomLeftRadius": 10,
+      "borderBottomRightRadius": 10,
+      "borderTopLeftRadius": 10,
+      "borderTopRightRadius": 10,
+      "elevation": 5,
+      "height": "80%",
+      "marginTop": "30%",
+      "marginVertical": 22.5,
+      "shadowColor": "#2A2E43",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingVertical": 60,
+      }
+    }
+  >
+    <<svg
+  xmlns="http://www.w3.org/2000/svg" width="216.067" height="75.668" viewBox="0 0 216.067 75.668">
+  <defs>
+    <style>.a{}</style>
+  </defs>
+  <g transform="translate(-36.971 -35.304)">
+    <path class="a" d="M83.776,110.97H44.957a1.324,1.324,0,1,1,0-2.647H83.776a1.324,1.324,0,0,1,0,2.647Z"/>
+    <path class="a" d="M38.34,110.97a.569.569,0,0,1-.267-.044.621.621,0,0,1-.265-.088c-.088-.044-.132-.088-.221-.132a.34.34,0,0,1-.176-.176.962.962,0,0,1-.176-.221c-.044-.088-.088-.132-.132-.221s-.044-.176-.088-.265c0-.088-.044-.176-.044-.265a1.2,1.2,0,0,1,.4-.926l.176-.176c.088-.044.132-.088.221-.132s.176-.044.265-.088a1.077,1.077,0,0,1,.529,0,.626.626,0,0,1,.265.088.973.973,0,0,1,.221.132.347.347,0,0,1,.176.176,1.272,1.272,0,0,1,.4.926.558.558,0,0,1-.044.265.626.626,0,0,1-.088.265.951.951,0,0,1-.132.221.77.77,0,0,1-.176.221l-.176.176c-.088.044-.132.088-.221.132s-.176.044-.265.088c0,.044-.088.044-.176.044Z"/>
+    <path class="a" d="M85.011,75.151a3.96,3.96,0,0,0-5.066-2.385l-.007,0L69.66,76.519,51.574,68.71a3.786,3.786,0,0,0-2.779-.088,3.736,3.736,0,0,0-2.47,3.22,3.784,3.784,0,0,0,1.853,3.617l9.215,5.515L53.776,82.3a1.291,1.291,0,0,0-.808,1.637l.014.039a1.325,1.325,0,0,0,1.235.882,1.585,1.585,0,0,0,.441-.088l6.264-2.294a1.291,1.291,0,0,0,.808-1.637l-.014-.039a1.162,1.162,0,0,0-.529-.662l-11.734-6.97a1.217,1.217,0,0,1-.573-1.1,1.118,1.118,0,0,1,1.2-1.028,1.132,1.132,0,0,1,.387.1l18.575,8.026a1.354,1.354,0,0,0,.926.044h.044l10.764-3.926a1.312,1.312,0,0,1,.958,2.443c-.025.01-.05.019-.076.027L48.266,89.928,42.223,87.1a.83.83,0,0,1-.485-.838.807.807,0,0,1,.573-.75.707.707,0,0,1,.662.044l3.705,1.72a1.333,1.333,0,0,0,1.1-2.426l-3.7-1.72A3.556,3.556,0,0,0,41.382,83a3.412,3.412,0,0,0-2.289,3.134,3.491,3.491,0,0,0,2.029,3.353l6.529,3.044a1.224,1.224,0,0,0,.573.132,1.585,1.585,0,0,0,.441-.088L82.673,80.224A3.973,3.973,0,0,0,85.011,75.151Z"/>
+    <path class="a" d="M251.715,110.971H212.9a1.324,1.324,0,1,1,0-2.647h38.819a1.324,1.324,0,0,1,0,2.647Z"/>
+    <path class="a" d="M250.921,90.679a4,4,0,0,0-2.25-2.073l-10.278-3.75L229.571,67.3a3.706,3.706,0,0,0-2.073-1.853,3.8,3.8,0,0,0-3.97.882,3.741,3.741,0,0,0-.926,3.926l3.573,10.19-3.616-1.323a1.312,1.312,0,1,0-.958,2.443c.025.01.05.019.076.027l6.22,2.294a1.506,1.506,0,0,0,.882,0,1.276,1.276,0,0,0,.818-1.608c-.007-.023-.015-.046-.024-.068l-4.457-12.836a1.229,1.229,0,0,1,.265-1.191,1.115,1.115,0,0,1,1.809.308l9.087,18.086a1.474,1.474,0,0,0,.706.662l10.763,3.926a1.192,1.192,0,0,1,.75.706,1.352,1.352,0,0,1,.044,1.015,1.192,1.192,0,0,1-.706.75,1.342,1.342,0,0,1-1.015.044L213.426,81.415,210.6,75.372a.821.821,0,0,1,.132-.926.834.834,0,0,1,.926-.221.8.8,0,0,1,.485.441l1.72,3.705a1.333,1.333,0,1,0,2.471-1c-.014-.034-.029-.067-.045-.1l-1.72-3.705a3.523,3.523,0,0,0-5.779-.882,3.431,3.431,0,0,0-.573,3.838l3.044,6.529a1.318,1.318,0,0,0,.75.706l34.01,12.351a3.578,3.578,0,0,0,1.367.221,4.393,4.393,0,0,0,1.676-.353,4,4,0,0,0,2.073-2.25,4.069,4.069,0,0,0-.221-3.044Z"/>
+    <circle class="a" cx="1.307" cy="1.307" r="1.307" transform="translate(204.973 108.357)"/>
+    <path class="a" d="M69.264,57.629l-.583-.813c.061-.043,1.515-1.082,4.272-2.71l.509.862C70.747,56.57,69.278,57.619,69.264,57.629ZM216.488,55.32c-1.456-.779-2.945-1.549-4.427-2.29l.447-.9c1.49.745,2.988,1.52,4.453,2.3ZM77.811,52.537l-.469-.884c1.452-.769,2.961-1.531,4.485-2.264l.433.9C80.748,51.018,79.25,51.773,77.811,52.537ZM207.57,50.864c-1.508-.7-3.039-1.385-4.549-2.035l.394-.919c1.521.654,3.061,1.342,4.577,2.047ZM86.792,48.216l-.4-.917c1.518-.661,3.079-1.308,4.638-1.923l.366.931C89.849,46.917,88.3,47.56,86.792,48.216ZM198.411,46.93c-1.534-.606-3.1-1.2-4.663-1.759l.338-.941c1.57.565,3.149,1.16,4.692,1.77ZM96.066,44.56l-.334-.942c1.562-.554,3.163-1.09,4.759-1.6l.3.954C99.208,43.478,97.617,44.011,96.066,44.56Zm92.966-1c-1.58-.512-3.182-1-4.763-1.46l.277-.961c1.592.46,3.205.954,4.795,1.47Zm-83.461-2L105.3,40.6c1.611-.448,3.245-.873,4.857-1.262l.235.972C108.794,40.691,107.171,41.113,105.571,41.559Zm73.891-.767c-1.611-.409-3.243-.794-4.85-1.146l.213-.977c1.618.354,3.261.742,4.883,1.153Zm-64.2-1.574-.2-.979c1.638-.336,3.3-.647,4.932-.924l.167.986C118.534,38.576,116.886,38.885,115.259,39.218Zm54.468-.555c-1.623-.3-3.277-.572-4.915-.815l.146-.989c1.649.245,3.314.521,4.948.821Zm-44.644-1.108-.132-.992c1.652-.221,3.329-.415,4.984-.577l.1.995C128.389,37.142,126.724,37.335,125.083,37.555ZM159.87,37.2c-1.638-.185-3.306-.345-4.959-.474l.078-1c1.664.13,3.345.29,4.994.478ZM135,36.58l-.063-1c1.658-.1,3.344-.181,5.012-.228l.027,1C138.319,36.4,136.645,36.476,135,36.58Zm14.939-.151c-1.648-.071-3.324-.113-4.98-.125l.008-1c1.667.012,3.354.055,5.015.126Z"/>
+  </g>
+</svg>
+
+      width={375}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginHorizontal": 22.5,
+        "marginVertical": 66.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "45%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 73.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        ODS
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 26.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Odesa
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 40,
+              "paddingTop": 22.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": undefined,
+              "fontSize": 73.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        -
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "45%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 73.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        FRA
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 26.5,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Frankfurt
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#2A2E43",
+              "fontFamily": "Roboto-Regular",
+            },
+            Object {
+              "color": "rgb(28, 28, 30)",
+              "fontSize": 40,
+              "paddingTop": 22.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomRightRadius": 150,
+          "borderTopRightRadius": 150,
+          "height": 46.5,
+          "left": -27.5,
+          "overflow": "hidden",
+          "position": "absolute",
+          "width": 54,
+          "zIndex": 0.5,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "marginTop": 24,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": 1,
+            "justifyContent": "center",
+            "width": undefined,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "borderBottomLeftRadius": 150,
+          "borderTopLeftRadius": 150,
+          "height": 46.5,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": -26,
+          "width": 52.5,
+          "zIndex": 0.5,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "marginHorizontal": 22.5,
+        "marginVertical": 66.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+              },
+            ]
+          }
+        >
+          Departure date
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          18-01-2019
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+                "paddingTop": 34,
+              },
+            ]
+          }
+        >
+          PNR
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          6R5E4T65ER
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+              },
+            ]
+          }
+        >
+          Flight number
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          CY1236
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 22.5,
+                "paddingTop": 34,
+              },
+            ]
+          }
+        >
+          PTA
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          654-654165146565465465
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+           654-654165146565465468
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 22.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+           654-6541651465654654678
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

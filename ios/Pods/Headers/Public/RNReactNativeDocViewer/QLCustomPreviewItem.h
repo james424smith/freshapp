@@ -1,0 +1,1 @@
+../../../../../node_modules/@quinaryio/react-native-doc-viewer/ios/QLCustomPreviewItem.h

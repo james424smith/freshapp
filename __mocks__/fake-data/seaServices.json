@@ -1,0 +1,37 @@
+{
+  "marlowSeaServices": [
+    {
+      "signOnPort": "MARSAXLOKK, MALTA (MLT)",
+      "signOffPort": "ODESSA (UKR)",
+      "vesselIMONumber": 9138355,
+      "rank": "ELEC",
+      "signOnDate": "15-02-2019",
+      "signOffDate": "24-03-2019",
+      "vesselName": "K-RIVER"
+    },
+    {
+      "signOnPort": "TRIESTE (ITA)",
+      "vesselIMONumber": 9151101,
+      "rank": "ELEC",
+      "signOnDate": "23-01-2019",
+      "signOffDate": "14-02-2019",
+      "vesselName": "K-STREAM"
+    }
+  ],
+  "nonMarlowSeaServices": [
+    {
+      "vesselIMONumber": 9118513,
+      "rank": "EENG",
+      "signOnDate": "30-05-2009",
+      "signOffDate": "19-11-2009",
+      "vesselName": "Mekong Spirit"
+    },
+    {
+      "vesselIMONumber": 9139646,
+      "rank": "EENG",
+      "signOnDate": "04-08-2008",
+      "signOffDate": "25-12-2008",
+      "vesselName": "MSC KRETA"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+module Pods_marlowCrewCompanion {
+  umbrella header "Pods-marlowCrewCompanion-umbrella.h"
+
+  export *
+  module * { export * }
+}

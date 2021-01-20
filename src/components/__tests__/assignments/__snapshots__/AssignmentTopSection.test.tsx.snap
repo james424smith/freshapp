@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssignmentTopSection snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made  1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "margin": 60,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderColor": "black",
+        "borderRadius": 40,
+        "borderWidth": 1.5,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 37.5,
+          "height": 75,
+          "opacity": 1,
+          "width": 75,
+        }
+      }
+      testID="Avatar-press"
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 37.5,
+            "flex": 1,
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <Image
+          borderRadius={37.5}
+          onLoad={[Function]}
+          source={
+            Object {
+              "uri": "12345",
+            }
+          }
+          style={
+            Object {
+              "borderColor": "white",
+              "borderRadius": 40,
+              "borderWidth": 1.5,
+              "bottom": 0,
+              "flex": 1,
+              "height": null,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": null,
+            }
+          }
+          testID="RNE__Image"
+          theme={
+            Object {
+              "colors": Object {
+                "black": "#242424",
+                "disabled": "hsl(208, 8%, 90%)",
+                "divider": "#bcbbc1",
+                "error": "#ff190c",
+                "grey0": "#393e42",
+                "grey1": "#43484d",
+                "grey2": "#5e6977",
+                "grey3": "#86939e",
+                "grey4": "#bdc6cf",
+                "grey5": "#e1e8ee",
+                "greyOutline": "#bbb",
+                "platform": Object {
+                  "android": Object {
+                    "error": "#f44336",
+                    "grey": "rgba(0, 0, 0, 0.54)",
+                    "primary": "#2196f3",
+                    "secondary": "#9C27B0",
+                    "success": "#4caf50",
+                    "warning": "#ffeb3b",
+                  },
+                  "ios": Object {
+                    "error": "#ff3b30",
+                    "grey": "#7d7d7d",
+                    "primary": "#007aff",
+                    "searchBg": "#dcdce1",
+                    "secondary": "#5856d6",
+                    "success": "#4cd964",
+                    "warning": "#ffcc00",
+                  },
+                },
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+                "white": "#ffffff",
+              },
+            }
+          }
+          transition={true}
+        />
+        <View
+          accessibilityElementsHidden={true}
+          importantForAccessibility="no-hide-descendants"
+          pointerEvents="none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bdbdbd",
+                "borderColor": "white",
+                "borderRadius": 40,
+                "borderWidth": 1.5,
+                "flex": 1,
+                "height": null,
+                "justifyContent": "center",
+                "width": null,
+              }
+            }
+            testID="RNE__Image__placeholder"
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#ffffff",
+                  "fontSize": 37.5,
+                  "textAlign": "center",
+                }
+              }
+            >
+              GI
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "white",
+              "borderRadius": 40,
+              "borderWidth": 1.5,
+              "flex": 1,
+              "height": null,
+              "width": null,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Next Availability Date
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 46.5,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      01-01-2021
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "191766895197",
+    "firebase_url": "https://marlow-react-native.firebaseio.com",
+    "project_id": "marlow-react-native",
+    "storage_bucket": "marlow-react-native.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191766895197:android:52faa140d5a66dfc",
+        "android_client_info": {
+          "package_name": "com.marlowcrewcompanionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191766895197-fdj3b2r066g8j9d0fkd870nnqbp1h2he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABfR9c-UfeGME5FvfcenvnPxp4NhwJkLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191766895197-fdj3b2r066g8j9d0fkd870nnqbp1h2he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191766895197:android:683f256dbce55ffd184bb4",
+        "android_client_info": {
+          "package_name": "com.marlowcrewcompanionapp.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191766895197-fdj3b2r066g8j9d0fkd870nnqbp1h2he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABfR9c-UfeGME5FvfcenvnPxp4NhwJkLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191766895197-fdj3b2r066g8j9d0fkd870nnqbp1h2he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

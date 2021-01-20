@@ -1,0 +1,29 @@
+{
+  "notifications": [
+    {
+      "category": "PERSONAL",
+      "date": "02 Jul 2019, 17:14",
+      "description": "You have expired/expiring documentation. Please check.",
+      "isRead": false,
+      "notificationId": 443,
+      "title": "Documents Renewal"
+    },
+    {
+      "category": "PERSONAL",
+      "date": "02 Jul 2019, 17:07",
+      "description": "You have expired/expiring documentation. Please check.",
+      "isRead": false,
+      "notificationId": 442,
+      "title": "Documents Renewal"
+    },
+    {
+      "category": "PERSONAL",
+      "date": "02 Jul 2019, 17:04",
+      "description": "You have expired/expiring documentation. Please check.",
+      "isRead": false,
+      "notificationId": 441,
+      "title": "Documents Renewal"
+    }
+  ],
+  "unreadCount": 3
+}

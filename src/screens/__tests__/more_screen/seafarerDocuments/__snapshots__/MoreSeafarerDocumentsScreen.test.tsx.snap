@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and downloaded and loading is false 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <PDFView
+        fadeInDuration={10}
+        onError={[Function]}
+        onLoad={[Function]}
+        onPageChanged={[Function]}
+        onScrolled={[Function]}
+        resource=""
+        resourceType="base64"
+        style={
+          Object {
+            "flex": 1,
+            "width": 750,
+          }
+        }
+        textEncoding="utf-8"
+        urlProps={Object {}}
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and downloaded and loading is false and filetype is image 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+      maximumZoomScale={2.5}
+      minimumZoomScale={1}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": "data:application/image;base64,",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "width": 750,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and downloaded and loading is false and readFile fails 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+      maximumZoomScale={2.5}
+      minimumZoomScale={1}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": "data:application/pdf;base64,1234",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "width": 750,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and loading is true 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "marginBottom": 112.5,
+          }
+        }
+      >
+        <Image
+          source={Object {}}
+          style={
+            Object {
+              "height": 100,
+              "width": 100,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and not downloaded and loading is false 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+      maximumZoomScale={2.5}
+      minimumZoomScale={1}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": "data:application/pdf;base64,1234",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "width": 750,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is undefined and loading is false 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View />
+</RCTScrollView>
+`;

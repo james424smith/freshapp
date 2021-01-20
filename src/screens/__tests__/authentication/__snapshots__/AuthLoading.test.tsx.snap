@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthLoadingScreen test should render correctly as per the ui made  1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`AuthLoadingScreen test should render correctly as per the ui made and network.isConnected is undefined 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when biometric is defined but asyncBiometricLogin fails 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when biometric is defined but isSensorAvailable fails 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when currentUserInfo returns empty object and user opens the app after a successful signup 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when currentUserInfo returns empty object and user opens the app for the first time 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when isUserSetPasscode is true 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when platform is android and updateEndpoint fails. 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test findAppropriatePath should call the appropriate navigation when userToken.challengeName is NEW_PASSWORD_CHALLENGE 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test loginWithoutInternet should call the appropriate navigation when biometric is available 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test loginWithoutInternet should call the appropriate navigation when both biometrics and passcode are undefined after a successful sign up process 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test loginWithoutInternet should call the appropriate navigation when both biometrics and passcode are undefined and user opens the app for the first time 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`test loginWithoutInternet should call the appropriate navigation when passcode is available 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 112.5,
+      }
+    }
+  >
+    <Image
+      source={Object {}}
+      style={
+        Object {
+          "height": 400,
+          "width": 400,
+        }
+      }
+    />
+  </View>
+</View>
+`;

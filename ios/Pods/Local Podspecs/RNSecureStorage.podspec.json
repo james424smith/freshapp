@@ -1,0 +1,25 @@
+{
+  "name": "RNSecureStorage",
+  "version": "0.1.2",
+  "summary": "A secure AsyncStorage partial implementation",
+  "description": "RNSecureStorage",
+  "homepage": "https://github.com/oyyq99999/react-native-secure-storage",
+  "license": "MIT",
+  "authors": {
+    "Yunqi Ouyang": "oyyq9999999@163.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/oyyq99999/react-native-secure-storage.git",
+    "tag": "0.1.2"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

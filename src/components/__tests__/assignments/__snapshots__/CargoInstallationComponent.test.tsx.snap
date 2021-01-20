@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CargoInstallationComponent snapshot test should render CargoInstallationComponent correctly as per the ui made  1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 24,
+          "paddingRight": 22.5,
+        },
+      ]
+    }
+  >
+    Some Label
+    :
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#2A2E43",
+          "fontFamily": "Roboto-Regular",
+        },
+        Object {
+          "color": "rgb(28, 28, 30)",
+          "fontSize": 26.5,
+          "fontWeight": "bold",
+          "maxWidth": "80%",
+        },
+      ]
+    }
+  >
+    Some Value
+  </Text>
+</View>
+`;

@@ -1,0 +1,1503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VesselDetailsSection snapshot test should render VesselDetailsSection correctly as per the ui made when vesselImage is defined 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "data:image/png;base64,1234",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 347,
+        "width": undefined,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "marginTop": 34,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "flexBasis": "40%",
+            "fontSize": 46.5,
+            "fontWeight": "bold",
+            "marginHorizontal": 30,
+          },
+        ]
+      }
+    >
+      Vessel
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#2A2E43",
+            "flexBasis": "40%",
+            "fontSize": 46.5,
+            "fontWeight": "bold",
+            "marginHorizontal": 30,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 75,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexBasis": "40%",
+            "margin": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Vessel Name
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              WEC BRUEGHEL
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              IMO
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              9143972
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Flag
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              PMD
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              GT
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              6362
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              DWT
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              7224
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Draught
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              6.69
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Beam
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              18.45
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Length o.a.
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              121.76
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Length b.p.
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              114.9
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#78849E",
+            "borderBottomWidth": 0.3,
+            "marginBottom": 45,
+            "marginLeft": 37.5,
+            "marginTop": 22.5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexBasis": "40%",
+            "margin": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Main engine series
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              L40/54
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Main engine marker
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              MAN B&W
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Main engine output
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              5300
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              ECDIS Manufacturer
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              ECDIS Model
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`VesselDetailsSection snapshot test should render VesselDetailsSection correctly as per the ui made when vesselImage is not defined 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 242)",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+        "height": 347,
+        "width": undefined,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "marginTop": 34,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "flexBasis": "40%",
+            "fontSize": 46.5,
+            "fontWeight": "bold",
+            "marginHorizontal": 30,
+          },
+        ]
+      }
+    >
+      Vessel
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "#2A2E43",
+            "flexBasis": "40%",
+            "fontSize": 46.5,
+            "fontWeight": "bold",
+            "marginHorizontal": 30,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": 75,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexBasis": "40%",
+            "margin": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Vessel Name
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              WEC BRUEGHEL
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              IMO
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              9143972
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Flag
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              PMD
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              GT
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              6362
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              DWT
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              7224
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Draught
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              6.69
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Beam
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              18.45
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Length o.a.
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              121.76
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Length b.p.
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              114.9
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#78849E",
+            "borderBottomWidth": 0.3,
+            "marginBottom": 45,
+            "marginLeft": 37.5,
+            "marginTop": 22.5,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flexBasis": "40%",
+            "margin": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Main engine series
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              L40/54
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Main engine marker
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              MAN B&W
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              Main engine output
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              5300
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 41.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "width": "55%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              ECDIS Manufacturer
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "width": "45%",
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              ECDIS Model
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 26.5,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

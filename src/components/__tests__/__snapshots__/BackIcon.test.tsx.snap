@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackIcon snapshot test should render correct ui and press icon when goBack is false 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  hitSlop={
+    Object {
+      "bottom": 5,
+      "left": 5,
+      "right": 5,
+      "top": 5,
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="back-button"
+>
+  <<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><style>.a{fill:none;}.b{fill-rule:evenodd;}</style></defs><rect class="a" width="24" height="24"/><path class="b" d="M15.4,7.4,14,6,8,12l6,6,1.4-1.4L10.8,12Z"/></svg>
+    height={25}
+    width={25}
+  />
+</View>
+`;
+
+exports[`BackIcon snapshot test should render correct ui and press icon when goBack is false 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  hitSlop={
+    Object {
+      "bottom": 5,
+      "left": 5,
+      "right": 5,
+      "top": 5,
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="back-button"
+>
+  <<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><style>.a{fill:none;}.b{fill-rule:evenodd;}</style></defs><rect class="a" width="24" height="24"/><path class="b" d="M15.4,7.4,14,6,8,12l6,6,1.4-1.4L10.8,12Z"/></svg>
+    height={25}
+    width={25}
+  />
+</View>
+`;
+
+exports[`BackIcon snapshot test should render correct ui and press icon when goBack is true 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  hitSlop={
+    Object {
+      "bottom": 5,
+      "left": 5,
+      "right": 5,
+      "top": 5,
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+  testID="back-button"
+>
+  <<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><style>.a{fill:none;}.b{fill-rule:evenodd;}</style></defs><rect class="a" width="24" height="24"/><path class="b" d="M15.4,7.4,14,6,8,12l6,6,1.4-1.4L10.8,12Z"/></svg>
+    height={25}
+    width={25}
+  />
+</View>
+`;

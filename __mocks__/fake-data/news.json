@@ -1,0 +1,18 @@
+{
+  "pressReleases": [
+    { "title": "some title", "imageUrl": "some blob" },
+    { "title": "some title2", "imageUrl": "some blob2" },
+    { "title": "some title3", "imageUrl": "some blob3" },
+    { "title": "some title4", "imageUrl": "some blob4" }
+  ],
+  "newsletters": [
+    {
+      "document": "https://marlow-navigation.com/files/marlow_redaktion/downloads/newsletter_archiv/Marlow_Navigation_Newsletter_23rd_Issue_Semester_2_2018.pdf",
+      "title": "23RD ISSUE - SEMESTER 2 / 2018"
+    },
+    {
+      "document": "https://marlow-navigation.com/files/marlow_redaktion/downloads/newsletter_archiv/Marlow_Navigation_Newsletter_22nd_Issue_Semester_1_2018.pdf",
+      "title": "22ND ISSUE - SEMESTER 1 / 2018"
+    }
+  ]
+}

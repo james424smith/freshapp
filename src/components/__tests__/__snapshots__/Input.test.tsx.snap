@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackIcon snapshot test should render correct ui when scheme is dark 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#86939e",
+        "flexDirection": "row",
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      blurOnSubmit={false}
+      editable={true}
+      keyboardAppearance="default"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[MockFunction]}
+      onFocus={[Function]}
+      placeholder="value"
+      placeholderTextColor="#8FAABF"
+      rejectResponderTermination={true}
+      returnKeyType="default"
+      secureTextEntry={false}
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#FFF",
+          "flex": 1,
+          "fontSize": 18,
+          "minHeight": 40,
+        }
+      }
+      testID="input"
+      underlineColorAndroid="transparent"
+      value="2345"
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#ff190c",
+        "fontSize": 12,
+        "margin": 5,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`BackIcon snapshot test should render correct ui when scheme is dark when shouldUseFocusedStyles is false 1`] = `
+<View
+  style={
+    Object {
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#86939e",
+        "flexDirection": "row",
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      blurOnSubmit={false}
+      editable={true}
+      keyboardAppearance="default"
+      keyboardType="default"
+      onBlur={[Function]}
+      onChangeText={[MockFunction]}
+      onFocus={[Function]}
+      placeholder="value"
+      placeholderTextColor="#8FAABF"
+      rejectResponderTermination={true}
+      returnKeyType="default"
+      secureTextEntry={false}
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#242424",
+          "flex": 1,
+          "fontSize": 18,
+          "minHeight": 40,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="2345"
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#ff190c",
+        "fontSize": 12,
+        "margin": 5,
+      }
+    }
+  />
+</View>
+`;

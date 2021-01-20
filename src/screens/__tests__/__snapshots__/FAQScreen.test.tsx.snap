@@ -1,0 +1,2811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ Screen UI test Should render the FAQScreen as UI when user is not signed in 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "flex": 0.3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 80,
+            "paddingTop": 66.5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "backgroundColor": undefined,
+              "borderRadius": 30,
+              "height": 80,
+              "paddingHorizontal": 10,
+              "width": 525,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 0,
+                "borderColor": "#86939e",
+                "flexDirection": "row",
+                "height": 80,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+                "zIndex": 1,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              autoFocus={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardAppearance="light"
+              onChangeText={[Function]}
+              placeholder="Search the FAQs"
+              placeholderTextColor="#FFFFFF"
+              rejectResponderTermination={true}
+              selectionColor="#FFFFFF"
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignSelf": "center",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontSize": 14,
+                  "minHeight": 40,
+                }
+              }
+              testID="faq-search"
+              underlineColorAndroid="transparent"
+              value="getByTestIdHow do I see the location of the vessel"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginVertical": 4,
+                  "paddingRight": 4,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 24,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#ff190c",
+                "fontSize": 12,
+                "margin": 5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 133.5,
+              "position": "absolute",
+              "top": 213.5,
+              "width": 637.5,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "elevation": 24,
+                  "shadowColor": "#C5C5C5",
+                  "shadowOffset": Object {
+                    "height": 12,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.58,
+                  "shadowRadius": 16,
+                  "width": 637.5,
+                },
+                Object {
+                  "height": 267,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexWrap": "wrap",
+                  "marginTop": 40,
+                  "paddingVertical": 13.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "#000",
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "height": 66.5,
+                      "marginHorizontal": 22.5,
+                      "paddingTop": 13.5,
+                    },
+                  ]
+                }
+              >
+                No Results found.
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                        "marginHorizontal": 22.5,
+                        "paddingTop": 13.5,
+                      },
+                    ],
+                  ]
+                }
+              >
+                Check the spelling or try again with a less specific search term.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <RCTScrollView
+          collapsable={false}
+          contentContainerStyle={Object {}}
+          data={
+            Array [
+              Object {
+                "name": "Registration",
+              },
+              Object {
+                "name": "Login and Password",
+              },
+              Object {
+                "name": "Personal Information",
+              },
+              Object {
+                "name": "Assignment",
+              },
+              Object {
+                "name": "Technical",
+              },
+              Object {
+                "name": "General",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          getItemLayout={[Function]}
+          horizontal={true}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          renderScrollComponent={[Function]}
+          scrollEventThrottle={50}
+          showsHorizontalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab0"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "borderBottomColor": undefined,
+                      "borderBottomWidth": 2,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText0"
+                  >
+                    Registration
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab1"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText1"
+                  >
+                    Login and Password
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab2"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText2"
+                  >
+                    Personal Information
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab3"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText3"
+                  >
+                    Assignment
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab4"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText4"
+                  >
+                    Technical
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab5"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText5"
+                  >
+                    General
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "display": "none",
+        "flex": 0.65,
+        "marginLeft": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <View>
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "answer": "Please contact your local manning agency or crew manager. They will update the email address in your database file.",
+              "id": 0,
+              "opened": false,
+              "question": "I am trying to create an account and I receive a message that my email address does not match the entry in my file.",
+            },
+            Object {
+              "answer": "Please also check Spam and Deleted items folders in case the email was automatically filed in these locations. If you still cannot find the mail please contact our Support Team (feedback.app@marlowgroup.com)",
+              "id": 1,
+              "opened": false,
+              "question": "During registration I did not receive an email with the subject “Your Marlow CrewCompanion Account Registration”",
+              "url": "mailto:feedback.app@marlowgroup.com",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        getItemLayout={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            style={null}
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="faq-button-0"
+            >
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "borderBottomColor": "#C5C5C5",
+                    "borderBottomWidth": 0.3,
+                    "opacity": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginLeft": 22.5,
+                      "marginRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "width": 600,
+                        },
+                      ]
+                    }
+                  >
+                    I am trying to create an account and I receive a message that my email address does not match the entry in my file.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "transparent",
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#8E9397",
+                                "fontSize": 30,
+                              },
+                              Object {
+                                "backgroundColor": "transparent",
+                              },
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                          testID="iconIcon"
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+          <View
+            style={null}
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="faq-button-1"
+            >
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "borderBottomColor": "#C5C5C5",
+                    "borderBottomWidth": 0.3,
+                    "opacity": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginLeft": 22.5,
+                      "marginRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "width": 600,
+                        },
+                      ]
+                    }
+                  >
+                    During registration I did not receive an email with the subject “Your Marlow CrewCompanion Account Registration”
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "transparent",
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#8E9397",
+                                "fontSize": 30,
+                              },
+                              Object {
+                                "backgroundColor": "transparent",
+                              },
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                          testID="iconIcon"
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`FAQ Screen UI test Should render the FAQScreen as UI when user is not signed in and no available search option 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "flex": 0.3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 80,
+            "paddingTop": 66.5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "backgroundColor": undefined,
+              "borderRadius": 30,
+              "height": 80,
+              "paddingHorizontal": 10,
+              "width": 525,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 0,
+                "borderColor": "#86939e",
+                "flexDirection": "row",
+                "height": 80,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+                "zIndex": 1,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              autoFocus={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardAppearance="light"
+              onChangeText={[Function]}
+              placeholder="Search the FAQs"
+              placeholderTextColor="#FFFFFF"
+              rejectResponderTermination={true}
+              selectionColor="#FFFFFF"
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignSelf": "center",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontSize": 14,
+                  "minHeight": 40,
+                }
+              }
+              testID="faq-search"
+              underlineColorAndroid="transparent"
+              value="getByTestIdHow do I see the location of the vessel fasdsa"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginVertical": 4,
+                  "paddingRight": 4,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 24,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#ff190c",
+                "fontSize": 12,
+                "margin": 5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 133.5,
+              "position": "absolute",
+              "top": 213.5,
+              "width": 637.5,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "elevation": 24,
+                  "shadowColor": "#C5C5C5",
+                  "shadowOffset": Object {
+                    "height": 12,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.58,
+                  "shadowRadius": 16,
+                  "width": 637.5,
+                },
+                Object {
+                  "height": 267,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexWrap": "wrap",
+                  "marginTop": 40,
+                  "paddingVertical": 13.5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "#000",
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "height": 66.5,
+                      "marginHorizontal": 22.5,
+                      "paddingTop": 13.5,
+                    },
+                  ]
+                }
+              >
+                No Results found.
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 14,
+                        "marginHorizontal": 22.5,
+                        "paddingTop": 13.5,
+                      },
+                    ],
+                  ]
+                }
+              >
+                Check the spelling or try again with a less specific search term.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <RCTScrollView
+          collapsable={false}
+          contentContainerStyle={Object {}}
+          data={
+            Array [
+              Object {
+                "name": "Registration",
+              },
+              Object {
+                "name": "Login and Password",
+              },
+              Object {
+                "name": "Personal Information",
+              },
+              Object {
+                "name": "Assignment",
+              },
+              Object {
+                "name": "Technical",
+              },
+              Object {
+                "name": "General",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          getItemLayout={[Function]}
+          horizontal={true}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          renderScrollComponent={[Function]}
+          scrollEventThrottle={50}
+          showsHorizontalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab0"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "borderBottomColor": undefined,
+                      "borderBottomWidth": 2,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText0"
+                  >
+                    Registration
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab1"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText1"
+                  >
+                    Login and Password
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab2"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText2"
+                  >
+                    Personal Information
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab3"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText3"
+                  >
+                    Assignment
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab4"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText4"
+                  >
+                    Technical
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab5"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText5"
+                  >
+                    General
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "display": "none",
+        "flex": 0.65,
+        "marginLeft": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <View>
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "answer": "Please contact your local manning agency or crew manager. They will update the email address in your database file.",
+              "id": 0,
+              "opened": false,
+              "question": "I am trying to create an account and I receive a message that my email address does not match the entry in my file.",
+            },
+            Object {
+              "answer": "Please also check Spam and Deleted items folders in case the email was automatically filed in these locations. If you still cannot find the mail please contact our Support Team (feedback.app@marlowgroup.com)",
+              "id": 1,
+              "opened": false,
+              "question": "During registration I did not receive an email with the subject “Your Marlow CrewCompanion Account Registration”",
+              "url": "mailto:feedback.app@marlowgroup.com",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        getItemLayout={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            style={null}
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="faq-button-0"
+            >
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "borderBottomColor": "#C5C5C5",
+                    "borderBottomWidth": 0.3,
+                    "opacity": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginLeft": 22.5,
+                      "marginRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "width": 600,
+                        },
+                      ]
+                    }
+                  >
+                    I am trying to create an account and I receive a message that my email address does not match the entry in my file.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "transparent",
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#8E9397",
+                                "fontSize": 30,
+                              },
+                              Object {
+                                "backgroundColor": "transparent",
+                              },
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                          testID="iconIcon"
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+          <View
+            style={null}
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="faq-button-1"
+            >
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "borderBottomColor": "#C5C5C5",
+                    "borderBottomWidth": 0.3,
+                    "opacity": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginLeft": 22.5,
+                      "marginRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "width": 600,
+                        },
+                      ]
+                    }
+                  >
+                    During registration I did not receive an email with the subject “Your Marlow CrewCompanion Account Registration”
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "transparent",
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#8E9397",
+                                "fontSize": 30,
+                              },
+                              Object {
+                                "backgroundColor": "transparent",
+                              },
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                          testID="iconIcon"
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`FAQ Screen UI test Should render the FAQScreen as UI when user is signed in 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": undefined,
+        "flex": 0.3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 80,
+            "paddingTop": 66.5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "backgroundColor": undefined,
+              "borderRadius": 30,
+              "height": 80,
+              "paddingHorizontal": 10,
+              "width": 525,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 0,
+                "borderColor": "#86939e",
+                "flexDirection": "row",
+                "height": 80,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+                "zIndex": 1,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              autoFocus={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardAppearance="light"
+              onChangeText={[Function]}
+              placeholder="Search the FAQs"
+              placeholderTextColor="#FFFFFF"
+              rejectResponderTermination={true}
+              selectionColor="#FFFFFF"
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignSelf": "center",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontSize": 14,
+                  "minHeight": 40,
+                }
+              }
+              testID="faq-search"
+              underlineColorAndroid="transparent"
+              value="login"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "height": 40,
+                  "justifyContent": "center",
+                  "marginVertical": 4,
+                  "paddingRight": 4,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#FFFFFF",
+                            "fontSize": 24,
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                      testID="iconIcon"
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#ff190c",
+                "fontSize": 12,
+                "margin": 5,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 133.5,
+              "position": "absolute",
+              "top": 213.5,
+              "width": 637.5,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottomLeftRadius": 10,
+                  "borderBottomRightRadius": 10,
+                  "borderRadius": 10,
+                  "borderTopLeftRadius": 10,
+                  "borderTopRightRadius": 10,
+                  "elevation": 24,
+                  "shadowColor": "#C5C5C5",
+                  "shadowOffset": Object {
+                    "height": 12,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.58,
+                  "shadowRadius": 16,
+                  "width": 637.5,
+                },
+                Object {
+                  "height": 600,
+                },
+              ]
+            }
+          >
+            <RCTScrollView
+              ItemSeparatorComponent={[Function]}
+              collapsable={false}
+              data={
+                Array [
+                  Object {
+                    "category": 1,
+                    "id": 2,
+                    "question": "I have forgotten my personal password",
+                  },
+                  Object {
+                    "category": 1,
+                    "id": 4,
+                    "question": "How can I enable biometric login (finger print / face ID)?",
+                  },
+                  Object {
+                    "category": 4,
+                    "id": 4,
+                    "question": "How can I enable biometric login (finger print / face ID)?",
+                  },
+                ]
+              }
+              disableVirtualization={false}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              initialNumToRender={10}
+              keyExtractor={[Function]}
+              maxToRenderPerBatch={10}
+              onContentSizeChange={[Function]}
+              onEndReachedThreshold={2}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onLayout={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              removeClippedSubviews={false}
+              renderItem={[Function]}
+              renderScrollComponent={[Function]}
+              scrollEventThrottle={50}
+              stickyHeaderIndices={Array []}
+              updateCellsBatchingPeriod={50}
+              viewabilityConfigCallbackPairs={Array []}
+              windowSize={21}
+            >
+              <View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexGrow": 1,
+                        "flexWrap": "wrap",
+                        "paddingVertical": 13.5,
+                      }
+                    }
+                  >
+                    <RNGestureHandlerButton
+                      collapsable={false}
+                      onGestureEvent={[Function]}
+                      onGestureHandlerEvent={[Function]}
+                      onGestureHandlerStateChange={[Function]}
+                      onHandlerStateChange={[Function]}
+                      rippleColor={0}
+                      testID="tab0"
+                    >
+                      <View
+                        accessible={true}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#2A2E43",
+                                "fontFamily": "Roboto-Regular",
+                              },
+                              Object {
+                                "color": "#000",
+                                "fontSize": 14,
+                                "marginHorizontal": 22.5,
+                                "paddingTop": 13.5,
+                              },
+                            ]
+                          }
+                        >
+                          I have forgotten my personal password
+                        </Text>
+                      </View>
+                    </RNGestureHandlerButton>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#CEDCCE",
+                        "height": 1,
+                        "marginVertical": 5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexGrow": 1,
+                        "flexWrap": "wrap",
+                        "paddingVertical": 13.5,
+                      }
+                    }
+                  >
+                    <RNGestureHandlerButton
+                      collapsable={false}
+                      onGestureEvent={[Function]}
+                      onGestureHandlerEvent={[Function]}
+                      onGestureHandlerStateChange={[Function]}
+                      onHandlerStateChange={[Function]}
+                      rippleColor={0}
+                      testID="tab1"
+                    >
+                      <View
+                        accessible={true}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#2A2E43",
+                                "fontFamily": "Roboto-Regular",
+                              },
+                              Object {
+                                "color": "#000",
+                                "fontSize": 14,
+                                "marginHorizontal": 22.5,
+                                "paddingTop": 13.5,
+                              },
+                            ]
+                          }
+                        >
+                          How can I enable biometric login (finger print / face ID)?
+                        </Text>
+                      </View>
+                    </RNGestureHandlerButton>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#CEDCCE",
+                        "height": 1,
+                        "marginVertical": 5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexGrow": 1,
+                        "flexWrap": "wrap",
+                        "paddingVertical": 13.5,
+                      }
+                    }
+                  >
+                    <RNGestureHandlerButton
+                      collapsable={false}
+                      onGestureEvent={[Function]}
+                      onGestureHandlerEvent={[Function]}
+                      onGestureHandlerStateChange={[Function]}
+                      onHandlerStateChange={[Function]}
+                      rippleColor={0}
+                      testID="tab2"
+                    >
+                      <View
+                        accessible={true}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#2A2E43",
+                                "fontFamily": "Roboto-Regular",
+                              },
+                              Object {
+                                "color": "#000",
+                                "fontSize": 14,
+                                "marginHorizontal": 22.5,
+                                "paddingTop": 13.5,
+                              },
+                            ]
+                          }
+                        >
+                          How can I enable biometric login (finger print / face ID)?
+                        </Text>
+                      </View>
+                    </RNGestureHandlerButton>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <RCTScrollView
+          collapsable={false}
+          contentContainerStyle={Object {}}
+          data={
+            Array [
+              Object {
+                "name": "Registration",
+              },
+              Object {
+                "name": "Login and Password",
+              },
+              Object {
+                "name": "Personal Information",
+              },
+              Object {
+                "name": "Assignment",
+              },
+              Object {
+                "name": "Technical",
+              },
+              Object {
+                "name": "General",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          getItemLayout={[Function]}
+          horizontal={true}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          renderScrollComponent={[Function]}
+          scrollEventThrottle={50}
+          showsHorizontalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab0"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "borderBottomColor": undefined,
+                      "borderBottomWidth": 2,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText0"
+                  >
+                    Registration
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab1"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText1"
+                  >
+                    Login and Password
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab2"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText2"
+                  >
+                    Personal Information
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab3"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText3"
+                  >
+                    Assignment
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab4"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText4"
+                  >
+                    Technical
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  null,
+                ]
+              }
+            >
+              <RNGestureHandlerButton
+                collapsable={false}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                rippleColor={0}
+                testID="tab5"
+              >
+                <View
+                  accessible={true}
+                  style={
+                    Object {
+                      "marginLeft": 20,
+                      "marginRight": 20,
+                      "opacity": 1,
+                      "paddingBottom": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": "#8FAABF",
+                          "fontSize": 16,
+                          "fontWeight": "bold",
+                        },
+                      ]
+                    }
+                    testID="tabText5"
+                  >
+                    General
+                  </Text>
+                </View>
+              </RNGestureHandlerButton>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "display": "none",
+        "flex": 0.65,
+        "marginLeft": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <View>
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "answer": "Please contact your local manning agency or crew manager. They will update the email address in your database file.",
+              "id": 0,
+              "opened": false,
+              "question": "I am trying to create an account and I receive a message that my email address does not match the entry in my file.",
+            },
+            Object {
+              "answer": "Please also check Spam and Deleted items folders in case the email was automatically filed in these locations. If you still cannot find the mail please contact our Support Team (feedback.app@marlowgroup.com)",
+              "id": 1,
+              "opened": false,
+              "question": "During registration I did not receive an email with the subject “Your Marlow CrewCompanion Account Registration”",
+              "url": "mailto:feedback.app@marlowgroup.com",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        getItemLayout={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            style={null}
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="faq-button-0"
+            >
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "borderBottomColor": "#C5C5C5",
+                    "borderBottomWidth": 0.3,
+                    "opacity": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginLeft": 22.5,
+                      "marginRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "width": 600,
+                        },
+                      ]
+                    }
+                  >
+                    I am trying to create an account and I receive a message that my email address does not match the entry in my file.
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "transparent",
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#8E9397",
+                                "fontSize": 30,
+                              },
+                              Object {
+                                "backgroundColor": "transparent",
+                              },
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                          testID="iconIcon"
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+          <View
+            style={null}
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="faq-button-1"
+            >
+              <View
+                accessible={true}
+                style={
+                  Object {
+                    "borderBottomColor": "#C5C5C5",
+                    "borderBottomWidth": 0.3,
+                    "opacity": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginLeft": 22.5,
+                      "marginRight": 30,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#2A2E43",
+                          "fontFamily": "Roboto-Regular",
+                        },
+                        Object {
+                          "color": undefined,
+                          "fontSize": 14,
+                          "fontWeight": "bold",
+                          "width": 600,
+                        },
+                      ]
+                    }
+                  >
+                    During registration I did not receive an email with the subject “Your Marlow CrewCompanion Account Registration”
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "overflow": "hidden",
+                      }
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "transparent",
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#8E9397",
+                                "fontSize": 30,
+                              },
+                              Object {
+                                "backgroundColor": "transparent",
+                              },
+                              Object {
+                                "fontFamily": "Material Icons",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                          testID="iconIcon"
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+</View>
+`;

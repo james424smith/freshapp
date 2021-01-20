@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/request.test.ts">
+    <testCase name="test chooseFetcher should call fech and return valid data if there is no error" duration="4"/>
+    <testCase name="test chooseFetcher should call fech and return valid data if there is no error and method is POST" duration="1"/>
+    <testCase name="test chooseFetcher should call fech and return valid data if there is no error and header is defined" duration="1"/>
+    <testCase name="test chooseFetcher should call fech and return valid data if there is an error" duration="2"/>
+    <testCase name="test getJwtToken function should return valid payload" duration="1"/>
+    <testCase name="test get data should get the correct data when the endpoint call is assignment" duration="9"/>
+    <testCase name="test get data should get the correct data when the endpoint call is imprint" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is covid" duration="8"/>
+    <testCase name="test get data should return undefined when the endpoint call is covid and calls the json function" duration="3"/>
+    <testCase name="test get data should get the correct data when the endpoint call is seafarer" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is version check" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is news" duration="5"/>
+    <testCase name="test get data should get the correct data when the endpoint call is termsAndConditions" duration="7"/>
+    <testCase name="test get data should get the correct data when the endpoint call is workingClothes" duration="5"/>
+    <testCase name="test get data should get the correct data when the endpoint call is privacyPolicy" duration="5"/>
+    <testCase name="test get data should get the correct data when the endpoint call is seafarerDocuments" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is seaService" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is notifications" duration="3"/>
+    <testCase name="test get data should get the correct data when the endpoint call is payslip" duration="5"/>
+    <testCase name="test get data should get the correct data when the endpoint call is allotments" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is seafarerBadges" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is contact" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is flights" duration="4"/>
+    <testCase name="test get data should get the correct data when the endpoint call is validateWebsocket" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is assignment" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is imprint" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is versionCheck" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is signup" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is news" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is workingClothes" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is termsAndConditions" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is privacyPolicy" duration="6"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is seaService" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is seafarerBadges" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is payslip" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is payslipDocumentsFile" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is allotments" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is notifications" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is notificationRead" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is seafarerDocuments" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is flights" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is seafarerDocumentsFile" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is contact" duration="2"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is covid" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is validateWebsocket" duration="1"/>
+    <testCase name="test request default function when ENV is not dummy should call chooseFetcher when requestParams.endpoint is seafarerDetails" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/websocketSagas.test.ts">
+    <testCase name="Test websocket sagas should dispatch action SET_WEBSOCKET_DATA" duration="2"/>
+    <testCase name="Test websocket sagas handle SEND_MESSAGE event type" duration="1"/>
+    <testCase name="Test websocket sagas handle RECEIVING_MESSAGE event type" duration="1"/>
+    <testCase name="Test websocket sagas handle SET_NEW_CHAT_NOTIFICATION event type" duration="3"/>
+    <testCase name="Test websocket sagas handle event type with no matching case" duration="1"/>
+    <testCase name="Test websocket sagas handle GET_HISTORY event type" duration="1"/>
+    <testCase name="Test websocket sagas handle RECEIVE_HISTORY event type" duration="0"/>
+    <testCase name="Test websocket sagas handle GET_CONVERSATION event type" duration="1"/>
+    <testCase name="Test websocket sagas handle LEFT_CONVERSATION event type" duration="1"/>
+    <testCase name="Test websocket sagas handle GET_WHO_IS_AROUND event type" duration="1"/>
+    <testCase name="Test websocket sagas handle RECEIVE_CONVERSATION event type" duration="1"/>
+    <testCase name="Test websocket sagas handle UPDATE_WHO_IS_AROUND event type" duration="1"/>
+    <testCase name="Test websocket sagas handle RECEIVE_STATUS event type" duration="2"/>
+    <testCase name="Test websocket sagas handle PROFILE event type" duration="1"/>
+    <testCase name="Test websocket sagas handle NEARBY_SEAFARERS event type" duration="1"/>
+    <testCase name="test selectors should return correct data when requesting getCurrentChatSelector when state has value" duration="0"/>
+    <testCase name="test selectors should return correct data when requesting getCurrentChatSelector when state has no value" duration="1"/>
+    <testCase name="test selectors should return correct data when requesting getCurrentHistorySelector when state has value" duration="0"/>
+    <testCase name="test selectors should return correct data when requesting getCurrentHistorySelector when state has no value" duration="1"/>
+    <testCase name="test selectors should return correct data when requesting getCurrentUsers when state has value" duration="0"/>
+    <testCase name="test selectors should return correct data when requesting getCurrentUsers when state has no value" duration="1"/>
+    <testCase name="test handleGetMessage should return the correct data when succeeds" duration="1"/>
+    <testCase name="test handleSetHistoryMessage should return the correct data when succeeds when userFromHistory is defined and createdAt is number" duration="1"/>
+    <testCase name="test handleSetHistoryMessage should return the correct data when succeeds when userFromHistory is defined and createdAt is Date" duration="14"/>
+    <testCase name="test handleSetHistoryMessage should return the correct data when succeeds when userFromHistory is undefined and createdAt is number" duration="4"/>
+    <testCase name="test handleSetHistoryMessage should return the correct data when succeeds when userFromHistory is undefined and createdAt is Date" duration="1"/>
+    <testCase name="test handleSetHistoryMessage should dispatch action default function" duration="0"/>
+    <testCase name="handleMarkConversationRead test should mark a conversation as read" duration="1"/>
+    <testCase name="handleInAppPushNotification test call appropriate action when a new push notification is received when userFromWhoIsAround is defined" duration="1"/>
+    <testCase name="handleInAppPushNotification test call appropriate action when a new push notification is received when userFromHistory is defined" duration="1"/>
+    <testCase name="handleInAppPushNotification test call appropriate action when a new push notification is received when userFromWhoIsAround and userFromHistory are undefined" duration="1"/>
+    <testCase name="test handleSetInitialHistory should call the appropriate action when calling handleSetInitialHistory" duration="0"/>
+    <testCase name="test handleReceiveConversationForChat should call the appropriate action when calling handleReceiveConversationForChat" duration="0"/>
+    <testCase name="test handleSendMessage should call the appropriate action when calling handleSendMessage" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/pushNotifications.test.ts">
+    <testCase name="test handleSignOut should signout with global and getAllKeys is not empty" duration="3"/>
+    <testCase name="test handleSignOut should signout with global and getAllKeys is  empty" duration="2"/>
+    <testCase name="test extractNotificationData should return correct object when platform is Adnroid and data is defined" duration="46"/>
+    <testCase name="test extractNotificationData should return correct object when platform is Adnroid and data is not defined" duration="1"/>
+    <testCase name="test extractNotificationData should return correct object when platform is iOS" duration="1"/>
+    <testCase name="test extractNotificationBody should return body if it is defined" duration="0"/>
+    <testCase name="test extractNotificationBody should return correct object when _alert is defined" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is DELETE_USER" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is LOGOUT" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is ASSIGNMENT" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is PAYSLIP" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is FLIGHT" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is CHAT" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is PERSONAL" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is NEWSLETTER" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is GENERAL" duration="1"/>
+    <testCase name="test handlePushNotificationRedirection should call handleSignOut with true parameter when notificationCategory is not in the options" duration="5"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is ios" duration="2"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is ios and notification is null" duration="1"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is ios and handlePushNotificationRedirection retrns an error" duration="4"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is andoird" duration="2"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is android and notification is null" duration="1"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is android and handlePushNotificationRedirection retrns an error" duration="2"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is andoird and the categoryName is DeleteUser" duration="2"/>
+    <testCase name="test the dfault function based on the parameters should call the appropriate functions when the platform is andoird and the categoryName is DeleteUser and handlePushNotificationRedirection throws an error" duration="1"/>
+    <testCase name="test getNotificationOnForeground should call navigate when notificationCategory is DeleteUser" duration="2"/>
+    <testCase name="test getNotificationOnForeground should call navigate when notificationCategory is LOGOUT" duration="2"/>
+    <testCase name="test getNotificationOnForeground should call navigate when notificationCategory is CHAT" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/AuthLoading.test.tsx">
+    <testCase name="AuthLoadingScreen test should render correctly as per the ui made " duration="378"/>
+    <testCase name="AuthLoadingScreen test should render correctly as per the ui made and network.isConnected is undefined" duration="4"/>
+    <testCase name="AuthLoadingScreen test If biometrics is enabled then we must have value stored in AsyncStorage Corresponding to That.And user will navigate to MAIN_APP_SCREEN_ROUTE " duration="2"/>
+    <testCase name="AuthLoadingScreen test If PassCode is enabled then we must have value stored in AsyncStorage Corresponding to That.And user will navigate to PASSCODE_ROUTE " duration="1"/>
+    <testCase name="AuthLoadingScreen test If Neither PassCode nor biometrics is enabled then we must not have value stored in AsyncStorage Corresponding to That. And user will navigate to SIGN_IN_ROUTE " duration="1"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when userToken.challengeName is NEW_PASSWORD_CHALLENGE" duration="7"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when currentUserInfo returns empty object and user opens the app for the first time" duration="6"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when currentUserInfo returns empty object and user opens the app after a successful signup" duration="5"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when platform is android and updateEndpoint fails." duration="8"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when biometric is defined but asyncBiometricLogin fails" duration="73"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when biometric is defined but isSensorAvailable fails" duration="7"/>
+    <testCase name="test findAppropriatePath should call the appropriate navigation when isUserSetPasscode is true" duration="4"/>
+    <testCase name="test loginWithoutInternet should call the appropriate navigation when biometric is available" duration="10"/>
+    <testCase name="test loginWithoutInternet should call the appropriate navigation when passcode is available" duration="6"/>
+    <testCase name="test loginWithoutInternet should call the appropriate navigation when both biometrics and passcode are undefined and user opens the app for the first time" duration="6"/>
+    <testCase name="test loginWithoutInternet should call the appropriate navigation when both biometrics and passcode are undefined after a successful sign up process" duration="5"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/salaryDetailsSagas.test.ts">
+    <testCase name="Test Seafarer documents details should dispatch action GET_PAYSLIP_DETAILS" duration="1"/>
+    <testCase name="Test Seafarer documents details should return appropriate data when calling getPayslipDetailsRequest" duration="3"/>
+    <testCase name="Test Seafarer documents details should return empty array when the calling getPayslipDetailsRequest and statusCode is 404" duration="1"/>
+    <testCase name="Test Seafarer documents details should return appropriate data when calling getAllotmentsDetailsRequest" duration="3"/>
+    <testCase name="Test Seafarer documents details should return empty array when calling getAllotmentsDetailsRequest and the statusCode is 404" duration="4"/>
+    <testCase name="Test Seafarer documents details should return data from Seafarer Documents details API" duration="1"/>
+    <testCase name="Test Seafarer documents details should return data from Seafarer Documents details API and" duration="3"/>
+    <testCase name="Test Seafarer payslip file should dispatch action GET_PAYSLIP_DOCUMENTS_FILE" duration="0"/>
+    <testCase name="Test Seafarer payslip file should return appopriate data when calling getPayslipDocumentsFileRequest" duration="3"/>
+    <testCase name="Test Seafarer payslip file should return data from Payslip File API for offline use" duration="3"/>
+    <testCase name="Test Seafarer payslip file should throw error when payslip details is undefined" duration="1"/>
+    <testCase name="Test Seafarer payslip file should return data from Seafarer Payslip File API for online use" duration="3"/>
+    <testCase name="Test Seafarer payslip file should dispatch action default function" duration="1"/>
+    <testCase name="test REMOVE_PAYSLIP_DOCUMENTS_FILE should dispatch action REMOVE_PAYSLIP_DOCUMENTS_FILE" duration="1"/>
+    <testCase name="test REMOVE_PAYSLIP_DOCUMENTS_FILE test removePayslipDocumentFromLocalFn with success outcome" duration="3"/>
+    <testCase name="test REMOVE_PAYSLIP_DOCUMENTS_FILE test removePayslipDocumentFromLocalFn with fail outcome and payslipId is presnt" duration="2"/>
+    <testCase name="test REMOVE_PAYSLIP_DOCUMENTS_FILE test removePayslipDocumentFromLocalFn with fail outcome and payslip is undefined" duration="1"/>
+    <testCase name="saveDocumentOffline tests should call the the saveFileOffline function with the appropriate params" duration="3"/>
+    <testCase name="removeSalaryFromLocalRequest tests should call the the removeFileFromLocalStorage function with the appropriate params" duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/seafarerDocumentsSagas.test.ts">
+    <testCase name="Test Seafarer documents details should return appopriate data when calling getSeafarerDocumentsFileRequest" duration="4"/>
+    <testCase name="Test Seafarer documents details should throw error when payslip details is undefined" duration="4"/>
+    <testCase name="Test Seafarer documents details should dispatch action GET_SEAFARER_DOCUMENTS" duration="1"/>
+    <testCase name="Test Seafarer documents details should return data from Seafarer Documents details API" duration="3"/>
+    <testCase name="Test Seafarer documents details should call getSeafarerDocumentsFailed when calling getSeafarerDocumentsFn and fails" duration="1"/>
+    <testCase name="Test Seafarer documents details should dispatch action default function" duration="1"/>
+    <testCase name="Test Seafarer document file should dispatch action GET_SEAFARER_DOCUMENTS_FILE" duration="1"/>
+    <testCase name="Test Seafarer document file should return data from Seafarer Documents File API for offline use" duration="3"/>
+    <testCase name="Test Seafarer document file should return data from Seafarer Documents File API for online use" duration="3"/>
+    <testCase name="test getSeafarerDocumentsRequest should return appropriate data when getSeafarerDocumentsRequest is a success" duration="8"/>
+    <testCase name="test getSeafarerDocumentsRequest should return appropriate data when getSeafarerDocumentsRequest is 404" duration="4"/>
+    <testCase name="removeSalaryFromLocalRequest tests should dispatch action REMOVE_SEAFARER_DOCUMENT" duration="1"/>
+    <testCase name="removeSalaryFromLocalRequest tests should call the the removeDocumentFromLocalRequest function with the appropriate params" duration="3"/>
+    <testCase name="saveDocumentOffline tests should call the the saveFileOffline function with the appropriate params" duration="3"/>
+    <testCase name="removeDocumentFromLocalFn test test removePayslipDocumentFromLocalFn with success outcome" duration="6"/>
+    <testCase name="removeDocumentFromLocalFn test test removeDocumentFromLocalFn with fail outcome and payslipId is presnt" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/navigation/AppNavigator.test.tsx">
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is not authenticated for light mode" duration="117"/>
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is authenticated for light mode" duration="41"/>
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is not authenticated for dark mode" duration="22"/>
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is not authenticated for dark mode and selectedIndex is undefined and user opens the app for the first time" duration="15"/>
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is not authenticated for dark mode and selectedIndex is undefined after a successful sign up process" duration="15"/>
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is not authenticated for dark mode and await AsyncStorage.getItem(colorScheme) is system" duration="21"/>
+    <testCase name="test AppNavigator snapshots should return appropriate ui when user is authenticated for dark mode" duration="23"/>
+    <testCase name="test AuthenticationStack should return appropriate ui when user is not authenticated in sign up screen and click the back icon" duration="100"/>
+    <testCase name="test MainStack should return appropriate ui when user is not authenticated in sign up screen and click the back icon" duration="124"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/seafarerDocuments/SeafarerDocumentsRenderSection.test.tsx">
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isExpired is false and is Downloading is false" duration="44"/>
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isExpired is true and is Downloading is false" duration="11"/>
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isExpired is true and is offline is true" duration="10"/>
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isDeactivated is true" duration="15"/>
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isExpired is false and is Downloading is false and documentExtension is xls" duration="8"/>
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isExpired is false and is Downloading is true" duration="43"/>
+    <testCase name="SeafarerDocumentsRenderSection snapshot test should render correct ui when allotmentTypeText when isExpired is false and hasAttachment is false" duration="11"/>
+    <testCase name="test fireEvents should call appropriate navigation when document-navigate-button is pressed and documentExtension is pdf" duration="20"/>
+    <testCase name="test fireEvents should call appropriate navigation when document-navigate-button is pressed and documentExtension is xls" duration="7"/>
+    <testCase name="test fireEvents should call appropriate navigation when document-navigate-button is pressed and documentExtension is xlsx" duration="7"/>
+    <testCase name="test fireEvents should call appropriate navigation when share-document-button is pressed" duration="10"/>
+    <testCase name="test fireEvents should call appropriate navigation when share-document-button is pressed is xsl" duration="6"/>
+    <testCase name="test fireEvents should call appropriate navigation when toggle-button is pressed and is downloading is false" duration="17"/>
+    <testCase name="test fireEvents should call appropriate navigation when toggle-button is pressed and is downloading is true" duration="15"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/offline_utilities/__tests__/saveFileOffline.test.ts">
+    <testCase name="tests that the mocks are working properly should run without errors" duration="2"/>
+    <testCase name="testing - process saving file offline  test the process to save offline documents with saveFileOffline function" duration="2"/>
+    <testCase name="testing - process saving file offline  test the process to save offline documents with saveFileOffline function and categoryNumber is undefined" duration="1"/>
+    <testCase name="testing - process saving file offline  test the process to save offline payslips with saveFileOffline function" duration="1"/>
+    <testCase name="testing - process saving file offline  test that if directory doesnt exist, rnfs will create it" duration="2"/>
+    <testCase name="testing - process saving file offline  catch error when something failed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/navigation/MainTabNavigator.test.tsx">
+    <testCase name="MainTabNavigator snapshot tests should return correct ui" duration="113"/>
+    <testCase name="MainTabNavigator fireEvent tests should return correct ui when clicking vessel-tracker-button" duration="60"/>
+    <testCase name="MainTabNavigator fireEvent tests should return correct ui when clicking assignments-icon-button" duration="56"/>
+    <testCase name="MainTabNavigator fireEvent tests should return correct ui when clicking flights-icon-button" duration="78"/>
+    <testCase name="MainTabNavigator fireEvent tests should return correct ui when clicking chat-icon-button" duration="66"/>
+    <testCase name="MainTabNavigator fireEvent tests should return correct ui when clicking notification-icon-button" duration="79"/>
+    <testCase name="MainTabNavigator fireEvent tests should return correct ui when clicking more-icon-button" duration="78"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/seafarerDocuments/ExcelRenderer.test.tsx">
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is present and downloaded and loading is false and platform is IOS" duration="17"/>
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is present and downloaded and loading is false and platform is IOS and OpenDoc throws an error" duration="6"/>
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is present and downloaded and loading is false and platform is android and OpenDoc throws an error" duration="7"/>
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is present and downloaded and loading is false and platform is android" duration="7"/>
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is present and not downloaded and loading is false" duration="3"/>
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is undefined and loading is false" duration="4"/>
+    <testCase name="ExcelRenderer snapshot test should render correct ui for ExcelRenderer when document is present and loading is true" duration="9"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/constants/api_endpoints/api_endpoints.test.ts">
+    <testCase name="Function with two input parameters validate assignmentsEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate seafarerEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate seafarerDocumentsEndpoint output string" duration="0"/>
+    <testCase name="Function with two input parameters validate workingClothesEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate checkVersionEndpoint output string" duration="0"/>
+    <testCase name="Function with two input parameters validate seaServiceEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate payslipEndpoint output string" duration="0"/>
+    <testCase name="Function with two input parameters validate allotmentsEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate notificationsEndpoint output string" duration="0"/>
+    <testCase name="Function with two input parameters validate seafarerBadgesEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate contactEndpoint output string" duration="0"/>
+    <testCase name="Function with two input parameters validate flightsEndpoint output string" duration="1"/>
+    <testCase name="Function with two input parameters validate validateWebsocketEndpoint output string" duration="0"/>
+    <testCase name="Function with one input parameter validate imprintEndpoint output string" duration="1"/>
+    <testCase name="Function with one input parameter validate newsEndpoint output string" duration="1"/>
+    <testCase name="Function with one input parameter validate signUpEndpoint output string" duration="0"/>
+    <testCase name="Function with one input parameter validate termsAndConditionsEndpoint output string" duration="0"/>
+    <testCase name="Function with one input parameter validate privacyPolicyEndpoint output string" duration="0"/>
+    <testCase name="Function with one input parameter validate notificationReadEndpoint output string" duration="0"/>
+    <testCase name="Function with more than two input parameters validate payslipDocumentsFileEndpoint output string when everything is defined" duration="0"/>
+    <testCase name="Function with more than two input parameters expect error when vesselCode is not defined" duration="5"/>
+    <testCase name="Function with more than two input parameters expect error when payslipId is not defined" duration="1"/>
+    <testCase name="Function with more than two input parameters expect error when both vesselCode and payslipId are not defined" duration="1"/>
+    <testCase name="Function with more than two input parameters validate seafarerDocumentsFileEndpoint output string when everything is defined" duration="0"/>
+    <testCase name="Function with more than two input parameters expect error when documentId is not defined" duration="1"/>
+    <testCase name="Function with more than two input parameters expect error when documentCounter is not defined" duration="1"/>
+    <testCase name="Function with more than two input parameters expect error when both documentId and documentCounter are not defined" duration="1"/>
+    <testCase name="Function with more than two input parameters validate covidDocumentEndpoint output string" duration="0"/>
+    <testCase name="Function with more than two input parameters invalid type of input parameters" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/PassCodeScreen.test.tsx">
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui when biometric is unavailble and passcode matches" duration="252"/>
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui when biometric is unavailble and passcode is being set for the first time" duration="232"/>
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui when biometric is unavailble and passcode doesn&apos;t match" duration="208"/>
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui when biometric is available and succeds" duration="161"/>
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui when biometric is available and fails" duration="150"/>
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui when pressing the forgot passcode" duration="149"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/dateUtils.test.ts">
+    <testCase name="Test getTimestampFromDate Function millis result as string" duration="20"/>
+    <testCase name="Test getTimestampFromDate Function millis result as number" duration="0"/>
+    <testCase name="Test getTimestampFromDate Function compareToDateFromDateStartOfDay should return true when all values to DateObject are defined and day is before today" duration="1"/>
+    <testCase name="Test getTimestampFromDate Function compareToDateFromDateStartOfDay should expect an error if any of the values of DateObject is undefined " duration="4"/>
+    <testCase name="Test getTimestampFromDate Function should return a correct value when the timestamp is define when calling timestampToLocalString" duration="1"/>
+    <testCase name="Test getTimestampFromDate Function should expect an error when timestap is undefined when calling timestampToLocalString" duration="1"/>
+    <testCase name="Test getTimestampFromDate Function return 0 if date is not defined" duration="0"/>
+    <testCase name="Test timeDiffTextMillis Function expect error when params fromDate is not in place" duration="0"/>
+    <testCase name="Test timeDiffTextMillis Function expect error when params toDate is not in place" duration="1"/>
+    <testCase name="Test timeDiffTextMillis Function expect error when params are not in place" duration="1"/>
+    <testCase name="Test timeDiffTextMillis Function validate wrong timeDiffTextMillis output string for other" duration="2"/>
+    <testCase name="Test timeDiffTextMillis Function validate wrong timeDiffTextMillis output string for minutes" duration="7"/>
+    <testCase name="Test timeDiffTextMillis Function validate correct timeDiffTextMillis output string to minutes" duration="1"/>
+    <testCase name="Test timeDiffTextMillis Function validate correct timeDiffTextMillis output string to hours" duration="1"/>
+    <testCase name="Test timeDiffTextMillis Function validate correct timeDiffTextMillis output string for days" duration="1"/>
+    <testCase name="Test timeDiffTextMillis Function validate correct timeDiffTextMillis output string for more than 6 days" duration="0"/>
+    <testCase name="Test timeToNow Function expect error when params fromDate is not in place" duration="1"/>
+    <testCase name="Test timeToNow Function expect error when params toDate is not in place" duration="1"/>
+    <testCase name="Test timeToNow Function expect error when params are not in place" duration="1"/>
+    <testCase name="Test timeToNow Function validate timeToNow output string for exact remaining" duration="0"/>
+    <testCase name="Test timeToNow Function validate timeToNow output string" duration="1"/>
+    <testCase name="Test timeToNow Function validate timeToNow result when same date" duration="0"/>
+    <testCase name="Test timestampToUtcString Function wrong timestampToUtcString output string" duration="1"/>
+    <testCase name="Test timestampToUtcString Function correct timestampToUtcString output string" duration="0"/>
+    <testCase name="Test timestampToUtcString Function expect error when no timestamp is" duration="0"/>
+    <testCase name="Test getTimeFromTimezone Function wrong getTimeFromTimezone output string" duration="5"/>
+    <testCase name="Test getTimeFromTimezone Function correctly getTimeFromTimezone output string" duration="0"/>
+    <testCase name="Test getTimeFromTimezone Function correctly getTimeFromTimezone output string for Cyprus" duration="1"/>
+    <testCase name="Test getTimeFromTimezone Function correctly getTimeFromTimezone output string UTC time" duration="1"/>
+    <testCase name="Test formatDate should return empty string when date is undefined" duration="1"/>
+    <testCase name="Test formatDate should return the correct format when the format parameter is passed" duration="0"/>
+    <testCase name="Test formatDate should return the correct format when the format parameter is not passed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/SignInScreen.test.tsx">
+    <testCase name="SignInScreen snapshot test should render correct ui for SignInScreen and signin succeeds and platform is ios" duration="132"/>
+    <testCase name="SignInScreen snapshot test should render correct ui for SignInScreen and signin succeeds and platform is ios and user.challengeName is NEW_PASSWORD_REQUIRED" duration="94"/>
+    <testCase name="SignInScreen snapshot test should render correct ui for SignInScreen and signin fails and platform is ios" duration="92"/>
+    <testCase name="SignInScreen snapshot test should render correct ui for SignInScreen and signin succeeds and platform is android" duration="88"/>
+    <testCase name="test redirects should navigate to swiper when pressing the more icon" duration="32"/>
+    <testCase name="test redirects should navigate to swiper when pressing the forgot password button" duration="31"/>
+    <testCase name="test redirects should navigate to swiper when pressing the sign up button" duration="29"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/seafarerDocuments/MoreSeafarerDocumentsScreen.test.tsx">
+    <testCase name="MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and downloaded and loading is false" duration="37"/>
+    <testCase name="MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and downloaded and loading is false and filetype is image" duration="8"/>
+    <testCase name="MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and downloaded and loading is false and readFile fails" duration="12"/>
+    <testCase name="MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and not downloaded and loading is false" duration="5"/>
+    <testCase name="MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is undefined and loading is false" duration="4"/>
+    <testCase name="MoreSeafarerDocumentsScreen snapshot test should render correct ui for MoreSeafarerDocumentsScreen when payslip is present and loading is true" duration="8"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/websocketReducer.test.ts">
+    <testCase name="Test websocket related Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test websocket related Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test websocket related Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle GET_DIRECT_MESSAGE action" duration="0"/>
+    <testCase name="Test websocket related Reducer should handle SET_REFRESHING_HISTORY action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle CLEAR_SENT_MESSAGE action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle SET_MESSAGE_HISTORY action" duration="0"/>
+    <testCase name="Test websocket related Reducer should handle SEND_EVENT action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle SET_WHO_IS_AROUND action" duration="0"/>
+    <testCase name="Test websocket related Reducer should handle SET_INITIAL_HISTORY action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle SET_CONVERSATION action" duration="0"/>
+    <testCase name="Test websocket related Reducer should handle SET_PROFILE_DETAILS action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle SET_IS_ONLINE_CHAT action" duration="0"/>
+    <testCase name="Test websocket related Reducer should handle SET_IS_ONLINE_CHAT action and isOnline is false" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle SET_CHAT_USERS action" duration="1"/>
+    <testCase name="Test websocket related Reducer should handle SET_NEW_CHAT_NOTIFICATION action" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/salaryScreen/PayslipDetailsComponent.test.tsx">
+    <testCase name="PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is false" duration="34"/>
+    <testCase name="PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is true" duration="12"/>
+    <testCase name="PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is true and is offline" duration="10"/>
+    <testCase name="PayslipDetailsComponent snapshot test should render correct ui when allotmentTypeText and isDownloading is false and the document is downloaded" duration="8"/>
+    <testCase name="test fireEvents should call appropriate navigation when read-more-payslip-button is pressed" duration="12"/>
+    <testCase name="test fireEvents should call appropriate navigation when share-payslip-button is pressed" duration="13"/>
+    <testCase name="test fireEvents should call appropriate navigation when toggle-button is pressed and is downloading is false" duration="9"/>
+    <testCase name="test fireEvents should call appropriate navigation when toggle-button is pressed and is downloading is true" duration="11"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/AssignmentScreen.test.tsx">
+    <testCase name="AssignmentScreen snapshot test should render AssignmentScreen when loader is false and photoSmall is defined and hasBoth is true" duration="125"/>
+    <testCase name="AssignmentScreen snapshot test should render AssignmentScreen when loader is false and photoSmall is defined and hasBoth is false" duration="39"/>
+    <testCase name="test enable biometrics popup should show the biometrics popup when the sensor is available and biometrics login not in place" duration="38"/>
+    <testCase name="test enable biometrics popup should show the biometrics popup when the sensor is available and biometrics login is in place" duration="31"/>
+    <testCase name="test enable biometrics popup should show the biometrics popup when the sensor is not available" duration="39"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/chat/ChatHistoryScreen.test.tsx">
+    <testCase name="ChatHistoryScreen snapshot test should render correct ui when isOnline is true and isLoadingNewHistory is false" duration="53"/>
+    <testCase name="ChatHistoryScreen snapshot test should render correct ui when isOnline is false and isLoadingNewHistory is false" duration="28"/>
+    <testCase name="test fireevents should navigate to CHAT_ROOM_ROUTE when clicking the go-to-chat-button" duration="22"/>
+    <testCase name="test fireevents should navigate to CHAT_ROOM_ROUTE when clicking the go-to-chat-user" duration="22"/>
+    <testCase name="test fireevents should navigate to CHAT_ROOM_ROUTE when clicking the go-to-main-chat" duration="21"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/webSocketActions.test.ts">
+    <testCase name="test actions related to web socket should create an action to set web socket" duration="1"/>
+    <testCase name="test actions related to web socket should create an action to set a chat push notification" duration="1"/>
+    <testCase name="test actions related to web socket should create an action to refresh history data" duration="0"/>
+    <testCase name="test actions related to web socket should create an action to get direct message" duration="1"/>
+    <testCase name="test actions related to web socket should create an action to set message history" duration="0"/>
+    <testCase name="test actions related to web socket should create an action to send event" duration="1"/>
+    <testCase name="test actions related to web socket should create an action to send initial history" duration="1"/>
+    <testCase name="test actions related to web socket should create an action to set my profile" duration="0"/>
+    <testCase name="test actions related to web socket should create an action to set that is online" duration="1"/>
+    <testCase name="test actions related to web socket should clearSentMessage be called correctly" duration="0"/>
+    <testCase name="test actions related to web socket should create an action to set who is around" duration="1"/>
+    <testCase name="test actions related to web socket should create an action to set a conversation" duration="0"/>
+    <testCase name="test actions related to web socket should create an action to set the chat with users" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/settingsScreen/DarkModeChangeModal.test.tsx">
+    <testCase name="DarkModeChangeModal snapshot test should render correct ui when modalVisible is false" duration="14"/>
+    <testCase name="DarkModeChangeModal snapshot test should render correct ui when modalVisible is true" duration="17"/>
+    <testCase name="DarkModeChangeModal snapshot test should render correct ui when modalVisible is true and selectedIndex is light" duration="11"/>
+    <testCase name="DarkModeChangeModal snapshot test should render correct ui when modalVisible is true and selectedIndex is system" duration="15"/>
+    <testCase name="test fireEvents should call the approprate actions when clicking change-color-dark-button" duration="12"/>
+    <testCase name="test fireEvents should call the approprate actions when clicking change-color-light-button" duration="11"/>
+    <testCase name="test fireEvents should call the approprate actions when clicking change-color-system-button" duration="12"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/websocketFunctions.test.ts">
+    <testCase name="test validateUserInChat should call fetch and succeeds" duration="2"/>
+    <testCase name="test url function should return correct url" duration="1"/>
+    <testCase name="test initializeWs should initialize corrent websocket" duration="1"/>
+    <testCase name="test handleReceiveMessage should call the correct dispatch function successfully" duration="1"/>
+    <testCase name="test getInitialHistory should call the correct ws.send function successfully" duration="0"/>
+    <testCase name="test openWs should call the correct ws.onopen function successfully" duration="1"/>
+    <testCase name="test onMessageWs should call the correct ws.onmessage function successfully" duration="1"/>
+    <testCase name="test closeWs should call the correct ws.onclose function successfully" duration="5"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/notificationsSagas.test.ts">
+    <testCase name="Test Notifications Sagas should return success when calling getNotificationsDetailsRequest" duration="4"/>
+    <testCase name="Test Notifications Sagas should return success when calling sendNotificationsDetailsFn" duration="1"/>
+    <testCase name="Test Notifications Sagas should return data from getNotifications API and fail" duration="1"/>
+    <testCase name="Test Notifications Sagas should return data from sendNotifictions API and fail" duration="1"/>
+    <testCase name="Test Notifications Sagas should dispatch action default function" duration="1"/>
+    <testCase name="Test Notifications Sagas should dispatch action GET_NOTIFICATIONS_DETAILS" duration="1"/>
+    <testCase name="Test Notifications Sagas should return data from Notifications API" duration="3"/>
+    <testCase name="Test Notifications Sagas should dispatch action SEND_NOTIFICATIONS_DETAILS" duration="1"/>
+    <testCase name="Test Notifications Sagas should dispatch action SET_RING_BELL" duration="1"/>
+    <testCase name="Test Notifications Sagas should send correct value when calling setShouldRingBellFn" duration="1"/>
+    <testCase name="Test Notifications Sagas should send error value when calling setShouldRingBellFn fails" duration="1"/>
+    <testCase name="Test Notifications Sagas should send data back to Notifications API" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/contact/CrewManagerContactDetails.test.tsx">
+    <testCase name="CrewManagerContactDetails snapshot test should render CrewManagerContactDetails correctly as per the ui made and  photoSmall is defined" duration="25"/>
+    <testCase name="CrewManagerContactDetails snapshot test should render CrewManagerContactDetails correctly as per the ui made and  photoSmall is undefined" duration="21"/>
+    <testCase name="CrewManagerContactDetails snapshot test should render CrewManagerContactDetails correctly as per the ui made and the crewManager timezone is defined" duration="21"/>
+    <testCase name="should test fireEvents should call handleLink when directTelephoneNumber-button is pressed " duration="19"/>
+    <testCase name="should test fireEvents should call handleLink when aohTelephoneNumber-button is pressed " duration="15"/>
+    <testCase name="should test fireEvents should call handleLink when email-button is pressed " duration="13"/>
+    <testCase name="should test fireEvents should call handleLink when skype-button is pressed " duration="12"/>
+    <testCase name="should test fireEvents should call handleLink when website-button is pressed " duration="13"/>
+    <testCase name="should test fireEvents should call handleLink when address-button is pressed " duration="19"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/salaryDetailsReducer.test.ts">
+    <testCase name="Test Salary related details Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Salary related details Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test Salary related details Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test Salary related details Reducer should handle GET_PAYSLIP_DETAILS_SUCCESS action for allotments" duration="4"/>
+    <testCase name="Test Salary related details Reducer should handle GET_PAYSLIP_DETAILS_SUCCESS action for payslips" duration="3"/>
+    <testCase name="Test Salary related details Reducer should handle GET_PAYSLIP_DETAILS_FAIL action" duration="2"/>
+    <testCase name="Test Salary related details Reducer should handle GET_PAYSLIP_DOCUMENTS_FILE_FAIL action" duration="2"/>
+    <testCase name="Test Salary related details Reducer should handle SET_REFRESHING_PAYSLIP_DETAILS action" duration="1"/>
+    <testCase name="Test Salary related details Reducer should handle GET_PAYSLIP_DOCUMENTS_FILE_SUCCESS action" duration="2"/>
+    <testCase name="Test Salary related details Reducer should handle SET_IS_DOWNLOADING_PAYSLIP_SUCCESS action" duration="1"/>
+    <testCase name="Test Salary related details Reducer should handle SET_LOADING_NEW_PAYSLIP action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQCategorySwipe.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as FAQScreen UI" duration="79"/>
+    <testCase name="FAQ Screen UI test Should defined Tab0" duration="50"/>
+    <testCase name="FAQ Screen UI test Should defined Tab1" duration="54"/>
+    <testCase name="FAQ Screen UI test Should defined Tab2" duration="38"/>
+    <testCase name="FAQ Screen UI test Should defined Tab3" duration="45"/>
+    <testCase name="FAQ Screen UI test Should defined Tab4" duration="34"/>
+    <testCase name="FAQ Screen UI test Should defined Tab0, when clicked" duration="63"/>
+    <testCase name="FAQ Screen UI test Should defined Tab1, when clicked" duration="61"/>
+    <testCase name="FAQ Screen UI test Should defined Tab2, when clicked" duration="58"/>
+    <testCase name="FAQ Screen UI test Should defined Tab3, when clicked" duration="47"/>
+    <testCase name="FAQ Screen UI test Should defined Tab4, when clicked" duration="52"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SeafarerDetailsScreen.test.tsx">
+    <testCase name="SeafarerDetailsScreen snapshot test should render SeafarerDetailsScreen when loader is false and seafarer has 10 years badge " duration="59"/>
+    <testCase name="SeafarerDetailsScreen snapshot test should render SeafarerDetailsScreen when loader is false and seafarer has 25 years badge " duration="53"/>
+    <testCase name="SeafarerDetailsScreen snapshot test should render SeafarerDetailsScreen when loader is false and seafarer has no badge " duration="44"/>
+    <testCase name="SeafarerDetailsScreen snapshot test should render SeafarerDetailsScreen when loader is true and seafarer has no badge " duration="43"/>
+    <testCase name="SeafarerDetailsScreen snapshot test should render SeafarerDetailsScreen when loader is true and seafarer has wrong badge " duration="15"/>
+    <testCase name="SeafarerDetailsScreen snapshot test should render SeafarerDetailsScreen when loader is true and seafarer has no nextOfKin " duration="25"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/salary/ReadMorePayslipScreen.test.tsx">
+    <testCase name="ReadMorePayslipScreen snapshot test should render correct ui for ReadMorePayslipScreen when payslip is present and downloaded and loading is false" duration="43"/>
+    <testCase name="ReadMorePayslipScreen snapshot test should render correct ui for ReadMorePayslipScreen when payslip is present and not downloaded and loading is false" duration="4"/>
+    <testCase name="ReadMorePayslipScreen snapshot test should render correct ui for ReadMorePayslipScreen when payslip is undefined and loading is false" duration="3"/>
+    <testCase name="ReadMorePayslipScreen snapshot test should render correct ui for ReadMorePayslipScreen when payslip is present and loading is true" duration="6"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/chat/ChatRoomScreen.test.tsx">
+    <testCase name="ChatRoomScreen snapshot test should render correct ui when isOnline is true and isLoadingNewHistory is false" duration="55"/>
+    <testCase name="ChatRoomScreen snapshot test should render correct ui when isOnline is true and whoIsAround is empty" duration="10"/>
+    <testCase name="ChatRoomScreen snapshot test should render correct ui when isOnline is false and isLoadingNewHistory is false" duration="9"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SwipeNavigatorScreen.test.tsx">
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is false " duration="37"/>
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is true " duration="30"/>
+    <testCase name="SwipeNavigatorScreen UI test Should render the screen as SwipeNavigator UI" duration="146"/>
+    <testCase name="SwipeNavigatorScreen UI test should navigate to Signin screen when home button is clicked" duration="109"/>
+    <testCase name="SwipeNavigatorScreen UI test Should defined ReadMoreScreen" duration="101"/>
+    <testCase name="SwipeNavigatorScreen UI test Should defined FAQScreen" duration="96"/>
+    <testCase name="SwipeNavigatorScreen UI test Should defined SupportScreen" duration="134"/>
+    <testCase name="SwipeNavigatorScreen UI test Should defined ImprintScreen" duration="125"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/offline_utilities/__tests__/getOfflineFiles.test.ts">
+    <testCase name="tests that the mocks are working properly should run without errors" duration="1"/>
+    <testCase name="testing offline functionality test getDocumentsPerCategory to check if Documents are offline" duration="1"/>
+    <testCase name="testing offline functionality test getPayslips to check if payslips are offline" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/Card.test.tsx">
+    <testCase name="Card snapshot test should render correct ui when hasReadMore and screen are defined and click read-more-card-button" duration="56"/>
+    <testCase name="Card snapshot test should render correct ui when hasReadMore and screen are defined and click read-more-card-buttonand all styles are passed as props and useTheme returns light" duration="7"/>
+    <testCase name="Card snapshot test should render correct ui when hasReadMore and screen are defined and click read-more-card-buttonand all styles are passed as props and useTheme returns dark" duration="8"/>
+    <testCase name="Card snapshot test should render correct ui and  when hasReadMoreis false" duration="5"/>
+    <testCase name="Card snapshot test should render correct ui and when hasReadMore and screen defined and click card-button" duration="6"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/contact/ManningAgentContactDetails.test.tsx">
+    <testCase name="ManningAgentContactDetails snapshot test should render ManningAgentContactDetails correctly as per the ui made and  photoSmall is defined" duration="63"/>
+    <testCase name="ManningAgentContactDetails snapshot test should test fireEvents should call handleLink when directTelephoneNumber-button is pressed " duration="16"/>
+    <testCase name="ManningAgentContactDetails snapshot test should test fireEvents should call handleLink when aohTelephoneNumber-button is pressed " duration="20"/>
+    <testCase name="ManningAgentContactDetails snapshot test should test fireEvents should call handleLink when email-button is pressed " duration="15"/>
+    <testCase name="ManningAgentContactDetails snapshot test should test fireEvents should call handleLink when skype-button is pressed " duration="13"/>
+    <testCase name="ManningAgentContactDetails snapshot test should test fireEvents should call handleLink when website-button is pressed " duration="15"/>
+    <testCase name="ManningAgentContactDetails snapshot test should test fireEvents should call handleLink when address-button is pressed " duration="11"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/TouchableOpacitiesSection.test.tsx">
+    <testCase name="TouchableOpacitiesSection snapshot test should render correct ui when everetyhing is definfed" duration="57"/>
+    <testCase name="TouchableOpacitiesSection snapshot test should render correct ui when all optional props are undefinfed" duration="7"/>
+    <testCase name="TouchableOpacitiesSection firevent test should call aprropriate action when first-option-button is press and option is not available" duration="11"/>
+    <testCase name="TouchableOpacitiesSection firevent test should call aprropriate action when first-option-button is pressed and option is available" duration="7"/>
+    <testCase name="TouchableOpacitiesSection firevent test should call aprropriate action when second-option-button is pressed and option is available" duration="12"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/contact/PortAgentContactDetails.test.tsx">
+    <testCase name="PortAgentContactDetails snapshot test should render PortAgentContactDetails correctly as per the ui made and  photoSmall is defined" duration="22"/>
+    <testCase name="should test fireEvents should call handleLink when directTelephoneNumber-button is pressed " duration="14"/>
+    <testCase name="should test fireEvents should call handleLink when aohTelephoneNumber-button is pressed " duration="15"/>
+    <testCase name="should test fireEvents should call handleLink when email-button is pressed " duration="15"/>
+    <testCase name="should test fireEvents should call handleLink when skype-button is pressed " duration="18"/>
+    <testCase name="should test fireEvents should call handleLink when website-button is pressed " duration="13"/>
+    <testCase name="should test fireEvents should call handleLink when address-button is pressed " duration="13"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SettingsScreen.test.tsx">
+    <testCase name="SettingsScreen snapshot test should render SettingsScreen when loader is false when biometrics is unavalable " duration="26"/>
+    <testCase name="SettingsScreen snapshot test should render SettingsScreen when loader is false when biometrics is unavalable and change theme " duration="31"/>
+    <testCase name="SettingsScreen snapshot test should render SettingsScreen when loader is false when biometrics is thorwing an error " duration="18"/>
+    <testCase name="SettingsScreen snapshot test should render SettingsScreen when loader is true is available but not setup " duration="126"/>
+    <testCase name="SettingsScreen snapshot test should render SettingsScreen when loader is true is available and setup " duration="45"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/notifications/NotificationSection.test.tsx">
+    <testCase name="NotificationSection snapshot test should render correct ui" duration="6"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = ASSIGNMENT" duration="30"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = PAYSLIP" duration="5"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = FLIGHT" duration="4"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = PERSONAL" duration="12"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = NEWSLETTER" duration="6"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = GENERAL" duration="5"/>
+    <testCase name="NotificationSection snapshot test fireEvents should render correct ui when type = Test" duration="5"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/seafarerDetailsSagas.test.ts">
+    <testCase name="Test Seafarer Details sagas should dispatch action GET_ALL_SEAFARER_DETAILS" duration="2"/>
+    <testCase name="Test Seafarer Details sagas should return data from Seafarer Details API" duration="15"/>
+    <testCase name="Test Seafarer Details sagas should call the failed action when getAllSeafarerDetailsFn throws error " duration="4"/>
+    <testCase name="Test Seafarer Details sagas should return correct data when calling getAllSeafarerDetailsRequest" duration="4"/>
+    <testCase name="Test Seafarer Details sagas should return correct data when calling getSeafarerBadgesDetailsRequest" duration="4"/>
+    <testCase name="Test Seafarer Details sagas should return cempty array when calling getSeafarerBadge and status is 404" duration="1"/>
+    <testCase name="Test Seafarer Details sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/ContactScreen.test.tsx">
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is false " duration="37"/>
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is false and selectedType is CREW_MANAGER" duration="22"/>
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is false and selectedType is MANNING_AGENT" duration="34"/>
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is false and selectedType is PORT_AGENT" duration="34"/>
+    <testCase name="ContactScreen snapshot test should render ContactScreen when loader is true " duration="19"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/seafarerDocumentsReducer.test.ts">
+    <testCase name="Test Seafarer Documents Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Seafarer Documents Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test Seafarer Documents Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test Seafarer Documents Reducer should handle GET_SEAFARER_DOCUMENTS_SUCCESS action" duration="1"/>
+    <testCase name="Test Seafarer Documents Reducer should handle GET_SEAFARER_DOCUMENTS_FILE_SUCCESS action" duration="0"/>
+    <testCase name="Test Seafarer Documents Reducer should handle SET_IS_DOWNLOADING_DOCUMENT_SUCCESS action" duration="1"/>
+    <testCase name="Test Seafarer Documents Reducer should handle GET_SEAFARER_DOCUMENTS_FAIL action" duration="0"/>
+    <testCase name="Test Seafarer Documents Reducer should handle SET_LOADING_NEW_DOCUMENT action" duration="1"/>
+    <testCase name="Test Seafarer Documents Reducer should handle SET_REFRESHING_SEAFARER_DOCUMENTS action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/navigation/MoreScreenNavigation.test.tsx">
+    <testCase name="MoreStack ui test should render correct ui snapshot" duration="46"/>
+    <testCase name="NewsStack ui test should render correct ui snapshot for NewsStack" duration="16"/>
+    <testCase name="DocumentsStack ui test should render correct ui snapshot" duration="17"/>
+    <testCase name="SalaryStack ui test should render correct ui snapshot" duration="18"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/ForceUpdatePasswordScreen.test.tsx">
+    <testCase name="ForceUpdatePasswordScreen snapshot test should render correct ui for ForceUpdatePasswordScreen" duration="126"/>
+    <testCase name="ForceUpdatePasswordScreen snapshot test should render correct ui and completeNewPassword fails" duration="82"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/salaryDetailsActions.test.ts">
+    <testCase name="test action salary should create an action to get salary details" duration="1"/>
+    <testCase name="test action salary should create an action to notify about an error while getting salary details" duration="1"/>
+    <testCase name="test action salary should create an action to refresh payslip and allotments details" duration="0"/>
+    <testCase name="test action salary should create an action to remove a payslip from offline mode" duration="1"/>
+    <testCase name="test action salary should create an action to successfully remove a payslip from offline mode" duration="0"/>
+    <testCase name="test action salary should create an action to notify about an error in removing a file from offline" duration="1"/>
+    <testCase name="test action salary should create an action to notify about an error in retrieving a payslip file" duration="0"/>
+    <testCase name="test action salary should create an action to initial the retrieval of  payslip file" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/assignments/EmploymentOfferScreen.test.tsx">
+    <testCase name="EmploymentOfferScreen snapshot test should render correct ui when focus is true when employmentOfferDocument is present" duration="30"/>
+    <testCase name="EmploymentOfferScreen snapshot test should render correct ui when focus is true when employmentOfferDocument is present and assignmentType is next" duration="4"/>
+    <testCase name="EmploymentOfferScreen snapshot test should render correct ui when focus is true when employmentOfferDocument is undefined" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/offline_utilities/__tests__/removeFileFromLocalStorage.test.ts">
+    <testCase name="tests that the mocks are working properly should run without errors" duration="1"/>
+    <testCase name="testing offline functionality test removeFileFromLocal when the type is payslip and it succeeds" duration="2"/>
+    <testCase name="testing offline functionality test removeFileFromLocal when the type is document and it succeeds" duration="2"/>
+    <testCase name="testing offline functionality test removeFileFromLocal when the type is document and there is not categoryNumber" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/AwsCustomStorage.test.ts">
+    <testCase name="test the AwsCustomStorage class createSyncPromise should succeed" duration="106"/>
+    <testCase name="test the AwsCustomStorage class should set and get the correct data" duration="1"/>
+    <testCase name="test the AwsCustomStorage class getItem should return null if it is not present in the store" duration="1"/>
+    <testCase name="test the AwsCustomStorage class removeItem should return succeed" duration="1"/>
+    <testCase name="test the AwsCustomStorage class removeItem should call console.info if you are trying to remove an item that does not exist" duration="2"/>
+    <testCase name="test the AwsCustomStorage class should call createSyncPromise when syncPromise is undefined" duration="1"/>
+    <testCase name="test the AwsCustomStorage class should call createSyncPromise when syncPromise is defined" duration="1"/>
+    <testCase name="test the AwsCustomStorage class should call conaole.log when a call failed in multiGet" duration="103"/>
+    <testCase name="test the AwsCustomStorage class should call conaole.log when a call failed in setItem" duration="2"/>
+    <testCase name="test the AwsCustomStorage class should remove multiple items from the store" duration="109"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/main.test.tsx">
+    <testCase name="MainScreen snapshot test should render MainScreen " duration="91"/>
+    <testCase name="MainScreen snapshot test should throw alert when platform is ios and version does not match" duration="27"/>
+    <testCase name="MainScreen snapshot test should throw alert when platform is android and version does not match" duration="17"/>
+    <testCase name="MainScreen snapshot test should throw alert when platform is android and version does match" duration="16"/>
+    <testCase name="MainScreen snapshot test should throw alert when platform is ios and version does match" duration="17"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/errorHandling.test.ts">
+    <testCase name="should return the aprropriate message based on the error should return message when the error is NetworkError" duration="1"/>
+    <testCase name="should return the aprropriate message based on the error should return message when the error is signUpOracle" duration="0"/>
+    <testCase name="should return the aprropriate message based on the error should return message when the error is signUpAws" duration="1"/>
+    <testCase name="should return the aprropriate message based on the error should return message when the error is UserNotFoundException" duration="0"/>
+    <testCase name="should return the aprropriate message based on the error should return message when the error is Login" duration="1"/>
+    <testCase name="should return the aprropriate message based on the error should return message when the error is ForgotPassword" duration="0"/>
+    <testCase name="should return the aprropriate message based on the error should return message when the error is undefined" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/seafarerDetailsReducer.test.ts">
+    <testCase name="Test Seafarer details Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Seafarer details Reducer should return the current state when unknown type of action and state is undefined" duration="1"/>
+    <testCase name="Test Seafarer details Reducer should handle CLEAR ALL STATE type of action" duration="0"/>
+    <testCase name="Test Seafarer details Reducer should handle GET_ALL_SEAFARER_DETAILS_SUCCESS action" duration="1"/>
+    <testCase name="Test Seafarer details Reducer should handle GET_ALL_SEAFARER_DETAILS_FAIL action" duration="5"/>
+    <testCase name="Test Seafarer details Reducer should handle SET_REFRESHING_SEAFARER_DETAILS action" duration="1"/>
+    <testCase name="Test Seafarer details Reducer should handle SET_IS_LOADING_DATA action" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/ResetPasswordScreen.test.tsx">
+    <testCase name="ResetPasswordScreen snapshot test should render correct ui for ResetPasswordScreen" duration="101"/>
+    <testCase name="ResetPasswordScreen snapshot test should render correct ui and completeNewPassword fails" duration="59"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/SignUpScreen.test.tsx">
+    <testCase name="SignUpScreen snapshot test should render correct ui for signup when succeeds" duration="54"/>
+    <testCase name="SignUpScreen snapshot test should render correct ui for signup when fails with 404" duration="42"/>
+    <testCase name="SignUpScreen snapshot test should render correct ui for signup when fails with 500" duration="43"/>
+    <testCase name="SignUpScreen snapshot test should navigate to signin screen when pressing the button" duration="13"/>
+    <testCase name="SignUpScreen snapshot test should navigate to signin screen when pressing the more icon" duration="13"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/seafarerDocumentsActions.test.ts">
+    <testCase name="test action documents should create an action to get documents" duration="1"/>
+    <testCase name="test action documents should create an action to refresh documents list" duration="0"/>
+    <testCase name="test action documents should create an action for removeDocumentFromLocal" duration="1"/>
+    <testCase name="test action documents should create an action for removeDocumentFromLocalSuccess" duration="1"/>
+    <testCase name="test action documents should create an action for removeDocumentFromLocalFailed" duration="0"/>
+    <testCase name="test action documents should create an action for getSeafarerDocumentsFile" duration="1"/>
+    <testCase name="test action documents should create an action for getSeafarerDocumentsFailed" duration="0"/>
+    <testCase name="test action documents should create an action for getSeafarerDocumentsFileFailed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/AssignmentDetails.test.tsx">
+    <testCase name="AssignmentDetails test should render AssignmentDetails correctly as per the ui made when the employmentOffer is false and pressReleases are more than 3 " duration="32"/>
+    <testCase name="AssignmentDetails test should render AssignmentDetails correctly as per the ui made when the employmentOffer is false and pressReleases are less than 3 " duration="6"/>
+    <testCase name="AssignmentDetails test should render AssignmentDetails correctly as per the ui made when the employmentOffer is false and pressReleases  is undefined" duration="5"/>
+    <testCase name="AssignmentDetails test should render AssignmentDetails correctly as per the ui made when the employmentOffer is true" duration="8"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/chat/WhosAroundScreen.test.tsx">
+    <testCase name="WhosAroundScreen snapshot test should render correct ui when isOnline is true and platform is ios" duration="34"/>
+    <testCase name="WhosAroundScreen snapshot test should render correct ui when isOnline is true and platform is adnroid" duration="10"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/notificationActions.test.ts">
+    <testCase name="test action for notifications should create an action to get notifications" duration="1"/>
+    <testCase name="test action for notifications should create an action to refresh notifications details" duration="0"/>
+    <testCase name="test action for notifications should create an action to getNotificationsDetailsFailed" duration="1"/>
+    <testCase name="test action for notifications should create an action to sendNotificationsDetailsFailed" duration="0"/>
+    <testCase name="test action for notifications should create an action to sendNotificationsDetails" duration="1"/>
+    <testCase name="test action for notifications should create an action to setShouldRingBell" duration="0"/>
+    <testCase name="test action for notifications should create an action to setShouldRingBellSuccess" duration="1"/>
+    <testCase name="test action for notifications should create an action to setShouldRingBellFailed" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/ImprintScreen.test.tsx">
+    <testCase name="ImprintScreen snapshot test should render ImprintScreen when loader is false when user is Signed In" duration="51"/>
+    <testCase name="ImprintScreen snapshot test should render ImprintScreen when loader is false when user is not Signed In" duration="18"/>
+    <testCase name="ImprintScreen snapshot test should render ImprintScreen when loader is false and imprintDetails is empty" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/notificationReducer.test.ts">
+    <testCase name="Test Notifications Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Notifications Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test Notifications Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test Notifications Reducer should handle GET_NOTIFICATIONS_DETAILS_SUCCESS action" duration="0"/>
+    <testCase name="Test Notifications Reducer should handle SET_REFRESHING_NOTIFICATIONS_DETAILS type of action" duration="1"/>
+    <testCase name="Test Notifications Reducer should handle GET_NOTIFICATIONS_DETAILS_FAIL action" duration="2"/>
+    <testCase name="Test Notifications Reducer should handle SET_RING_BELL_SUCCESS action" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/workingClothesReducer.test.ts">
+    <testCase name="Test working clothes Reducer should return the current state" duration="1"/>
+    <testCase name="Test working clothes Reducer should return the current state when state is undefined" duration="0"/>
+    <testCase name="Test working clothes Reducer should handle CLEAR ALL STATE" duration="1"/>
+    <testCase name="Test working clothes Reducer should handle GET_WORKING_CLOTHES_DETAILS_SUCCESS action" duration="0"/>
+    <testCase name="Test working clothes Reducer should handle GET_WORKING_CLOTHES_DETAILS_FAIL action" duration="1"/>
+    <testCase name="Test working clothes Reducer should handle SET_REFRESHING_WORKING_CLOTHES_DETAILS action" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/ForgotPasswordScreen.test.tsx">
+    <testCase name="ForgotPasswordScreen snapshot test should render correct ui for ForgotPasswordScreen" duration="40"/>
+    <testCase name="ForgotPasswordScreen snapshot test should render correct ui and completeNewPassword fails" duration="37"/>
+    <testCase name="ForgotPasswordScreen snapshot test should render correct ui when pressomg the close Icon" duration="9"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/VesselTrackerScreen.test.tsx">
+    <testCase name="VesselTrackerScreen snapshot test should render VesselTrackerScreen when vesselDetails is defined " duration="33"/>
+    <testCase name="VesselTrackerScreen snapshot test should render VesselTrackerScreen when vesselDetails is undefined" duration="9"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/assignmentDetailsSagas.test.ts">
+    <testCase name="Test Assignment Sagas should dispatch action GET_ASSIGNMENT_DETAILS" duration="1"/>
+    <testCase name="Test Assignment Sagas should return success when calling getAssignmentDetailsRequest" duration="3"/>
+    <testCase name="Test Assignment Sagas should dispatch action default function" duration="1"/>
+    <testCase name="Test Assignment Sagas should return data from Assignment API" duration="3"/>
+    <testCase name="Test Assignment Sagas should return data from Assignment API and fail" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/offline_utilities/__tests__/ShareFiles.test.ts">
+    <testCase name="sharePDF tests should call the openDocb64 with the correct params when requesting document and the platform is IOS" duration="3"/>
+    <testCase name="sharePDF tests should call the openDocb64 with the correct params when requesting payslip and the platform is IOS" duration="1"/>
+    <testCase name="sharePDF tests should call the openDocb64 with the correct params when requesting document and the platform is Android" duration="1"/>
+    <testCase name="should call the openDocb64 with the correct params when requesting payslip and the platform is Android" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/assignmentDetailsReducer.test.ts">
+    <testCase name="Test Assignment Details Reducer should return the current state when unknown type of action" duration="0"/>
+    <testCase name="Test Assignment Details Reducer should return the current state when unknown type of action and state is undefined" duration="1"/>
+    <testCase name="Test Assignment Details Reducer should handle CLEAR ALL STATE type of action" duration="0"/>
+    <testCase name="Test Assignment Details Reducer should handle SET_REFRESHING_ASSIGNMENT_DETAILS type of action" duration="1"/>
+    <testCase name="Test Assignment Details Reducer should handle GET_ASSIGNMENT_DETAILS_SUCCESS action" duration="3"/>
+    <testCase name="Test Assignment Details Reducer should handle GET_ASSIGNMENT_DETAILS_FAIL action" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/workingClothesDetailsSagas.test.ts">
+    <testCase name="Test sagas for working clothes should dispatch action GET_WORKING_CLOTHES_DETAILS" duration="1"/>
+    <testCase name="Test sagas for working clothes should return success when calling getWorkingClothesDetailsRequest" duration="5"/>
+    <testCase name="Test sagas for working clothes should return data from work clothes API" duration="3"/>
+    <testCase name="Test sagas for working clothes should call the expected action when getWorkingClothesDetailsFailed throws an error " duration="1"/>
+    <testCase name="Test sagas for working clothes should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SeafarerDocumentsScreen.test.tsx">
+    <testCase name="SeafarerDocumentsScreen snapshot test should render SeafarerDocumentsScreen when isLoadingNew is false " duration="148"/>
+    <testCase name="SeafarerDocumentsScreen snapshot test should render SeafarerDocumentsScreen when categories is empty " duration="2"/>
+    <testCase name="SeafarerDocumentsScreen snapshot test should render SeafarerDocumentsScreen when loader is true " duration="73"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/termsAndConditionsSagas.test.ts">
+    <testCase name="Test Terms&amp;Conditions sagas should dispatch action GET_TERMS_AND_CONDITIONS_DETAILS" duration="1"/>
+    <testCase name="Test Terms&amp;Conditions sagas should return success when calling getSeaServiceDetailsRequest" duration="5"/>
+    <testCase name="Test Terms&amp;Conditions sagas should return data from Terms&amp;Conditions details API" duration="3"/>
+    <testCase name="Test Terms&amp;Conditions sagas should call the expected action when getTermsAndConditionsDetailsFn throws an error " duration="2"/>
+    <testCase name="Test Terms&amp;Conditions sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/privacyPolicySagas.test.ts">
+    <testCase name="Test Privacy Policy Sagas should dispatch action GET_PRIVACY_POLICY_DETAILS" duration="1"/>
+    <testCase name="Test Privacy Policy Sagas should return success when calling getPrivacyPolicyDetailsRequest" duration="5"/>
+    <testCase name="Test Privacy Policy Sagas should return data from privacy policy API" duration="3"/>
+    <testCase name="Test Privacy Policy Sagas should return data from Private policy API and fail" duration="2"/>
+    <testCase name="Test Privacy Policy Sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/newsScreen/MoreNewsSection.test.tsx">
+    <testCase name="MoreNewsSection snapshot test should render correct ui" duration="41"/>
+    <testCase name="firevents tests should call navigate when news-button is pressed" duration="11"/>
+    <testCase name="firevents tests should call navigate when readmore-button is pressed" duration="5"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/covidDocumentSagas.test.ts">
+    <testCase name="Test Sea Service Sagas should dispatch action GET_COVID_DOCUMENT" duration="1"/>
+    <testCase name="Test Sea Service Sagas should return success when calling getCovidDocumentRequest" duration="9"/>
+    <testCase name="Test Sea Service Sagas should return data from Covid Document API" duration="3"/>
+    <testCase name="Test Sea Service Sagas should call the expected action when getCovidDocumentFailed throws an error " duration="2"/>
+    <testCase name="Test Sea Service Sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/contactDetailsSagas.test.ts">
+    <testCase name="Test Contact Sagas should dispatch action GET_CONTACT_DETAILS" duration="1"/>
+    <testCase name="Test Contact Sagas should return success when calling getContactDetailsRequest" duration="6"/>
+    <testCase name="Test Contact Sagas should return data from contact API" duration="3"/>
+    <testCase name="Test Contact Sagas should return data from Contact API and fail" duration="1"/>
+    <testCase name="Test Contact Sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/seaServiceDetailsSagas.test.ts">
+    <testCase name="Test Sea Service Sagas should dispatch action GET_SEA_SERVICE_DETAILS" duration="2"/>
+    <testCase name="Test Sea Service Sagas should return success when calling getSeaServiceDetailsRequest" duration="4"/>
+    <testCase name="Test Sea Service Sagas should return data from Sea service details API" duration="3"/>
+    <testCase name="Test Sea Service Sagas should call the expected action when getSeaServiceDetailsFn throws an error " duration="1"/>
+    <testCase name="Test Sea Service Sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/NewsScreen.test.tsx">
+    <testCase name="NewsScreen snapshot test should render NewsScreen when loader is false when user is signed in" duration="77"/>
+    <testCase name="NewsScreen snapshot test should render NewsScreen when loader is false when user is not signed in" duration="33"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/AccountVerificationScreen.test.tsx">
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui for AccountVerificationScreen when verificationError is undefined" duration="59"/>
+    <testCase name="AccountVerificationScreen snapshot test should render correct ui for AccountVerificationScreen when verificationError is defined" duration="44"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/flightDetailsSagas.test.ts">
+    <testCase name="Test Flights Sagas should dispatch action GET_FLIGHTS_DETAILS" duration="1"/>
+    <testCase name="Test Flights Sagas should return success when calling getFlightDetailsRequest" duration="4"/>
+    <testCase name="Test Flights Sagas should dispatch action default function" duration="1"/>
+    <testCase name="Test Flights Sagas should return data from Flights API" duration="3"/>
+    <testCase name="Test Flights Sagas should return data from Flights API and fail" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/imprintDetailsSagas.test.ts">
+    <testCase name="Test imprint sagas should dispatch action GET_IMPRINT_DETAILS" duration="1"/>
+    <testCase name="Test imprint sagas should return success when calling getImprintDetails" duration="5"/>
+    <testCase name="Test imprint sagas should return data from imprint details API" duration="3"/>
+    <testCase name="Test imprint sagas should return data from Imotine API and fail" duration="3"/>
+    <testCase name="Test imprint sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/Input.test.tsx">
+    <testCase name="BackIcon snapshot test should render correct ui when scheme is dark" duration="10"/>
+    <testCase name="BackIcon snapshot test should render correct ui when scheme is dark when shouldUseFocusedStyles is false" duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/flightDetailsReducer.test.ts">
+    <testCase name="Test Flight Details Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Flight Details Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test Flight Details Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test Flight Details Reducer should handle SET_REFRESHING_FLIGHT_DETAILS type of action" duration="0"/>
+    <testCase name="Test Flight Details Reducer should handle GET_FLIGHTS_DETAILS_SUCCESS action" duration="1"/>
+    <testCase name="Test Flight Details Reducer should handle GET_FLIGHTS_DETAILS_FAIL action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/FAQScreen.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the FAQScreen as UI when user is signed in" duration="67"/>
+    <testCase name="FAQ Screen UI test Should render the FAQScreen as UI when user is not signed in" duration="59"/>
+    <testCase name="FAQ Screen UI test Should render the FAQScreen as UI when user is not signed in and no available search option" duration="59"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FaqView.test.tsx">
+    <testCase name="EmployeeIdInput snapshot test should render correct ui and change value of employeeId" duration="38"/>
+    <testCase name="EmployeeIdInput snapshot test should render correct ui and change value of employeeId whem selectedQuestion is not present in the questions array" duration="52"/>
+    <testCase name="EmployeeIdInput snapshot test should call the openUrl function when clicking an item with url property" duration="8"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/newsSagas.test.ts">
+    <testCase name="Test News Sagas should dispatch action GET_ALL_NEWS" duration="1"/>
+    <testCase name="Test News Sagas should return success when calling getAllNewsRequest" duration="9"/>
+    <testCase name="Test News Sagas should return data from News API" duration="3"/>
+    <testCase name="Test News Sagas should return data from News API and fail" duration="2"/>
+    <testCase name="Test News Sagas should dispatch action default function" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/seaServiceDetailsReducer.test.ts">
+    <testCase name="Test Sea Service Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Sea Service Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test Sea Service Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test Sea Service Reducer should handle GET_SEA_SERVICE_DETAILS_SUCCESS action" duration="1"/>
+    <testCase name="Test Sea Service Reducer should handle GET_SEA_SERVICE_DETAILS_FAIL action" duration="1"/>
+    <testCase name="Test Sea Service Reducer should handle SET_REFRESHING_SEA_SERVICE_DETAILS action" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SeaServiceRecordsScreen.test.tsx">
+    <testCase name="SeaServiceRecordsScreen snapshot test should render SeaServiceRecordsScreen when loader is false " duration="62"/>
+    <testCase name="SeaServiceRecordsScreen snapshot test should render SeaServiceRecordsScreen when loader is true " duration="23"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/contactDetailsReducer.test.ts">
+    <testCase name="Test contact details Reducer should return the current state when unknown type of action" duration="2"/>
+    <testCase name="Test contact details Reducer should return the current state when unknown type of action and state is undefined" duration="1"/>
+    <testCase name="Test contact details Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test contact details Reducer should handle GET_CONTACT_DETAILS_SUCCESS action" duration="1"/>
+    <testCase name="Test contact details Reducer should handle GET_CONTACT_DETAILS_FAIL action" duration="1"/>
+    <testCase name="Test contact details Reducer should handle SET_REFRESHING_CONTACT_DETAILS action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/MoreScreen.test.tsx">
+    <testCase name="MoreScreen snapshot test should render MoreScreen for dark-mode" duration="27"/>
+    <testCase name="MoreScreen snapshot test should render MoreScreen for light-mode" duration="33"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/NotificationsScreen.test.tsx">
+    <testCase name="NotificationsScreen snapshot test should render NotificationsScreen when loader is false and photoSmall is defined and hasBoth is true" duration="87"/>
+    <testCase name="NotificationsScreen snapshot test should render NotificationsScreen when loader is false and photoSmall is defined and hasBoth is false" duration="16"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/CovidDocumentScreen.test.tsx">
+    <testCase name="CovidDocumentScreen snapshot test should render CovidDocumentScreen when loader is false " duration="29"/>
+    <testCase name="CovidDocumentScreen snapshot test should render CovidDocumentScreen when loader is false  and covidDocument is undefined" duration="2"/>
+    <testCase name="CovidDocumentScreen snapshot test should render CovidDocumentScreen when loader is true " duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/covidDocumentReducer.test.ts">
+    <testCase name="Test covid document Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test covid document Reducer should return the current state when unknown type of action and state is undefined" duration="1"/>
+    <testCase name="Test covid document Reducer should handle CLEAR ALL STATE type of action" duration="9"/>
+    <testCase name="Test covid document Reducer should handle GET_CONTACT_DETAILS_SUCCESS action" duration="1"/>
+    <testCase name="Test covid document Reducer should handle GET_CONTACT_DETAILS_FAIL action" duration="1"/>
+    <testCase name="Test covid document Reducer should handle SET_IS_LOADING_COVID action" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/NewsAndMarlowBottomLinks.test.tsx">
+    <testCase name="NewsAndMarlowBottomLinks snapshot test should render correct ui when scheme is dark" duration="35"/>
+    <testCase name="NewsAndMarlowBottomLinks snapshot test should render correct ui when scheme is light" duration="5"/>
+    <testCase name="NewsAndMarlowBottomLinks fireevent test should call navigate to news when clicking the news-button" duration="9"/>
+    <testCase name="NewsAndMarlowBottomLinks fireevent test should call navigate to imprint when clicking the imprint-button" duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SalaryScreen.test.tsx">
+    <testCase name="SalaryScreen snapshot test should render SalaryScreen when loader is false " duration="67"/>
+    <testCase name="SalaryScreen snapshot test should render SalaryScreen when loader is true " duration="19"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/newsReducer.test.ts">
+    <testCase name="Test News Reducer should return the current state" duration="0"/>
+    <testCase name="Test News Reducer should return the current state and state is undefined" duration="1"/>
+    <testCase name="Test News Reducer should return correct value when SET_REFRESHING_NEWS is called" duration="0"/>
+    <testCase name="Test News Reducer should handle CLEAR ALL STATE" duration="1"/>
+    <testCase name="Test News Reducer should handle GET_ALL_NEWS_SUCCESS action" duration="1"/>
+    <testCase name="Test News Reducer should handle GET_ALL_NEWS_FAIL action" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/FlightsScreen.test.tsx">
+    <testCase name="FlightsScreen snapshot test should render FlightsScreen when loader is false" duration="115"/>
+    <testCase name="FlightsScreen snapshot test should render FlightsScreen when loader is true" duration="92"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/WorkingClothesScreen.test.tsx">
+    <testCase name="WorkingClothesScreen snapshot test should render WorkingClothesScreen when loader is false " duration="48"/>
+    <testCase name="WorkingClothesScreen snapshot test should render WorkingClothesScreen when loader is true " duration="24"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/sagas/__tests__/mainFileSaga.test.ts">
+    <testCase name="test main function should return appropriate values" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/seafarerDetailsActions.test.ts">
+    <testCase name="test action seafarer details should create an action for getAllSeafarerDetailsSuccess" duration="5"/>
+    <testCase name="test action seafarer details should create an action for getAllSeafarerDetailsFailed" duration="1"/>
+    <testCase name="test action seafarer details should create an action for " duration="0"/>
+    <testCase name="test action seafarer details should create an action for setRefreshingSeafarerDetails" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/contact/ContactScreenTopMenu.test.tsx">
+    <testCase name="ContactScreenTopMenu snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made and selectedType is Manning Agent" duration="49"/>
+    <testCase name="ContactScreenTopMenu snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made and selectedType is Crew Manager" duration="5"/>
+    <testCase name="ContactScreenTopMenu snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made and selectedType is Port Agent" duration="6"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/salaryScreen/PayslipDetailsSection.test.tsx">
+    <testCase name="PayslipDetailsSection snapshot test should render correct ui when isDownloading is true  " duration="39"/>
+    <testCase name="PayslipDetailsSection snapshot test should render correct ui when isDownloading is false  " duration="15"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/TermsAndConditionsScreen.test.tsx">
+    <testCase name="TermsAndConditionsScreen snapshot test should render correct ui when focus is true when termsAndConditionsDocument is present" duration="19"/>
+    <testCase name="TermsAndConditionsScreen snapshot test should render correct ui when focus is true when termsAndConditionsDocument is undefined" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/workingClothesActions.test.ts">
+    <testCase name="test action working clothes should create an action to get working clothes details" duration="1"/>
+    <testCase name="test action working clothes should create an action for GET_WORKING_CLOTHES_DETAILS_FAIL" duration="0"/>
+    <testCase name="test action working clothes should create an action  for GET_WORKING_CLOTHES_DETAILS_SUCCESS" duration="3"/>
+    <testCase name="test action working clothes should create an action  for SET_REFRESHING_WORKING_CLOTHES_DETAILS" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/news/ReadMoreNewsScreen.test.tsx">
+    <testCase name="ReadMoreNewsScreen snapshot test should render ReadMoreNewsScreen when loader is false when newItemType is NEWSLETTERSn" duration="4"/>
+    <testCase name="ReadMoreNewsScreen snapshot test should render ReadMoreNewsScreen when loader is false when newItemType is PressRelease" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/authentication/PrivacyPolicyScreen.test.tsx">
+    <testCase name="PrivacyPolicyScreen snapshot test should render correct ui when focus is true when privacyPolicyDocument is present" duration="27"/>
+    <testCase name="PrivacyPolicyScreen snapshot test should render correct ui when focus is true when employmentOfferDocument is undefined" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/notifications/NotificationIcon.test.tsx">
+    <testCase name="NotificationIcon snapshot test should render correct ui when focus is true" duration="14"/>
+    <testCase name="NotificationIcon snapshot test should render correct ui when focus is false" duration="10"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/seaServiceDetailsActions.test.ts">
+    <testCase name="test action sea service should create an action to get sea service details" duration="1"/>
+    <testCase name="test action sea service should create an action for getSeaServiceDetailsFailed" duration="0"/>
+    <testCase name="test action sea service should create an action for getSeaServiceDetailsSuccess" duration="2"/>
+    <testCase name="test action sea service should create an action for setRefreshingSeaServiceDetails" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/NewMessageAlert.test.tsx">
+    <testCase name="NewMessageAlert snapshot test should render correct ui when notificationToShow is defined" duration="43"/>
+    <testCase name="NewMessageAlert snapshot test should render correct ui when notificationToShow is undefined" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/handleLink.test.ts">
+    <testCase name="test the handleLink action based on the parameters should open the url when the type is url and destination is defined" duration="1"/>
+    <testCase name="test the handleLink action based on the parameters should open the url when the type is url and destination is undefined" duration="1"/>
+    <testCase name="test the handleLink action based on the parameters should open the url when the type is crewcompanion and destination is defined" duration="0"/>
+    <testCase name="test the handleLink action based on the parameters should open the url when the type is crewcompanion and destination is undefined" duration="1"/>
+    <testCase name="test the handleLink action based on the parameters should open the url when the type is not url and destination is undefined" duration="2"/>
+    <testCase name="test the handleLink action based on the parameters should open the url when the type is not url and destination is defined" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/AssignmentBasicInformationComponent.test.tsx">
+    <testCase name="AssignmentBasicInformationComponent snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made " duration="17"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/covidDocumentActions.test.ts">
+    <testCase name="test action covid document should create an action to get covid document" duration="1"/>
+    <testCase name="test action covid document should create an action to get covid document success call" duration="1"/>
+    <testCase name="test action covid document should create an action to set refreshing contactDetails" duration="0"/>
+    <testCase name="test action covid document should create an action to getCovidDocumentFailed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/imprintDetailsReducer.test.ts">
+    <testCase name="Test Imprint Details Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test Imprint Details Reducer should return the current state when unknown type of action and state is undefined" duration="1"/>
+    <testCase name="Test Imprint Details Reducer should handle CLEAR ALL STATE type of action" duration="0"/>
+    <testCase name="Test Imprint Details Reducer should handle GET_IMPRINT_DETAILS_SUCCESS action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/termsAndConditionsReducer.test.ts">
+    <testCase name="Test terms and conditions Reducer should return the current state" duration="0"/>
+    <testCase name="Test terms and conditions Reducer should return the current state when state is undefined" duration="1"/>
+    <testCase name="Test terms and conditions Reducer should handle CLEAR ALL STATE" duration="0"/>
+    <testCase name="Test terms and conditions Reducer should handle GET_TERMS_AND_CONDITIONS_DETAILS_SUCCESS action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/termsAndPrivacyPolicy/TermsAndPrivacyPolicyLink.test.tsx">
+    <testCase name="AppColorScheme snapshot test should render correct ui and press privacy-policy-button" duration="41"/>
+    <testCase name="AppColorScheme snapshot test should render correct ui and press terms-and-condition-button" duration="5"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/chat/ChatIcon.test.tsx">
+    <testCase name="ChatIcon snapshot test should render ChatIcon correctly as per the ui made when focused is true" duration="13"/>
+    <testCase name="ChatIcon snapshot test should render ChatIcon correctly as per the ui made when focused is false" duration="10"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/privacyPolicyReducer.test.ts">
+    <testCase name="Test privacy policy Reducer should return the current state" duration="1"/>
+    <testCase name="Test privacy policy Reducer should return the current state when state is undefined" duration="0"/>
+    <testCase name="Test privacy policy Reducer should handle CLEAR ALL STATE" duration="1"/>
+    <testCase name="Test privacy policy Reducer should handle GET_PRIVACY_POLICY_DETAILS_SUCCESS action" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/NoInternetHeader.test.tsx">
+    <testCase name="NoInternetHeader snapshot test should render correct ui isConnected is true" duration="19"/>
+    <testCase name="NoInternetHeader snapshot test should render correct ui isConnected is false" duration="19"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/BackIcon.test.tsx">
+    <testCase name="BackIcon snapshot test should render correct ui and press icon when goBack is true" duration="43"/>
+    <testCase name="BackIcon snapshot test should render correct ui and press icon when goBack is false" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/SupportScreen.test.tsx">
+    <testCase name="SupportScreen snapshot test should render SupportScreen when loader is false when user is Signed in" duration="9"/>
+    <testCase name="SupportScreen snapshot test should render SupportScreen when loader is false when user is not Signed in" duration="11"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/imprintDetailsActions.test.ts">
+    <testCase name="test action imprint should create an action to get imprint details" duration="1"/>
+    <testCase name="test action imprint should create an action to get imprint details when it succeeds" duration="2"/>
+    <testCase name="test action imprint should create an action to get imprint details when it failed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/darkModeOptionsReducer.test.ts">
+    <testCase name="Test dark mode options Reducer should return the current state when unknown type of action" duration="1"/>
+    <testCase name="Test dark mode options Reducer should return the current state when unknown type of action and state is undefined" duration="0"/>
+    <testCase name="Test dark mode options Reducer should handle CLEAR ALL STATE type of action" duration="1"/>
+    <testCase name="Test dark mode options Reducer should handle SET_DARK_MODE_OPTIONS action" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/CargoInstallationDetailsSection.test.tsx">
+    <testCase name="CargoInstallationDetailsSection snapshot test should render CargoInstallationDetailsSection correctly as per the ui made when the  cargoInstallationTable has values" duration="37"/>
+    <testCase name="CargoInstallationDetailsSection snapshot test should render CargoInstallationDetailsSection correctly as per the ui made when cargoInstallationTable has no values " duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/authentication/GradientBackground.test.tsx">
+    <testCase name="BackIcon snapshot test should render correct ui when scheme is dark" duration="8"/>
+    <testCase name="BackIcon snapshot test should render correct ui when scheme is light" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/authentication/PasswordValidationsSection.test.tsx">
+    <testCase name="PasswordValidationsSection snapshot test should render correct ui when password matches the criterias" duration="28"/>
+    <testCase name="PasswordValidationsSection snapshot test should render correct ui when password doesn&apos;t match the criterias" duration="6"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/assignmentDetailsActions.test.ts">
+    <testCase name="test action assignment should create an action to get assignment details" duration="1"/>
+    <testCase name="test action assignment should create an action to update refreshing status of assignment details" duration="0"/>
+    <testCase name="test action assignment should create an action to getAssignmentDetailsFailed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/contactDetailsActions.test.ts">
+    <testCase name="test action contact details should create an action to get contact details" duration="1"/>
+    <testCase name="test action contact details should create an action to set refreshing contactDetails" duration="1"/>
+    <testCase name="test action contact details should create an action to getContactDetailsFailed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/VesselDetailsSection.test.tsx">
+    <testCase name="VesselDetailsSection snapshot test should render VesselDetailsSection correctly as per the ui made when vesselImage is defined" duration="92"/>
+    <testCase name="VesselDetailsSection snapshot test should render VesselDetailsSection correctly as per the ui made when vesselImage is not defined" duration="14"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/flightsDetailsActions.test.ts">
+    <testCase name="test action flights should create an action to get flights details" duration="0"/>
+    <testCase name="test action flights should create an action to update refreshing status of flights details" duration="1"/>
+    <testCase name="test action flights should create an action to getFlightsDetailsFailed" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/seafarerDocuments/SeafarerDocumentsTopBar.test.tsx">
+    <testCase name="SeafarerDocumentsTopBar snapshot test should render correct ui when allotmentTypeText" duration="67"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/authentication/ AuthMainView.test.tsx">
+    <testCase name="AuthMainView snapshot test should render correct ui when platform is ios" duration="7"/>
+    <testCase name="AuthMainView snapshot test should render correct ui when platform is android" duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/seaService/SeaServiceList.test.tsx">
+    <testCase name="SeaServiceList snapshot test should render correct ui when isMarlow is true" duration="36"/>
+    <testCase name="SeaServiceList snapshot test should render correct ui when isMarlow is false" duration="13"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/settingsScreen/AppColorScheme.test.tsx">
+    <testCase name="AppColorScheme snapshot test should render correct ui" duration="8"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/newsActions.test.ts">
+    <testCase name="test action news should create an action to get news details" duration="0"/>
+    <testCase name="test action news should create an action to update refreshing status of news" duration="1"/>
+    <testCase name="test action news should create an action to getAllNewsFailed" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/AssignmentTopSection.test.tsx">
+    <testCase name="AssignmentTopSection snapshot test should render AssignmentBasicInformationComponent correctly as per the ui made " duration="13"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/Flights/FlightCard.test.tsx">
+    <testCase name="ContactScreenTopMenu snapshot test should render correct ui when flight is not cancel" duration="33"/>
+    <testCase name="ContactScreenTopMenu snapshot test should render correct ui when flight is  cancel" duration="11"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/workingClothes/ShoeSizeTable.test.tsx">
+    <testCase name="AppColorScheme snapshot test should render correct ui and press privacy-policy-button" duration="22"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/array_utilities/addOrReplace.test.ts">
+    <testCase name="test addOrReplace  should append a new object into the array if the id does not already exist or update the record if it does" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/WebRender.test.tsx">
+    <testCase name="WebRender snapshot test should render correct ui when resourceType is html " duration="13"/>
+    <testCase name="WebRender snapshot test should render correct ui when resourceType is url " duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/bioSettingsScreen/BiometricSettings.test.tsx">
+    <testCase name="SignInScreen test should render correctly as per the ui made when the toggle is enabled " duration="12"/>
+    <testCase name="SignInScreen test should render correctly as per the ui made when the toggle is disabled" duration="5"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/termsAndConditionsActions.test.ts">
+    <testCase name="test action terms and conditions should create an action to get terms and conditions details" duration="1"/>
+    <testCase name="test action terms and conditions should create an action to getTermsAndConditionsDetailsFailed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/authentication/ExitButton.test.tsx">
+    <testCase name="ExitButton snapshot test should render correct ui and press the exit icon" duration="6"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/ImgRender.test.tsx">
+    <testCase name="ImgRender snapshot test should render correct ui when resourceType is base64" duration="33"/>
+    <testCase name="ImgRender snapshot test should render correct ui when resourceType is file" duration="3"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/offline_utilities/__tests__/testUtilitiesCommon.ts">
+    <testCase name="tests that the mocks are working properly should run without errors" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/LoadingScreen.test.tsx">
+    <testCase name="LoadingScreen snapshot test should render correct ui when both logoHeightSize and logoWidthSize are defined" duration="15"/>
+    <testCase name="LoadingScreen snapshot test should render correct ui when logoHeightSize and logoWidthSize are not defined" duration="2"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/EmployeeIdInput.test.tsx">
+    <testCase name="EmployeeIdInput snapshot test should render correct ui and change value of employeeId" duration="9"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/salaryScreen/AllotmentsDetailsComponent.test.tsx">
+    <testCase name="AllotmentsDetailsComponent snapshot test should render correct ui when allotmentTypeText" duration="31"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/privacyPolicyActions.test.ts">
+    <testCase name="test action privacy policy should create an action to get privacy policy details" duration="1"/>
+    <testCase name="test action privacy policy should create an action to setShouldRingBellFailed" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/CargoInstallationComponent.test.tsx">
+    <testCase name="CargoInstallationComponent snapshot test should render CargoInstallationComponent correctly as per the ui made " duration="18"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/imprint/ImprintLink.test.tsx">
+    <testCase name="ImprintLink snapshot test should render correct ui when imprint" duration="16"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/NewsLink.test.tsx">
+    <testCase name="NewsLink snapshot test should render correct ui and click the news-button" duration="48"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/salaryScreen/AllotmentsDetailsSection.test.tsx">
+    <testCase name="AllotmentsDetailsSection snapshot test should render correct ui when allotmentTypeText" duration="26"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/assignments/VesselDetailsComponent.test.tsx">
+    <testCase name="CargoInstallationComponent snapshot test should render CargoInstallationComponent correctly as per the ui made " duration="22"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/workingClothes/ClothesList.test.tsx">
+    <testCase name="AppColorScheme snapshot test should render correct ui and press privacy-policy-button" duration="27"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQPersonalInformation.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as UI" duration="19"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQLoginAndPassword.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as UI" duration="25"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQRegistration.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as UI" duration="15"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQAssignment.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as UI" duration="24"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQTechnical.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as UI" duration="33"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/FAQ_Tests/FAQGeneral.test.tsx">
+    <testCase name="FAQ Screen UI test Should render the screen as UI" duration="22"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/FAQScreenContents/AssignmentTabContent.test.tsx">
+    <testCase name="AssignmentTabContent snapshot test should render correct ui for AssignmentTabContent" duration="18"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/FAQScreenContents/LoginAndPasswordTab.test.tsx">
+    <testCase name="LoginAndPasswordTab snapshot test should render correct ui for LoginAndPasswordTab" duration="23"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/common/checkResponseStatus.test.ts">
+    <testCase name="test checkResponseStatus should return empty array when the status is 404" duration="1"/>
+    <testCase name="test checkResponseStatus should return error when the status is 403" duration="0"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/FAQScreenContents/PersonalInfoTab.test.tsx">
+    <testCase name="PersonalInfoTab snapshot test should render correct ui for PersonalInfoTab" duration="21"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/FAQScreenContents/RegistrationTab.test.tsx">
+    <testCase name="RegistrationTab snapshot test should render correct ui for RegistrationTab" duration="14"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/FAQScreenContents/TechnicalTab.test.tsx">
+    <testCase name="TechnicalTab snapshot test should render correct ui for TechnicalTab" duration="24"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/screens/__tests__/more_screen/FAQScreenContents/GeneralTab.test.tsx">
+    <testCase name="GeneralTab snapshot test should render correct ui for GeneralTab" duration="15"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/components/__tests__/PdfRender.test.tsx">
+    <testCase name="PdfRender snapshot test should render correct ui" duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/actions/__tests__/index.test.ts">
+    <testCase name="test the actions index file should sendCleanState event when called" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/reducers/__tests__/mainReducer.test.ts">
+    <testCase name="test main reducer should return the correct state" duration="1"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/redux/main.test.ts">
+    <testCase name="test store creation should create a proper store when dev is true" duration="4"/>
+  </file>
+  <file path="/Users/yiangosstroppos/Documents/MarlowProjects/MarlowApp/aphrodite/src/constants/assignmentConstants.test.ts">
+    <testCase name="assignmentConstants tests sjould return correct values" duration="1"/>
+  </file>
+</testExecutions>

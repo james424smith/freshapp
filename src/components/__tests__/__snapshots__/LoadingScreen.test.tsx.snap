@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingScreen snapshot test should render correct ui when both logoHeightSize and logoWidthSize are defined 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginBottom": 112.5,
+    }
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "height": 20,
+        "width": 20,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`LoadingScreen snapshot test should render correct ui when logoHeightSize and logoWidthSize are not defined 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginBottom": 112.5,
+    }
+  }
+>
+  <Image
+    source={Object {}}
+    style={Object {}}
+  />
+</View>
+`;

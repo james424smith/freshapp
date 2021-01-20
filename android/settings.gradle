@@ -1,0 +1,11 @@
+rootProject.name = 'marlowCrewCompanion'
+include ':react-native-appearance'
+project(':react-native-appearance').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-appearance/android')
+include ':@aws-amplify_pushnotification'
+project(':@aws-amplify_pushnotification').projectDir = new File(rootProject.projectDir, '../node_modules/@aws-amplify/pushnotification/android')
+include ':react-native-sensitive-info'
+project(':react-native-sensitive-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensitive-info/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':app', ':react-native-code-push'
+project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')

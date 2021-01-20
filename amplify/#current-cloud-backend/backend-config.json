@@ -1,0 +1,20 @@
+{
+  "auth": {
+    "marlowappamplifyf62bbc17": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "notifications": {
+    "marlowPinpoint": {
+      "service": "Pinpoint",
+      "channels": ["APNS", "FCM"]
+    }
+  },
+  "analytics": {
+    "marlowPinpoint": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

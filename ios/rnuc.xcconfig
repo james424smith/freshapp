@@ -1,0 +1,21 @@
+// DO NOT COMMIT OR EDIT THIS FILE
+ENV=development
+API_BASE_URL=https:/$()/crew-companion-api-staging.apps.marlow.naboocore.com/api/11
+WEBSOCKET_BASE_URL=wss:/$()/crew-companion-api-staging.apps.marlow.naboocore.com/ws/11
+IMAGES_PREFIX_URL=https:/$()/marlow-navigation.com/images/press_images_large/
+GOOGLE_MAPS_API_KEY=AIzaSyCoBz2ErVOqgGcEA6oMvhBOmRumQRUKnSo
+MYAPP_DEBUG_STORE_FILE=debug.keystore
+MYAPP_DEBUG_KEY_ALIAS=androiddebugkey
+MYAPP_DEBUG_STORE_PASSWORD=android
+MYAPP_DEBUG_KEY_PASSWORD=android
+MYAPP_RELEASE_STORE_FILE=mykeystore.keystore
+MYAPP_RELEASE_KEY_ALIAS=mykeyalias
+MYAPP_RELEASE_STORE_PASSWORD=Test1234!
+MYAPP_RELEASE_KEY_PASSWORD=Test1234!
+CODE_PUSH_IOS_STAGING=_i3ttJQdB6zFvw8aK47fqAfE3HdN3xm01vxqd
+CODE_PUSH_IOS_PROD=4p6I7dnwM8KfZsijUNJYwZI6u7f_kAp8Uujnk
+CODE_PUSH_ANDROID_STAGING=Ff0AZAbsXkHJwwnJ32jfWwKeB_6qXitX08-4f
+CODE_PUSH_ANDROID_PROD=AX6Nal2ugOTH8yW64MdBlF71_decgAXhJWZo5
+SSL_EXPIRATION_WARNING={"day":"17","month":"11","year":"2020"}
+SKIP_PREFLIGHT_CHECK=true
+AWS_EXPORTS={"aws_project_region":"eu-west-1","aws_cognito_identity_pool_id":"eu-west-1:0700dd4d-d3f1-47e8-aeca-c03a916aba97","aws_cognito_region":"eu-west-1","aws_user_pools_id":"eu-west-1_VdCn6sWLK","aws_user_pools_web_client_id":"3uc4kul2beqktthivc578jutfm","oauth":{},"aws_mobile_analytics_app_id":"33c953d8b8a04972904e65148ea64665","aws_mobile_analytics_app_region":"eu-west-1"}

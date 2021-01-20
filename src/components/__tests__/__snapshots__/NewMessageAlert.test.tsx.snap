@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewMessageAlert snapshot test should render correct ui when notificationToShow is defined 1`] = `
+<View
+  forwardedRef={[Function]}
+  onMoveShouldSetResponder={[Function]}
+  onMoveShouldSetResponderCapture={[Function]}
+  onResponderEnd={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderReject={[Function]}
+  onResponderRelease={[Function]}
+  onResponderStart={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onStartShouldSetResponderCapture={[Function]}
+  style={
+    Object {
+      "elevation": 1,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateY": -100,
+        },
+      ],
+      "zIndex": 1000000,
+    }
+  }
+>
+  <View
+    accessible={false}
+    focusable={true}
+    onClick={[Function]}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "padding": 8,
+          },
+          Object {
+            "backgroundColor": "#2B73B6",
+          },
+        ]
+      }
+    >
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={Object {}}
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 36,
+              "padding": 8,
+              "width": 36,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "textAlign": "left",
+              }
+            }
+            text="Giorgos says: "
+          >
+            Giorgos says: 
+          </Text>
+          <Text
+            numberOfLines={3}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "color": "white",
+                "fontSize": 14,
+                "fontWeight": "normal",
+                "textAlign": "left",
+              }
+            }
+            text="Hello there"
+          >
+            Hello there
+          </Text>
+        </View>
+      </RCTSafeAreaView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`NewMessageAlert snapshot test should render correct ui when notificationToShow is undefined 1`] = `null`;

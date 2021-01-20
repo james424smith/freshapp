@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppColorScheme snapshot test should render correct ui and press privacy-policy-button 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(0, 122, 255)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingTop": 22.5,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#2A2E43",
+            "fontFamily": "Roboto-Regular",
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+            "fontSize": 33.5,
+            "fontWeight": "700",
+            "marginBottom": 45,
+            "marginLeft": 45,
+            "marginTop": 45,
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      Clothes Allocation
+    </Text>
+    <View
+      style={
+        Object {
+          "paddingTop": 45,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(0, 122, 255)",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 20,
+                "marginLeft": 45,
+                "textAlign": "left",
+              },
+            ]
+          }
+        >
+          08-01-2019
+        </Text>
+        <View>
+          <View
+            style={
+              Object {
+                "marginBottom": 45,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 22.5,
+                    "fontWeight": "700",
+                    "marginBottom": 22.5,
+                    "marginHorizontal": 45,
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              OVERALL
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "marginBottom": 22.5,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Qty:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "marginBottom": 22.5,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Agent:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "marginBottom": 22.5,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Vessel:
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "fontWeight": "700",
+                      "marginBottom": 22.5,
+                      "marginHorizontal": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                2
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "fontWeight": "700",
+                      "marginBottom": 22.5,
+                      "marginHorizontal": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                MN UKR
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "fontWeight": "700",
+                      "marginBottom": 22.5,
+                      "marginHorizontal": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                LEA AUERBACH
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#78849E",
+              "borderBottomWidth": 0.3,
+              "marginVertical": 45,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgb(0, 122, 255)",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#2A2E43",
+                "fontFamily": "Roboto-Regular",
+              },
+              Object {
+                "color": "rgb(28, 28, 30)",
+                "fontSize": 20,
+                "marginLeft": 45,
+                "textAlign": "left",
+              },
+            ]
+          }
+        >
+          08-01-2019
+        </Text>
+        <View>
+          <View
+            style={
+              Object {
+                "marginBottom": 45,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2A2E43",
+                    "fontFamily": "Roboto-Regular",
+                  },
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 22.5,
+                    "fontWeight": "700",
+                    "marginBottom": 22.5,
+                    "marginHorizontal": 45,
+                    "textAlign": "left",
+                  },
+                ]
+              }
+            >
+              SAFETY SHOES
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "marginBottom": 22.5,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Qty:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "marginBottom": 22.5,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Agent:
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "marginBottom": 22.5,
+                      "marginLeft": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Vessel:
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "80%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "fontWeight": "700",
+                      "marginBottom": 22.5,
+                      "marginHorizontal": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                1
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "fontWeight": "700",
+                      "marginBottom": 22.5,
+                      "marginHorizontal": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                MN UKR
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#2A2E43",
+                      "fontFamily": "Roboto-Regular",
+                    },
+                    Object {
+                      "color": "rgb(28, 28, 30)",
+                      "fontSize": 22.5,
+                      "fontWeight": "700",
+                      "marginBottom": 22.5,
+                      "marginHorizontal": 45,
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                LEA AUERBACH
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderBottomColor": "#78849E",
+              "borderBottomWidth": 0.3,
+              "marginVertical": 45,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
